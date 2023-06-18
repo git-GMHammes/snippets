@@ -1811,7 +1811,7 @@
 	"on-form-label": {
 		"prefix": "on-form-label",
 		"body": [
-			"<?= view('field/form_label', $$_subtitle_) ?>",
+			"<?= view('field/form_label', $$_subtitle__label) ?>",
 		],
 		"description": "Fomulários para Codeigniter 4"
 	},

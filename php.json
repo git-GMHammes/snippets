@@ -118,7 +118,7 @@
       "    public function index($$parameter = NULL)",
       "    {",
       "        $$request = service('request');",
-      "        $$dbRequest = (array)$$request->getVar();",
+      "        $$processRequest = (array)$$request->getVar();",
       "        $$loadView = array(",
       "            'sigla/title',",
       "            'sigla/menu',",
@@ -128,8 +128,8 @@
       "            # URI da API",
       "            $$uri = base_url() . '/sigla/rota/' . $$parameter;",
       "            # Decisão URI da API",
-      "            if ($$dbRequest !== array()) {",
-      "                $$uri = base_url() . '/sigla/rota/path/path/' . $$dbRequest;",
+      "            if ($$processRequest !== array()) {",
+      "                $$uri = base_url() . '/sigla/rota/path/path/' . $$processRequest;",
       "            } else {",
       "                $$uri = base_url() . '/sigla/rota/path/path/' . $$parameter;",
       "            }",
@@ -179,11 +179,11 @@
       "    {",
       "        # Parâmentros para receber um POST",
       "        $$request = service('request');",
-      "        $$dbRequest = (array)$$request->getVar();",
+      "        $$processRequest = (array)$$request->getVar();",
       "        try {",
-      "            if ($$dbRequest !== array()) {",
+      "            if ($$processRequest !== array()) {",
       "                # CRUD da Model",
-      "                // $$dbResponse[] = $$this->ModelResponse->dBcreate($$dbRequest);",
+      "                // $$dbResponse[] = $$this->ModelResponse->dBcreate($$processRequest);",
       "                // $$dbResponse[] = $$this->ModelResponse->dBread($$IdUFF = NULL);",
       "                // $$dbResponse[] = $$this->ModelResponse->dBupdate($$IdUFF = NULL);",
       "                // $$dbResponse[] = $$this->ModelResponse->dBdelete($$IdUFF = NULL);",
@@ -231,7 +231,7 @@
       "    public function displayAPI($$parameter = NULL)",
       "    {",
       "        $$request = service('request');",
-      "        $$dbRequest = (array)$$request->getVar();",
+      "        $$processRequest = (array)$$request->getVar();",
       "        $$loadView = array(",
       "            'sigla/title',",
       "            'sigla/menu',",
@@ -241,8 +241,8 @@
       "            # URI da API",
       "            $$uri = base_url() . '/sigla/rota/' . $$parameter;",
       "            # Decisão URI da API",
-      "            if ($$dbRequest !== array()) {",
-      "                $$uri = base_url() . '/sigla/rota/path/path/' . $$dbRequest;",
+      "            if ($$processRequest !== array()) {",
+      "                $$uri = base_url() . '/sigla/rota/path/path/' . $$processRequest;",
       "            } else {",
       "                $$uri = base_url() . '/sigla/rota/path/path/' . $$parameter;",
       "            }",
@@ -491,7 +491,7 @@
   "snippets-form-label": {
     "prefix": "snippets-form-label",
     "body": [
-      "$$_subtitle_label = [",
+      "$$_subtitle__label = [",
       "    'label_text' => '_Label_',",
       "    'id' => '_subtitle_',",
       "    'attributes' => [",
@@ -503,7 +503,7 @@
   },
 
   "snippets-form-dropdown": {
-    "prefix": "snippets-form-label",
+    "prefix": "snippets-form-dropdown",
     "body": [
       "$$_subtitle_ = [",
       "    'name' => '_subtitle_',",
@@ -526,7 +526,7 @@
   },
 
   "snippets-form-textarea": {
-    "prefix": "snippets-form-label",
+    "prefix": "snippets-form-textarea",
     "body": [
       "$$_subtitle_ = [",
       "    'data' => [",
@@ -536,14 +536,14 @@
       "        'maxlength' => '255',",
       "        'class' => 'form-control form-control-sm'",
       "    ],",
-      "    'Message_required_field' => 'Campo _subtitle_ é Obrigatório',",
+      "    'Message_required_field' => 'Campo _Label_ é Obrigatório',",
       "];"
     ],
     "description": "Fomulários para Codeigniter 4"
   },
 
   "snippets-form-input": {
-    "prefix": "snippets-form-label",
+    "prefix": "snippets-form-input",
     "body": [
       "$$_subtitle_ = [",
       "    'data' => [",
@@ -555,16 +555,16 @@
       "        'id' => '_subtitle_',",
       "        'class' => 'form-control form-control-sm',",
       "        'maxlength' => '100',",
-      "        'placeholder',",
+      "        'placeholder' => '_Label_',",
       "        // 'min' => date('Y-m-d'),",
       "        // 'max' => '2023-12-31',",
       "        'required' => 'required'",
       "    ],",
       "    'field' => '_subtitle_',",
-      "    'default' => '_subtitle_',",
+      "    'default' => '_Label_',",
       "    'html_escape' => true,",
       "    'escape' => true,",
-      "    'Message_required_field' => 'Campo _subtitle_ Obrigatório',",
+      "    'Message_required_field' => 'Campo _Label_ Obrigatório',",
       "    'with_set' => true",
       "];"
     ],
