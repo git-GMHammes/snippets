@@ -548,6 +548,7 @@
       "$$_subtitle_ = [",
       "    'data' => [",
       "        'type' => 'text',",
+      "        // 'type' => 'hidden',",
       "        // 'type' => 'date',",
       "        // 'type' => 'email',",
       "        // 'type' => 'number',",
@@ -558,6 +559,7 @@
       "        'placeholder' => '_Label_',",
       "        // 'min' => date('Y-m-d'),",
       "        // 'max' => '2023-12-31',",
+      "        // 'disabled' => 'disabled'",
       "        'required' => 'required'",
       "    ],",
       "    'field' => '_subtitle_',",
@@ -568,6 +570,49 @@
       "    'with_set' => true",
       "];"
     ],
+    "description": "Fomulários para Codeigniter 4"
+  },
+
+  "snippets-form-password": {
+    "prefix": "snippets-form-password",
+    "body": [
+      "$$_subtitle_ = [",
+      "    'data' => [",
+      "        'name' => '_subtitle_',",
+      "        'id' => '_subtitle_',",
+      "        'class' => 'form-control form-control-sm',",
+      "        'required' => 'required'",
+      "    ],",
+      "    'value' => '******',",
+      "    'escape' => true",
+      "];"
+    ],
+    "description": "Fomulários para Codeigniter 4"
+  },
+
+  "snippets-form-radio": {
+    "prefix": "snippets-form-radio",
+    "body": [
+      "$$_subtitle_ = [",
+      "    'data' => [",
+      "        'name' => '_subtitle_',",
+      "        'id' => '_subtitle_',",
+      "        'value' => '_Label_',",
+      "        // 'class' => 'form-control form-control-sm',",
+      "        'checked' => FALSE",
+      "    ],",
+      "    'escape' => true,",
+      "    'set' => [",
+      "        'label' => '_response_',",
+      "    ]",
+      "];"
+    ],
+    "description": "Fomulários para Codeigniter 4"
+  },
+
+  "snippets-isset": {
+    "prefix": "snippets-isset",
+    "body": ["(isset($$var)) ? (NULL) : (NULL);"],
     "description": "Fomulários para Codeigniter 4"
   }
 }
