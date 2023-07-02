@@ -1840,6 +1840,14 @@
 		"description": "Fomulários para Codeigniter 4"
 	},
 
+	"on-form-radio": {
+		"prefix": "on-form-radio",
+		"body": [
+			"<?= view('field/form_radio', $$_subtitle_) ?>",
+		],
+		"description": "Fomulários para Codeigniter 4"
+	},
+
 	// "on-modelo": {
 	// 	"prefix": "on-modelo",
 	// 	"body": [
