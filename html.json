@@ -13,6 +13,16 @@
 	// 	"description": "Log output to console"
 	// }
 
+	"on-php": {
+		"prefix": "on-php", 
+		"body": [
+			"<?php",
+			"$$var",
+			"?>"
+		],
+		"description": "Primeiro"
+	},
+
 	"on-primeiro": {
 		"prefix": "on-primeiro", 
 		"body": [
@@ -25,7 +35,26 @@
 		"description": "Primeiro"
 	},
 
-	
+	"on-react-babel": {
+		"prefix": "on-primeiro", 
+		"body": [
+			"    <script type=\"text/babel\">",
+			"		class NomeDaClass extends React.Component {",
+			"			funcaoDaClasse() {",
+			"			}",
+			"		}",
+			"		render() {",
+			"            return (",
+			"                <div>",
+			"                    &emsp;",
+			"                </div>",
+			"            );",
+			"        }",
+			"	</script>"
+		],
+		"description": "React + Babel + JSX"
+	},
+
 	"on- ": {
 		"prefix": "on- ", 
 		"body": [
