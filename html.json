@@ -25,7 +25,26 @@
 		"description": "Primeiro"
 	},
 
-	
+	"on-react-babel": {
+		"prefix": "on-primeiro", 
+		"body": [
+			"    <script type=\"text/babel\">",
+			"		class NomeDaClass extends React.Component {",
+			"			funcaoDaClasse() {",
+			"			}",
+			"		}",
+			"		render() {",
+			"            return (",
+			"                <div>",
+			"                    &emsp;",
+			"                </div>",
+			"            );",
+			"        }",
+			"	</script>"
+		],
+		"description": "React + Babel + JSX"
+	},
+
 	"on- ": {
 		"prefix": "on- ", 
 		"body": [
