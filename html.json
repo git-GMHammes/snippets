@@ -13,6 +13,15 @@
 	// 	"description": "Log output to console"
 	// }
 
+	"on-php-start": {
+		"prefix": "on-php-start", 
+		"body": [
+			"<?php", 
+			"$$var;"
+		],
+		"description": "Primeiro"
+	},
+
 	"on-primeiro": {
 		"prefix": "on-primeiro", 
 		"body": [

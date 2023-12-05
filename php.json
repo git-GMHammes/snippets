@@ -205,7 +205,7 @@
           "                    unset($$processRequest['tokenForm']);",
           "                    $$this->ModelResponse->dBcreate($$this->dbFields($$processRequest));",
           "                    if ($$this->ModelResponse->affectedRows() > 0) {",
-          "                        $$this->returnMyFunction(['ATA incluida com sucesso'], 'success');",
+          "                        $$this->returnMyFunction(['Create realizado com sucesso'], 'success');",
           "                        if ($$parameter !== 'json') {",
           "                            return redirect()->back();",
           "                        }",
