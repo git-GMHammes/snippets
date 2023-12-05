@@ -1,4 +1,4 @@
- {
+{
   // Place your snippets for php here. Each snippet is defined under a snippet name and has a prefix, body andinphp-
   // description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
   // $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the
@@ -8,10 +8,20 @@
   // 	"prefix": "log",
   // 	"body": [
   // 		"console.log('$1');",
-  // 		"$2"0
+  // 		"$2"
   // 	],
   // 	"description": "Log output to console"
   // }
+  
+  "Print to console": {
+  	"prefix": "inphp-senha-hash",
+  	"body": [
+          "password_hash(\"$var\", PASSWORD_DEFAULT)"
+          "password_verify(\"$var\")"
+    ],
+    "description": "Senha Hash para PHP"
+  }, 
+
   "inphp-controller-apirest": {
       "prefix": "inphp-controller-apirest",
       "body": [
@@ -39,13 +49,13 @@
           "        //'myFake'",
           "        // ]);",
           "        return NULL;",
-          "    }",
+          "}",
           "",
           "    # route POST /www/sigla/rota",
           "    # route GET /www/sigla/rota",
           "    # Informação sobre o controller",
           "    # retorno do controller [JSON]",
-          "    public function index($parameter = NULL)",
+          "    public function index($$parameter = NULL)",
           "    {",
           "        # Parâmentros para receber um POST",
           "        $$request = service('request');",
@@ -54,35 +64,35 @@
           "        #",
           "        try {",
           "            if ($$processRequest !== array()) {",
-          "                    # CRUD da Model",
-          "                    // $$dbResponse[] = $$this->ModelResponse->dBcreate($$processRequest);",
-          "                    // $$dbResponse[] = $$this->ModelResponse->dBread($$IdUFF = NULL);",
-          "                    // $$dbResponse[] = $$this->ModelResponse->dBupdate($$IdUFF = NULL);",
-          "                    // $$dbResponse[] = $$this->ModelResponse->dBdelete($$IdUFF = NULL);",
+          "                # CRUD da Model",
+          "                // $$dbResponse[] = $$this->ModelResponse->dBcreate($$processRequest);",
+          "                // $$dbResponse[] = $$this->ModelResponse->dBread($$IdUFF = NULL);",
+          "                // $$dbResponse[] = $$this->ModelResponse->dBupdate($$IdUFF = NULL);",
+          "                // $$dbResponse[] = $$this->ModelResponse->dBdelete($$IdUFF = NULL);",
           "            }else{",
-          "                    # CRUD da Model",
-          "                    // $$dbResponse[] = $$this->ModelResponse->dBcreate($$parameter);",
-          "                    // $$dbResponse[] = $$this->ModelResponse->dBread($$parameter = NULL);",
-          "                    // $$dbResponse[] = $$this->ModelResponse->dBupdate($$parameter = NULL);",
-          "                    // $$dbResponse[] = $$this->ModelResponse->dBdelete($$parameter = NULL);",
+          "                # CRUD da Model",
+          "                // $$dbResponse[] = $$this->ModelResponse->dBcreate($$parameter);",
+          "                // $$dbResponse[] = $$this->ModelResponse->dBread($$parameter = NULL);",
+          "                // $$dbResponse[] = $$this->ModelResponse->dBupdate($$parameter = NULL);",
+          "                // $$dbResponse[] = $$this->ModelResponse->dBdelete($$parameter = NULL);",
           "            };",
           "            $$apiRespond = [",
-          "                    'HTTP/1.1' => array(",
-          "                            'header'  => 'Content-type: application/x-www-form-urlencoded',",
-          "                            'method'  => 'GET/POST',",
-          "                    ),",
-          "                    'message' => 'API loading data (dados para carregamento da API)',",
-          "                    'date' => date('Y-m-d'),",
-          "                    // 'method' => '__METHOD__',",
-          "                    // 'function' => '__FUNCTION__',",
-          "                    'page_title' => 'TITLE PAGE',",
-          "                    // 'result' => $$dbResponse,",
+          "                'HTTP/1.1' => array(",
+          "                        'header'  => 'Content-type: application/x-www-form-urlencoded',",
+          "                        'method'  => 'GET/POST',",
+          "                ),",
+          "                'message' => 'API loading data (dados para carregamento da API)',",
+          "                'date' => date('Y-m-d'),",
+          "                // 'method' => '__METHOD__',",
+          "                // 'function' => '__FUNCTION__',",
+          "                'page_title' => 'TITLE PAGE',",
+          "                // 'result' => $$dbResponse,",
           "            ];",
           "            $$response = $$this->response->setJSON($$apiRespond, 201);",
           "        } catch (\\Exception $$e) {",
           "            $$apiRespond = array(",
-          "                    'message' => array('danger'=>$$e->getMessage()),",
-          "                    'page_title' => 'TITLE PAGE',",
+          "                'message' => array('danger'=>$$e->getMessage()),",
+          "                'page_title' => 'TITLE PAGE',",
           "            );",
           "            // $$this->returnFunction(array($$e->getMessage()), 'danger',);",
           "            $$response = $$this->response->setJSON($$apiRespond, 404);",
@@ -381,7 +391,6 @@
           "            return $$apiRespond;",
           "        }",
           "    }",
-          "}",
       ],
       "description": "Classe Controller EndPoint completo"
   },
