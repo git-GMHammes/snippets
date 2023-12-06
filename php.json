@@ -36,6 +36,7 @@
           "{",
           "    use ResponseTrait;",
           "    private $$ModelResponse;",
+          "    private $$dbFields;",
           "    private $$uri;",
           "",
           "    public function __construct()",
