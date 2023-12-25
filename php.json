@@ -1,5 +1,5 @@
 {
-  // Place your snippets for php here. Each snippet is defined under a snippet name and has a prefix, body andinphp-
+  // Place your snippets for php here. Each snippet is defined under a snippet name and has a prefix, body andc4-
   // description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
   // $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the
   // same ids are connected.
@@ -14,7 +14,7 @@
   // }
   
   "Print to console": {
-  	"prefix": "inphp-senha-hash",
+  	"prefix": "c4-senha-hash",
   	"body": [
           "password_hash(\"$var\", PASSWORD_DEFAULT)"
           "password_verify(\"$var\")"
@@ -22,8 +22,8 @@
     "description": "Senha Hash para PHP"
   }, 
 
-  "inphp-controller-apirest": {
-      "prefix": "inphp-controller-apirest",
+  "c4-controller-apirest": {
+      "prefix": "c4-controller-apirest",
       "body": [
           "namespace App\\Controllers;",
           "",
@@ -117,8 +117,8 @@
       ],
       "description": "Classe Controller API completa"
   },
-  "inphp-controller-dbFields": {
-      "prefix": "inphp-method-dbFields",
+  "c4-controller-dbFields": {
+      "prefix": "c4-method-dbFields",
       "body": [
           "private function dbFields($$processRequestFields = array())",
           "{",
@@ -137,8 +137,8 @@
       ],
       "description": "Dicionário de dados para a camada model"
   },
-  "inphp-controller-token_csrf": {
-      "prefix": "inphp-method-token_csrf",
+  "c4-controller-token_csrf": {
+      "prefix": "c4-method-token_csrf",
       "body": [
         "    private function token_csrf()"
         "    {"
@@ -151,8 +151,8 @@
       ],
       "description": "Validação do Token para o formulário"
   },
-  "inphp-controller-validtoken_csrf": {
-      "prefix": "inphp-method-validtoken_csrf",
+  "c4-controller-validtoken_csrf": {
+      "prefix": "c4-method-validtoken_csrf",
       "body": [
           "private function validtoken_csrf($$token)",
 
@@ -174,8 +174,8 @@
       ],
       "description": "Validação do Token para o formulário"
   },
-  "inphp-controller-returnMyFunction": {
-      "prefix": "inphp-method-returnMyFunction",
+  "c4-controller-returnMyFunction": {
+      "prefix": "c4-method-returnMyFunction",
       "body": [
           "private function returnMyFunction($$message = array(), $$typeMessage, $$dataValue = array())",
           "{",
@@ -194,8 +194,8 @@
       ],
       "description": "Validação do Token para o formulário"
   },
-  "inphp-controller-create": {
-      "prefix": "inphp-method-create",
+  "c4-controller-create": {
+      "prefix": "c4-method-create",
       "body": [
           "# route POST /www/sigla/rota",
           "# route GET /www/sigla/rota",
@@ -271,8 +271,8 @@
       ],
       "description": "API para creator que retorna JSON ou redireciona"
   },
-  "inphp-controller-read": {
-      "prefix": "inphp-controller-read",
+  "c4-controller-read": {
+      "prefix": "c4-controller-read",
       "body": [
           "# route POST /www/sigla/rota",
           "# route GET /www/sigla/rota",
@@ -341,8 +341,8 @@
       ],
       "description": "Validação do Token para o formulário"
   },
-  "inphp-controller-endpoint": {
-      "prefix": "inphp-controller-endpoint",
+  "c4-controller-endpoint": {
+      "prefix": "c4-controller-endpoint",
       "body": [
           "namespace App\\Controllers;",
           "",
@@ -447,8 +447,8 @@
       ],
       "description": "Classe Controller EndPoint completo"
   },
-  "inphp-method-apirest": {
-      "prefix": "inphp-method-apirest",
+  "c4-method-apirest": {
+      "prefix": "c4-method-apirest",
       "body": [
           "# route POST /www/sigla/rota",
           "# route GET /www/sigla/rota",
@@ -523,8 +523,8 @@
       ],
       "description": "Modelo de Consumo e API"
   },
-  "inphp-method-endpoint": {
-      "prefix": "inphp-method-endpoint",
+  "c4-method-endpoint": {
+      "prefix": "c4-method-endpoint",
       "body": [
           "    # Consumo de API",
           "    # route GET /www/sigla/rota",
@@ -604,8 +604,8 @@
       ],
       "description": "Modelo de Consumo e EndPoint"
   },
-  "inphp-ci4-try-cat": {
-      "prefix": "inphp-ci4-try-cat",
+  "c4-ci4-try-cat": {
+      "prefix": "c4-ci4-try-cat",
       "body": [
           "",
           "try {",
@@ -616,8 +616,8 @@
       ],
       "description": "Try Cat"
   },
-  "inphp-ci4-session": {
-      "prefix": "inphp-ci4-session",
+  "c4-ci4-session": {
+      "prefix": "c4-ci4-session",
       "body": [
           "    $$apiRespond = array(",
           "    'name_session' => '',",
@@ -635,8 +635,8 @@
       ],
       "description": "Sessão para CI3"
   },
-  "inphp-model-head": {
-      "prefix": "inphp-model-head",
+  "c4-model-head": {
+      "prefix": "c4-model-head",
       "body": [
           "namespace App\\Models;",
           "",
@@ -673,8 +673,8 @@
       ],
       "description": "Inicio da Model"
   },
-  "inphp-model-column": {
-      "prefix": "inphp-model-column",
+  "c4-model-column": {
+      "prefix": "c4-model-column",
       "body": [
           "    public function getColumnsFromTable($$table_name, $$parameter1 = 'column', $$parameter2 = 'value_type', $$parameter3 = 'value_key')",
           "    {",
@@ -700,8 +700,8 @@
       ],
       "description": "Revela Nome, Tipo e Chave das colunas no banco de dados"
   },
-  "inphp-model-dbread": {
-      "prefix": "inphp-model-dbread",
+  "c4-model-dbread": {
+      "prefix": "c4-model-dbread",
       "body": [
           "public function dbRead($$keyVariable = NULL, $$keyValue = NULL)",
           "{",
@@ -731,8 +731,8 @@
       ],
       "description": "Modelo read de Consumo e API"
   },
-  "inphp-model-dbcreate": {
-      "prefix": "inphp-model-dbcreate",
+  "c4-model-dbcreate": {
+      "prefix": "c4-model-dbcreate",
       "body": [
           "public function dbCreate($$dbCreate)",
           "{",
@@ -755,8 +755,8 @@
       ],
       "description": "Modelo creat de Consumo e API"
   },
-  "inphp-model-dbUpdate": {
-      "prefix": "inphp-model-dbUpdate",
+  "c4-model-dbUpdate": {
+      "prefix": "c4-model-dbUpdate",
       "body": [
           "public function dbUpdate($$key, $$dbUpdate)",
           "{",
@@ -785,8 +785,8 @@
       ],
       "description": "Modelo creat de Consumo e API"
   },
-  "inphp-model-dbDelete": {
-      "prefix": "inphp-model-dbDelete",
+  "c4-model-dbDelete": {
+      "prefix": "c4-model-dbDelete",
       "body": [
           "public function dBdelete()",
           "    {",
@@ -805,16 +805,16 @@
       ],
       "description": "Modelo delte de Consumo e API"
   },
-  "inphp-form-multipart": {
-      "prefix": "inphp-form-multipart",
+  "c4-form-multipart": {
+      "prefix": "c4-form-multipart",
       "body": [
           "<?= form_open_multipart('controller/method', 'class=\"was-validated\"'); ?>",
           "<?= form_close(\"&nbsp;\"); ?>"
       ],
       "description": "Fomulários para Codeigniter 4"
   },
-  "inphp-form-label": {
-      "prefix": "inphp-form-label",
+  "c4-form-label": {
+      "prefix": "c4-form-label",
       "body": [
           "$$_subtitle__label = [",
           "    'label_text' => '_Label_',",
@@ -826,8 +826,8 @@
       ],
       "description": "Fomulários para Codeigniter 4"
   },
-  "inphp-form-dropdown": {
-      "prefix": "inphp-form-dropdown",
+  "c4-form-dropdown": {
+      "prefix": "c4-form-dropdown",
       "body": [
           "$$_subtitle_ = [",
           "    'name' => '_subtitle_',",
@@ -848,8 +848,8 @@
       ],
       "description": "Fomulários para Codeigniter 4"
   },
-  "inphp-form-textarea": {
-      "prefix": "inphp-form-textarea",
+  "c4-form-textarea": {
+      "prefix": "c4-form-textarea",
       "body": [
           "$$_subtitle_ = [",
           "    'data' => [",
@@ -864,8 +864,8 @@
       ],
       "description": "Fomulários para Codeigniter 4"
   },
-  "inphp-form-input": {
-      "prefix": "inphp-form-input",
+  "c4-form-input": {
+      "prefix": "c4-form-input",
       "body": [
           "$$_subtitle_ = [",
           "    'data' => [",
@@ -895,8 +895,8 @@
       ],
       "description": "Fomulários para Codeigniter 4"
   },
-  "inphp-form-password": {
-      "prefix": "inphp-form-password",
+  "c4-form-password": {
+      "prefix": "c4-form-password",
       "body": [
           "$$_subtitle_ = [",
           "    'data' => [",
@@ -911,8 +911,8 @@
       ],
       "description": "Fomulários para Codeigniter 4"
   },
-  "inphp-form-radio": {
-      "prefix": "inphp-form-radio",
+  "c4-form-radio": {
+      "prefix": "c4-form-radio",
       "body": [
           "$$_subtitle_ = [",
           "    'data' => [",
@@ -930,15 +930,15 @@
       ],
       "description": "Fomulários para Codeigniter 4"
   },
-  "inphp-isset": {
-      "prefix": "inphp-isset",
+  "c4-isset": {
+      "prefix": "c4-isset",
       "body": [
           "(isset($$var)) ? (NULL) : (NULL);"
       ],
       "description": "Fomulários para Codeigniter 4"
   },
-  "inphp-form-checkbox": {
-      "prefix": "inphp-form-checkbox",
+  "c4-form-checkbox": {
+      "prefix": "c4-form-checkbox",
       "body": [
           "$$subtitle = [",
           " 'data' => [",
@@ -953,8 +953,8 @@
       ],
       "description": "Fomulários para Codeigniter 4"
   },
-  "inphp-valid-token": {
-      "prefix": "inphp-valid-token",
+  "c4-valid-token": {
+      "prefix": "c4-valid-token",
       "body": [
           "if (releaseAccess($$this->validateToken(), session()->get('system_log'))) {",
           "} else {",
@@ -963,8 +963,8 @@
       ],
       "description": "Fomulários para Codeigniter 4"
   },
-  "inphp-my-endpoint": {
-      "prefix": "inphp-my-endpoint",
+  "c4-my-endpoint": {
+      "prefix": "c4-my-endpoint",
       "body": [
           "if($$parameter !== NULL){",
           "    $$profile = '/'. $$parameter;",
@@ -977,6 +977,6 @@
           "myPrint($$endPoint, 'Endpoint');",
           "$$requestJSONform = (isset($$endPoint['result'])) ? ($$endPoint['result']) : (array());"
       ],
-      "description": "inphp-my-endpoint"
+      "description": "c4-my-endpoint"
   }
 }
