@@ -83,11 +83,7 @@
           "                'date' => date('Y-m-d'),",
           "                'api' => [",
           "                    'version' => '1.0',",
-<<<<<<< Updated upstream
-          "                    'method' => $$request->getMethod(),",
-=======
           "                    'method' => $$request->getMethod() ?? 'unknown',",
->>>>>>> Stashed changes
           "                    'description' => 'API Description',",
           "                    'content_type' => 'application/x-www-form-urlencoded'",
           "                ],",
@@ -213,6 +209,7 @@
           "    $$request = service('request');",
           "    $$processRequest = (array)$$request->getVar();",
           "    $$token_csrf = ($$processRequest['token_csrf'] ?? NULL);",
+          "    $$json = ($$processRequest['json'] ?? FALSE);",
           "    // $$processRequest = eagarScagaire($$processRequest);",
           "    #",
           "    // $$processRequest = array();",
@@ -235,11 +232,7 @@
           "                'date' => date('Y-m-d'),",
           "                'api' => [",
           "                    'version' => '1.0',",
-<<<<<<< Updated upstream
-          "                    'method' => $$request->getMethod(),",
-=======
           "                    'method' => $$request->getMethod() ?? 'unknown',",
->>>>>>> Stashed changes
           "                    'description' => 'API Description',",
           "                    'content_type' => 'application/x-www-form-urlencoded'",
           "                ],",
@@ -262,13 +255,8 @@
           "                'date' => date('Y-m-d'),",
           "                'api' => [",
           "                    'version' => '1.0',",
-<<<<<<< Updated upstream
-          "                    'method' => $$request->getMethod(),",
-          "                    'description' => 'API Criar Method',",
-=======
           "                    'method' => $$request->getMethod() ?? 'unknown',",
-          "                    'description' => 'API Criar Noticia',",
->>>>>>> Stashed changes
+          "                    'description' => 'API Criar Method',",
           "                    'content_type' => 'application/x-www-form-urlencoded'",
           "                ],",
           "                'metadata' => [",
@@ -278,12 +266,12 @@
           "            ];",
           "        $$response = $$this->response->setJSON($$apiRespond, 500);",
           "    }",
-          "    if($$parameter != 'json'){",
+          "    if($$json){",
           "        return $$response;",
-          "        // return redirect()->back();",
           "        // return redirect()->to('project/endpoint/parameter/parameter/' . $$parameter);",
           "    }else{",
-          "        return $$response;",
+          "        return redirect()->back();",
+          "        // return $$response;",
           "    }",
           "}"
       ],
@@ -317,11 +305,7 @@
           "                'date' => date('Y-m-d'),",
           "                'api' => [",
           "                    'version' => '1.0',",
-<<<<<<< Updated upstream
-          "                    'method' => $$request->getMethod(),",
-=======
           "                    'method' => $$request->getMethod() ?? 'unknown',",
->>>>>>> Stashed changes
           "                    'description' => 'API Description',",
           "                    'content_type' => 'application/x-www-form-urlencoded'",
           "                ],",
@@ -344,13 +328,8 @@
           "                'date' => date('Y-m-d'),",
           "                'api' => [",
           "                    'version' => '1.0',",
-<<<<<<< Updated upstream
-          "                    'method' => $$request->getMethod(),",
-          "                    'description' => 'API Criar Method',",
-=======
           "                    'method' => $$request->getMethod() ?? 'unknown',",
-          "                    'description' => 'API Criar Noticia',",
->>>>>>> Stashed changes
+          "                    'description' => 'API Criar Method',",
           "                    'content_type' => 'application/x-www-form-urlencoded'",
           "                ],",
           "                'metadata' => [",
@@ -384,7 +363,7 @@
           "class NomeController extends ResourceController",
           "{",
           "    use ResponseTrait;",
-          "    private $$template = 'projeto_view/template/main.php';",
+          "    private $$template = 'projeto_view/template/main';",
           "    private $$message = 'projeto_view/message';",
           "    private $$footer = 'projeto_view/footer';",
           "    private $$head = 'projeto_view/head';",
@@ -437,11 +416,7 @@
           "                'date' => date('Y-m-d'),",
           "                'api' => [",
           "                    'version' => '1.0',",
-<<<<<<< Updated upstream
-          "                    'method' => $$request->getMethod(),",
-=======
           "                    'method' => $$request->getMethod() ?? 'unknown',",
->>>>>>> Stashed changes
           "                    'description' => 'API Description',",
           "                    'content_type' => 'application/x-www-form-urlencoded'",
           "                ],",
@@ -464,13 +439,8 @@
           "                'date' => date('Y-m-d'),",
           "                'api' => [",
           "                    'version' => '1.0',",
-<<<<<<< Updated upstream
-          "                    'method' => $$request->getMethod(),",
-          "                    'description' => 'API Criar Method',",
-=======
           "                    'method' => $$request->getMethod() ?? 'unknown',",
-          "                    'description' => 'API Criar Noticia',",
->>>>>>> Stashed changes
+          "                    'description' => 'API Criar Method',",
           "                    'content_type' => 'application/x-www-form-urlencoded'",
           "                ],",
           "                'metadata' => [",
@@ -524,11 +494,7 @@
           "                'date' => date('Y-m-d'),",
           "                'api' => [",
           "                    'version' => '1.0',",
-<<<<<<< Updated upstream
-          "                    'method' => $$request->getMethod(),",
-=======
           "                    'method' => $$request->getMethod() ?? 'unknown',",
->>>>>>> Stashed changes
           "                    'description' => 'API Description',",
           "                    'content_type' => 'application/x-www-form-urlencoded'",
           "                ],",
@@ -551,13 +517,8 @@
           "                'date' => date('Y-m-d'),",
           "                'api' => [",
           "                    'version' => '1.0',",
-<<<<<<< Updated upstream
-          "                    'method' => $$request->getMethod(),",
-          "                    'description' => 'API Criar Method',",
-=======
           "                    'method' => $$request->getMethod() ?? 'unknown',",
-          "                    'description' => 'API Criar Noticia',",
->>>>>>> Stashed changes
+          "                    'description' => 'API Criar Method',",
           "                    'content_type' => 'application/x-www-form-urlencoded'",
           "                ],",
           "                'metadata' => [",
@@ -620,11 +581,7 @@
           "                'date' => date('Y-m-d'),",
           "                'api' => [",
           "                    'version' => '1.0',",
-<<<<<<< Updated upstream
-          "                    'method' => $$request->getMethod(),",
-=======
           "                    'method' => $$request->getMethod() ?? 'unknown',",
->>>>>>> Stashed changes
           "                    'description' => 'API Description',",
           "                    'content_type' => 'application/x-www-form-urlencoded'",
           "                ],",
@@ -647,13 +604,8 @@
           "                'date' => date('Y-m-d'),",
           "                'api' => [",
           "                    'version' => '1.0',",
-<<<<<<< Updated upstream
-          "                    'method' => $$request->getMethod(),",
-          "                    'description' => 'API Criar Method',",
-=======
           "                    'method' => $$request->getMethod() ?? 'unknown',",
-          "                    'description' => 'API Criar Noticia',",
->>>>>>> Stashed changes
+          "                    'description' => 'API Criar Method',",
           "                    'content_type' => 'application/x-www-form-urlencoded'",
           "                ],",
           "                'metadata' => [",
