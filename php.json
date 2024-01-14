@@ -267,8 +267,10 @@
   "c4-method-create_update": {
       "prefix": "c4-method-create_update",
       "body": [
-          "    # route POST /www/sigla/rota",
-          "    # route GET /www/sigla/rota",
+          "    # route POST /www/crud/api/criar/(:any)",
+          "    # route GET /www/crud/api/criar/(:any)",
+          "    # route POST /www/crud/api/atualizar/(:any)",
+          "    # route GET /www/crud/api/atualizar/(:any)",
           "    # Informação sobre o controller",
           "    # retorno do controller [JSON]",
           "    public function create_update($$parameter = NULL)",
