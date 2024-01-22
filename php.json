@@ -301,7 +301,7 @@
           "            } elseif ($$id === false) {",
           "                if ($$this->validtoken_csrf($$token_csrf)) {",
           "                    $$this->ModelResponse->dbCreate($$this->dbFields($$processRequest));",
-          "                    $$id = ($$this->ModelIcone->affectedRows() > 0) ? ($$this->ModelIcone->insertID()) : (NULL);",
+          "                    $$id = ($$this->ModelResponse->affectedRows() > 0) ? ($$this->ModelResponse->insertID()) : (NULL);",
           "                    if ($$this->ModelResponse->affectedRows() > 0) {",
           "                        $$this->returnMyFunction(['Create realizado com sucesso'], 'success');",
           "                        $$processRequestSuccess = true;",
