@@ -8,7 +8,7 @@
 	// 	"prefix": "log",
 	// 	"body": [
 	// 		"console.log('$1');",
-	// 		"$2"
+	// 		"$2" 
 	// 	],
 	// 	"description": "Log output to console"
 	// }
