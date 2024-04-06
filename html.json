@@ -78,30 +78,47 @@
 		],
 		"description": "Chama uma view completa com template, react, babel, CKeditor, vlibras e Bootstrap"
 	},
-
 	"on-php-start": {
-		"prefix": "on-php-start", 
+		"prefix": "on-php-start",
 		"body": [
-			"<?php", 
+			"<?php",
 			"$$var;"
 		],
 		"description": "Primeiro"
 	},
-
-	"on-primeiro": {
-		"prefix": "on-primeiro", 
+	"on-php-form-json": {
+		"prefix": "on-php-form-json",
 		"body": [
-			"Nº", 
-			"1º", 
-			"2º", 
-			"3º", 
+			"<?php if (DEBUG_MY_PRINT) : ?>",
+			"    <div class=\"form-check\">",
+			"        <input class=\"form-check-input\" type=\"radio\" name=\"json\" id=\"json1\" value=\"1\">",
+			"        <label class=\"form-check-label\" for=\"json1\">",
+			"            JSON - ON",
+			"        </label>",
+			"    </div>",
+			"    <div class=\"form-check\">",
+			"        <input class=\"form-check-input\" type=\"radio\" name=\"json\" id=\"json2\"  value=\"0\" checked>",
+			"        <label class=\"form-check-label\" for=\"json2\">",
+			"            JSON - OFF",
+			"        </label>",
+			"    </div>",
+			"<?php endif; ?>",
+		],
+		"description": "Primeiro"
+	},
+	"on-primeiro": {
+		"prefix": "on-primeiro",
+		"body": [
+			"Nº",
+			"1º",
+			"2º",
+			"3º",
 			"4º"
 		],
 		"description": "Primeiro"
 	},
-
 	"on-react-babel": {
-		"prefix": "on-react-babel", 
+		"prefix": "on-react-babel",
 		"body": [
 			"    <script type=\"text/babel\">",
 			"		class NomeDaClass extends React.Component {",
@@ -119,32 +136,28 @@
 		],
 		"description": "React + Babel + JSX"
 	},
-
 	"on- ": {
-		"prefix": "on- ", 
+		"prefix": "on- ",
 		"body": [
 			"&nbsp;"
 		],
 		"description": "Espaço com &nbsp; em HTML"
 	},
-
 	"sn-dev-html": {
-		"prefix": "on-dev-html", 
+		"prefix": "on-dev-html",
 		"body": [
 			"<?php if ($$_SERVER['SERVER_NAME'] == '10.146.84.140'):?>",
-            "<?php endif;?>"
+			"<?php endif;?>"
 		],
 		"description": "decisão de ambiente"
 	},
-
 	"on-tab ": {
-		"prefix": "on-tab", 
+		"prefix": "on-tab",
 		"body": [
 			"&emsp;"
 		],
 		"description": "Espaço com &nbsp; em HTML"
 	},
-
 	"on-btn-link": {
 		"prefix": "on-btn-link",
 		"body": [
@@ -446,17 +459,16 @@
 	"on-shadow": {
 		"prefix": "on-shadow",
 		"body": [
-			"<div class=\"shadow-none p-3 mb-5 bg-light rounded\">Sem sombra</div>", 
-			"<div class=\"shadow-sm p-3 mb-5 bg-white rounded\">Sombra pequena</div>", 
-			"<div class=\"shadow p-3 mb-5 bg-white rounded\">Sombra média</div>", 
+			"<div class=\"shadow-none p-3 mb-5 bg-light rounded\">Sem sombra</div>",
+			"<div class=\"shadow-sm p-3 mb-5 bg-white rounded\">Sombra pequena</div>",
+			"<div class=\"shadow p-3 mb-5 bg-white rounded\">Sombra média</div>",
 			"<div class=\"shadow-lg p-3 mb-5 bg-white rounded\">Sombra grande</div>"
 		],
 		"description": "Modelo"
-	}, 
+	},
 	"on-btp-row": {
 		"prefix": "on-btp-row",
 		"body": [
-			
 			"<div class=\"row\">",
 			"    <div class=\"col-12 col-sm-4\">.col-12 .col-sm-4</div>",
 			"    <div class=\"col-12 col-sm-8\">.col-12 .col-sm-8</div>",
@@ -486,7 +498,7 @@
 			"</div>"
 		],
 		"description": "Linhas bootstrap-"
-	}, 
+	},
 	"on-btp-d-flex-justify-content-center": {
 		"prefix": "on-btp-d-flex-justify-content-center",
 		"body": [
@@ -495,7 +507,7 @@
 			"</div>",
 		],
 		"description": "flex-justify-content-center"
-	}, 
+	},
 	"on-btp-container-bg-white": {
 		"prefix": "on-btp-container-bg-white",
 		"body": [
@@ -504,7 +516,7 @@
 			"</div>"
 		],
 		"description": "bg-white"
-	}, 
+	},
 	"on-container-sombra-3d": {
 		"prefix": "on-container-sombra-3d",
 		"body": [
@@ -513,7 +525,7 @@
 			"</div>"
 		],
 		"description": "Container com sobra 3D"
-	}, 
+	},
 	"on-btp-d-flex-h-100": {
 		"prefix": "on-btp-d-flex-h-100",
 		"body": [
@@ -522,7 +534,7 @@
 			"</div>"
 		],
 		"description": "flex-h-100"
-	}, 
+	},
 	"on-btp-modal": {
 		"prefix": "on-btp-modal",
 		"body": [
@@ -574,7 +586,7 @@
 			"</div>",
 		],
 		"description": "Modal"
-	}, 
+	},
 	"on-btp-input-group": {
 		"prefix": "on-btp-input-group",
 		"body": [
@@ -618,14 +630,14 @@
 			"</div>"
 		],
 		"description": "Agruamento de campos"
-	}, 
+	},
 	"on-icon": {
 		"prefix": "on-icon",
 		"body": [
 			"<?= view('icon/icon', ['height' => '15px', 'width' => '15px']); ?>"
 		],
 		"description": "Carrega Icone"
-	}, 
+	},
 	"on-icon-bot": {
 		"prefix": "on-icon-bot",
 		"body": [
@@ -708,16 +720,16 @@
 			"&nbsp;<?= view('icon/x_2');?>&nbsp;icon/x_2<br>"
 		],
 		"description": "Icones com botões no Bootstrap"
-	}, 
+	},
 	"on-iframe": {
 		"prefix": "on-iframe",
 		"body": [
 			"<!--IFRAME-->",
-            "<iframe frameborder=\"0\" scrolling=\"no\" class=\"mw-400\" style=\"height: 500px; width: 500px;\" src=\"<?= base_url() . '/index.php/'; ?>\" title=\"iFrame\"></iframe>",
-            "<!--IFRAME-->"
+			"<iframe frameborder=\"0\" scrolling=\"no\" class=\"mw-400\" style=\"height: 500px; width: 500px;\" src=\"<?= base_url() . '/index.php/'; ?>\" title=\"iFrame\"></iframe>",
+			"<!--IFRAME-->"
 		],
 		"description": "Modelo"
-	}, 
+	},
 	"on-smiley_emoji": {
 		"prefix": "on-smiley_emoji",
 		"body": [
@@ -1811,26 +1823,24 @@
 			"&#129510; &nbsp; &#1F9E6;"
 		],
 		"description": "Smiley Emoji"
-	}, 
-
+	},
 	"on-container-view": {
 		"prefix": "on-container-view",
 		"body": [
 			"<div class=\"container\">",
-		"    <div class=\"container\" style=\"background-color: #FFFFFF;\">",
-		"        <div class=\"row\">",
-		"            <div class=\"col-12 col-sm-12\">",
-		"                <?php",
-		"                myPrint($$result);",
-		"                ?>",
-		"            </div>",
-		"        </div>",
-		"    </div>",
-		"</div>"
+			"    <div class=\"container\" style=\"background-color: #FFFFFF;\">",
+			"        <div class=\"row\">",
+			"            <div class=\"col-12 col-sm-12\">",
+			"                <?php",
+			"                myPrint($$result);",
+			"                ?>",
+			"            </div>",
+			"        </div>",
+			"    </div>",
+			"</div>"
 		],
 		"description": "Modelo básico de view"
-	}, 
-
+	},
 	"on-popup": {
 		"prefix": "on-popup",
 		"body": [
@@ -1838,8 +1848,7 @@
 			"</a>"
 		],
 		"description": "Modelo"
-	}, 
-
+	},
 	"on-refresh": {
 		"prefix": "on-refresh",
 		"body": [
@@ -1847,7 +1856,6 @@
 		],
 		"description": "Modelo"
 	},
-
 	"on-form": {
 		"prefix": "on-form",
 		"body": [
@@ -2164,7 +2172,6 @@
 		],
 		"description": "Fomulários para Codeigniter 4"
 	},
-
 	"on-form-label": {
 		"prefix": "on-form-label",
 		"body": [
@@ -2172,7 +2179,6 @@
 		],
 		"description": "Fomulários para Codeigniter 4"
 	},
-
 	"on-form-dropdown": {
 		"prefix": "on-form-dropdown",
 		"body": [
@@ -2180,7 +2186,6 @@
 		],
 		"description": "Fomulários para Codeigniter 4"
 	},
-
 	"on-form-textarea": {
 		"prefix": "on-form-textarea",
 		"body": [
@@ -2188,7 +2193,6 @@
 		],
 		"description": "Fomulários para Codeigniter 4"
 	},
-
 	"on-form-input": {
 		"prefix": "on-form-input",
 		"body": [
@@ -2196,7 +2200,6 @@
 		],
 		"description": "Fomulários para Codeigniter 4"
 	},
-
 	"on-form-radio": {
 		"prefix": "on-form-radio",
 		"body": [
@@ -2204,7 +2207,6 @@
 		],
 		"description": "Fomulários para Codeigniter 4"
 	},
-
 	"rct-api-consumo": {
 		"prefix": "rct-api-consumo",
 		"body": [
@@ -2256,8 +2258,7 @@
 			"</script>"
 		],
 		"description": "Consumo de API com React"
-	}, 
-
+	},
 	"rct-array-consumo": {
 		"prefix": "rct-array-consumo",
 		"body": [
@@ -2299,7 +2300,7 @@
 			"                            // JSON.stringify é usado para converter o valor para uma string formatada.",
 			"                            */},",
 			"                        </pre>",
-			"                    ))}", 
+			"                    ))}",
 			"                </ul>",
 			"            </div>",
 			"        );",
@@ -2310,8 +2311,7 @@
 			"</script>"
 		],
 		"description": "Consumo de ARRAY com React"
-	}, 
-
+	},
 	// "on-modelo": {
 	// 	"prefix": "on-modelo",
 	// 	"body": [
