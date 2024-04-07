@@ -73,7 +73,7 @@
             "        $$request = service('request');",
             "        $$processRequest = (array)$$request->getVar();",
             "        $$uploadedFiles = $$request->getFiles();",
-            "        $$json = isset($$processRequest['json']) && $$processRequest['json'] == 1? 1 : 0;",
+            "        $$json = isset($$processRequest['json']) && $$processRequest['json'] == 1 ? 1 : 0;",
             "        // $$processRequest = eagarScagaire($$processRequest);",
             "        #",
             "        try {",
@@ -300,9 +300,9 @@
             "        # Parâmentros para receber um POST",
             "        $$request = service('request');",
             "        $$processRequest = (array)$$request->getVar();",
-            "        $$uploadedFiles = $$request->getFiles();",
+            "        // $$uploadedFiles = $$request->getFiles();",
             "        $$token_csrf = ($$processRequest['token_csrf'] ?? NULL);",
-            "        $$json = ($$processRequest['json'] ?? 0);",
+            "        $$json = isset($$processRequest['json']) && $$processRequest['json'] == 1 ? 1 : 0;",
             "        $$choice_update = (isset($$processRequest['id'])) ? (true) : (false);",
             "        // $$processRequest = eagarScagaire($$processRequest);",
             "        #",
@@ -397,7 +397,7 @@
             "    # Parâmentros para receber um POST",
             "    $$request = service('request');",
             "    $$processRequest = (array)$$request->getVar();",
-            "    $$json = ($$processRequest['json'] ?? 0);",
+            "    $$json = isset($$processRequest['json']) && $$processRequest['json'] == 1 ? 1 : 0;",
             "    // $$processRequest = eagarScagaire($$processRequest);",
             "    #",
             "    try {",
@@ -487,7 +487,7 @@
             "    # Parâmentros para receber um POST",
             "    $$request = service('request');",
             "    $$processRequest = (array)$$request->getVar();",
-            "    $$json = $$processRequest['json'] ?? 0;",
+            "    $$json = isset($$processRequest['json']) && $$processRequest['json'] == 1 ? 1 : 0;",
             "    // $$processRequest = eagarScagaire($$processRequest);",
             "    #",
             "    try {",
@@ -710,8 +710,8 @@
         ],
         "description": "Dicionário de dados para a camada model"
     },
-    "c4-controller-token_csrf": {
-        "prefix": "c4-method-token_csrf",
+    "c4-endpoint-token_csrf": {
+        "prefix": "c4-endpoint-token_csrf",
         "body": [
             "    private function token_csrf()",
             "    {",
@@ -724,8 +724,8 @@
         ],
         "description": "Validação do Token para o formulário"
     },
-    "c4-controller-validtoken_csrf": {
-        "prefix": "c4-method-validtoken_csrf",
+    "c4-api-validtoken_csrf": {
+        "prefix": "c4-api-validtoken_csrf",
         "body": [
             "private function validtoken_csrf($$token)",
             "    {",
@@ -1118,30 +1118,4 @@
         ],
         "description": "Fomulários para Codeigniter 4"
     },
-    "c4-valid-token": {
-        "prefix": "c4-valid-token",
-        "body": [
-            "if (releaseAccess($$this->validateToken(), session()->get('system_log'))) {",
-            "} else {",
-            " return redirect()->to('https://www.funarj.rj.gov.br/');",
-            "}"
-        ],
-        "description": "Fomulários para Codeigniter 4"
-    },
-    "c4-my-endpoint": {
-        "prefix": "c4-my-endpoint",
-        "body": [
-            "if($$parameter !== NULL){",
-            "    $$profile = '/'. $$parameter;",
-            "}elseif($$processRequest['id']){",
-            "$$profile = '/'. $$processRequest['id'];",
-            "}else{",
-            "    $$profile = NULL;",
-            "}",
-            "$$endPoint = myEndPoint('projeto/controler/api/metodo' . $$profile, $$this->token);",
-            "myPrint($$endPoint, 'Endpoint');",
-            "$$requestJSONform = (isset($$endPoint['result'])) ? ($$endPoint['result']) : (array());"
-        ],
-        "description": "c4-my-endpoint"
-    }
 }
