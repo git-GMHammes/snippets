@@ -86,10 +86,11 @@
 		],
 		"description": "Primeiro"
 	},
-	"on-php-form-json": {
-		"prefix": "on-php-form-json",
+	"on-php-api-json": {
+		"prefix": "on-php-api-json",
 		"body": [
 			"<?php if (DEBUG_MY_PRINT) : ?>",
+			"    <hr>",
 			"    <div class=\"form-check\">",
 			"        <input class=\"form-check-input\" type=\"radio\" name=\"json\" id=\"json1\" value=\"1\">",
 			"        <label class=\"form-check-label\" for=\"json1\">",
@@ -97,14 +98,15 @@
 			"        </label>",
 			"    </div>",
 			"    <div class=\"form-check\">",
-			"        <input class=\"form-check-input\" type=\"radio\" name=\"json\" id=\"json2\"  value=\"0\" checked>",
+			"        <input class=\"form-check-input\" type=\"radio\" name=\"json\" id=\"json2\" value=\"0\" checked>",
 			"        <label class=\"form-check-label\" for=\"json2\">",
 			"            JSON - OFF",
 			"        </label>",
 			"    </div>",
-			"<?php endif; ?>",
+			"    <hr>",
+			"<?php endif; ?>"
 		],
-		"description": "Primeiro"
+		"description": "Retorna um JSON com API"
 	},
 	"on-primeiro": {
 		"prefix": "on-primeiro",
