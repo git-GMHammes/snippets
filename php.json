@@ -804,7 +804,8 @@
             "    if (session()->get('name_session')) {",
             "    $$apiSession = session()->get('name_session');",
             "    //  myPrint($$apiSession, '', true);",
-            "}",
+            "    }",
+            "    $$session_ternarioo = (session()->get('assunto_tag'))?(session()->get('assunto_tag')):(array());"
         ],
         "description": "Sessão para CI3"
     },
@@ -899,7 +900,8 @@
             "    );",
             "    session()->set('message',  $$this->message);",
             "    session()->markAsTempdata('message', 5);",
-            "       }",
+            "    myPrint($$this->getMessage(), 'src/app/Models/');",
+            "    }",
             "return $$this;",
             "}"
         ],
@@ -926,6 +928,7 @@
             "    );",
             "    session()->set('message',  $$this->message);",
             "    session()->markAsTempdata('message', 5);",
+            "    myPrint($$this->getMessage(), 'src/app/Models/');",
             "}",
             "return $$this;",
             "}"
@@ -956,6 +959,7 @@
             "    );",
             "    session()->set('message',  $$this->message);",
             "    session()->markAsTempdata('message', 5);",
+            "    myPrint($$this->getMessage(), 'src/app/Models/');",
             "}",
             "    return $$this;",
             "}"
@@ -976,6 +980,7 @@
             "    );",
             "    session()->set('message',  $$this->message);",
             "    session()->markAsTempdata('message', 5);",
+            "    myPrint($$this->getMessage(), 'src/app/Models/');",
             "}",
             "return $$this;",
             "}"
