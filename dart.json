@@ -128,9 +128,10 @@
 	"dart-main": {
 		"prefix": "dart-main",
 		"body": [
-			"void main() {",
-			"  ",
-			"}",
+			" void main() {",
+			"  // home... ",
+			"   ",
+			" }",
 			"  "
 		],
 		"description": "dart-main"
@@ -138,21 +139,21 @@
 	"dart-001-void-main-import": {
 		"prefix": "dart-001-void-main-import",
 		"body": [
-			"import 'package:flutter/material.dart';",
-			"",
-			"void main() {",
-			"  runApp( const MyApp());",
-			"}",
-			"",
-			"class MyApp extends StatelessWidget {",
-			"  const MyApp({super.key});",
-			"  @override",
-			"  Widget build(BuildContext context) {",
-			"    return const MaterialApp(",
-			"        // ...",
-			"        );",
-			"  }",
-			"}",
+			" import 'package:flutter/material.dart';",
+			" ",
+			" void main() {",
+			"   runApp( const MyApp());",
+			" }",
+			" ",
+			" class MyApp extends StatelessWidget {",
+			"   const MyApp({super.key});",
+			"   @override",
+			"   Widget build(BuildContext context) {",
+			"     return const MaterialApp(",
+			"         // ... home",
+			"         );",
+			"   }",
+			" }",
 			"",
 			"// [1] - import 'package:flutter/material.dart';",
 			"// Esta linha importa o pacote material.dart, que contém a biblioteca de widgets ",
@@ -189,12 +190,137 @@
 		],
 		"description": "dart-001-void-main-import"
 	},
+	"dart-material": {
+		"prefix": "dart-material",
+		"body": [
+			"import 'package:flutter/material.dart';",
+			"  "
+		],
+		"description": "dart-material"
+	},
+	"dart-import-absolut": {
+		"prefix": "dart-import-absolut",
+		"body": [
+			" // Importando um arquivo utilizando o caminho absoluto",
+			" // import 'package:my_app/viewmodels/...';",
+			" // import 'package:my_app/services/...';",
+			" // import 'package:my_app/widgets/...';",
+			" // import 'package:my_app/models/...';",
+			" // import 'package:my_app/utils/...';",
+			" // import 'package:my_app/views/...';",
+			"  "
+		],
+		"description": "dart-import-absolut"
+	},
+	"dart-route-dynamic": {
+		"prefix": "dart-route-dynamic",
+		"body": [
+			" Route<dynamic> generateRoute(RouteSettings settings) {",
+			"   switch (settings.name) {",
+			"     case '/home':",
+			"       return MaterialPageRoute(builder: (_) => HomeView());",
+			"  // case '/login':",
+			"  //   return MaterialPageRoute(builder: (_) => LoginView());",
+			"  // case '/settings':",
+			"  //   return MaterialPageRoute(builder: (_) => SettingsView());",
+			"     default:",
+			"       return MaterialPageRoute(builder: (_) => Scaffold(",
+			"         body: Center(",
+			"           child: Text('No route defined for ${settings.name}'),",
+			"         ),",
+			"       ));",
+			"   }",
+			" }",
+			"  "
+		],
+		"description": "dart-route-dynamic"
+	},
+	"dart-route-textbutton-in-children-Widget": {
+		"prefix": "dart-route-textbutton-in-children-Widget",
+		"body": [
+			" TextButton(",
+			"    onPressed: () {",
+			"      Navigator.pushNamed(context, '/home');",
+			"    },",
+			"    child: const Row(",
+			"      mainAxisSize: MainAxisSize.min,",
+			"      children: <Widget>[",
+			"        Icon(Icons.home),",
+			"        SizedBox(width: 8),",
+			"        Text('Ir para Home'),",
+			"      ],",
+			"    ),",
+			"  ),",
+			"  "
+		],
+		"description": "dart-route-textbutton-in-children-Widget"
+	},
+	"dart-route-inkwell-child-image-asset": {
+		"prefix": "dart-route-inkwell-child-image-asset",
+		"body": [
+			" InkWell(",
+			"  onTap: () {",
+			"    Navigator.pushNamed(context, '/algumaRota');",
+			"  },",
+			"  child: Image.asset('assets/images/ods/allods.jpg'),",
+			" )",
+			" ",
+			" // flutter:",
+			" //   assets:",
+			" //     - assets/",
+			"  "
+		],
+		"description": "dart-route-inkwell-child-image-asset"
+	},
+	"dart-main-routes": {
+		"prefix": "dart-main-routes",
+		"body": [
+			"import 'package:flutter/material.dart';",
+			"import 'package:mobiapp2/utils/router.dart';",
+			"",
+			"void main() {",
+			"  runApp(const MyApp());",
+			"}",
+			"  ",
+			" class MyApp extends StatelessWidget {",
+			"   const MyApp({super.key});",
+			"   @override",
+			"   Widget build(BuildContext context) {",
+			"     return MaterialApp(",
+			"       title: 'Flutter Demo',",
+			"       theme: ThemeData(",
+			"         primarySwatch: Colors.blue,",
+			"         visualDensity: VisualDensity.adaptivePlatformDensity,",
+			"       ),",
+			"       initialRoute: '/login',",
+			"       onGenerateRoute: generateRoute,",
+			"     );",
+			"   }",
+			" }",
+			"  "
+		],
+		"description": "dart-main-routes"
+	},
+	"dart-btn-navegacao": {
+		"prefix": "dart-btn-navegacao",
+		"body": [
+			" ElevatedButton(",
+			"   onPressed: () {",
+			"     // Navegação",
+			"     Navigator.pushNamed(context, '/home');",
+			"   },",
+			"   child: Text('Login'),",
+			" )",
+			"  "
+		],
+		"description": "dart-btn-navegacao"
+	},
 	"dart-002-home-scaffold": {
 		"prefix": "dart-002-home-scaffold",
 		"body": [
-			"      home: Scaffold(",
-			"          // ... body ...",
-			"          ),",
+			" home: Scaffold(",
+			" // ... body ...",
+			" ),",
 			"  "
 		],
 		"description": "dart-002-home-scaffold"
@@ -202,89 +328,114 @@
 	"dart-003-in-home-appbar-out-body": {
 		"prefix": "dart-003-in-home-appbar-out-body",
 		"body": [
-			"appBar: AppBar(",
-			"  title: Text('Exemplo de Alinhamento'),",
-			"centerTitle: false,",
-			"),",
+			" appBar: AppBar(",
+			"   title: Text('Exemplo de Alinhamento'),",
+			" centerTitle: false,",
+			" ),",
 			"  "
 		],
 		"description": "dart-003-in-home-appbar-out-body"
 	},
-	"dart-004-body-center": {
-		"prefix": "dart-004-body-center",
+	"dart-004-body-center-in-home": {
+		"prefix": "dart-004-body-center-in-home",
 		"body": [
-			"        body: Center(",
-			"          // ...",
-			"        ),",
+			" body: Center(",
+			"   // ...",
+			" ),",
 			"  "
 		],
-		"description": "dart-004-body-center"
+		"description": "dart-004-body-center-in-home"
 	},
-	"dart-004-body-align": {
-		"prefix": "dart-004-body-align",
+	"dart-004-body-align-in-home": {
+		"prefix": "dart-004-body-align-in-home",
 		"body": [
-			"        body: Align(",
-			"          alignment: Alignment.topCenter,",
-			"          // ...",
-			"        ),",
+			" body: Align(",
+			"   alignment: Alignment.topCenter,",
+			"   // ...",
+			" ),",
 			"  "
 		],
-		"description": "dart-004-body-align"
+		"description": "dart-004-body-align-in-home"
 	},
-	"dart-004-body-column-for-children": {
-		"prefix": "dart-004-body-column-for-children",
+	"dart-004-body-column-for-children-in-home": {
+		"prefix": "dart-004-body-column-for-children-in-home",
 		"body": [
-			"        body: Column(",
-			"          mainAxisSize: MainAxisSize.min,",
-			"          //...",
-			"        ),",
+			" body: Column(",
+			"   mainAxisSize: MainAxisSize.min,",
+			"   //...",
+			" ),",
 			"  "
 		],
-		"description": "dart-004-body-column-for-children"
+		"description": "dart-004-body-column-for-children-in-home"
 	},
-	"dart-004-body-singleChildScrollView": {
-		"prefix": "dart-004-body-singleChildScrollView",
+	"dart-004-body-singleChildScrollView-in-home": {
+		"prefix": "dart-004-body-singleChildScrollView-in-home",
 		"body": [
-			"          body: SingleChildScrollView(",
-			"            child: Column(",
-			"              mainAxisSize: MainAxisSize.min,",
-			"              children: <Widget>[",
-			"                Row(",
-			"                  mainAxisAlignment: MainAxisAlignment.center,",
-			"                  children: [",
-			"                    // Container",
-			"                    // SizedBox",
-			"                    // text",
-			"                  ],",
-			"                ),",
-			"              ],",
-			"            ),",
-			"          ),",
+			" body: SingleChildScrollView(",
+			"   child: Column(",
+			"     mainAxisSize: MainAxisSize.min,",
+			"     children: <Widget>[",
+			"       Row(",
+			"         mainAxisAlignment: MainAxisAlignment.center,",
+			"         children: [",
+			"           // Container",
+			"           // SizedBox",
+			"           // text",
+			"         ],",
+			"       ),",
+			"     ],",
+			"   ),",
+			" ),",
 			"  "
 		],
-		"description": "dart-004-body-singleChildScrollView"
+		"description": "dart-004-body-singleChildScrollView-in-home"
+	},
+	"dart-004-body-center-child-image-asset": {
+		"prefix": "dart-004-body-center-child-image-asset",
+		"body": [
+			" body: Center(",
+			"          child: Image.asset('assets/images/ods/allods.jpg'),",
+			"        ),",
+			" ",
+			" // flutter:",
+			" //   assets:",
+			" //     - assets/",
+			"  "
+		],
+		"description": "dart-004-body-center-child-image-asset"
 	},
 	"dart-005-children-Widget": {
 		"prefix": "dart-005-children-Widget",
 		"body": [
-			"          children: <Widget>[",
-			"            //...text ...container",
-			"          ],",
+			" children: <Widget>[",
+			"   //...text ...container",
+			" ],",
 			"  "
 		],
 		"description": "dart-005-children-Widget"
 	},
+	"dart-006-padding-in-children-Widget": {
+		"prefix": "dart-006-padding-in-children-Widget",
+		"body": [
+			"const Padding(",
+			"    padding: EdgeInsets.all(20.0),",
+			"    ... text",
+			"  ),",
+			"  "
+		],
+		"description": "dart-006-padding-in-children-Widget"
+	},
 	"dart-006-expanded-in-children-Widget": {
 		"prefix": "dart-006-expanded-in-children-Widget",
 		"body": [
-			"                Expanded( // Adicionado para evitar overflow",
-			"                  child: const Text(",
-			"                    'Este é um exemplo de texto em Flutter que deve ser quebrado em várias linhas para evitar overflow. Este texto é um pouco longo para estar na mesma linha do container.',",
-			"                    softWrap: true, // Quebra de linha automática",
-			"                    overflow: TextOverflow.clip, // Prevenindo o texto de sobrepor outros elementos",
-			"                    style: TextStyle(fontSize: 16),",
-			"                  ),",
-			"                ),",
+			" Expanded( // Adicionado para evitar overflow",
+			"   child: const Text(",
+			"     'Este é um exemplo de texto em Flutter que deve ser quebrado em várias linhas para evitar overflow. Este texto é um pouco longo para estar na mesma linha do container.',",
+			"     softWrap: true, // Quebra de linha automática",
+			"     overflow: TextOverflow.clip, // Prevenindo o texto de sobrepor outros elementos",
+			"     style: TextStyle(fontSize: 16),",
+			"   ),",
+			" ),",
 			"  "
 		],
 		"description": "dart-006-expanded-in-children-Widget"
@@ -292,15 +443,15 @@
 	"dart-007-in-children-Widget-row": {
 		"prefix": "dart-007-in-children-Widget-row",
 		"body": [
-			"Row(",
-			"  mainAxisAlignment: MainAxisAlignment.center,",
-			"  children: [",
-			"   // ... container",
-			"    const SizedBox(width: 10),",
-			"    // ... text",
-			"  ],",
-			"),",
-			"const SizedBox(height: 40),",
+			" Row(",
+			"   mainAxisAlignment: MainAxisAlignment.center,",
+			"   children: [",
+			"    // ... container",
+			"     const SizedBox(width: 10),",
+			"     // ... text",
+			"   ],",
+			" ),",
+			" const SizedBox(height: 40),",
 			"  "
 		],
 		"description": "dart-007-in-children-Widget-row"
@@ -308,14 +459,14 @@
 	"dart-child-text": {
 		"prefix": "dart-child-text",
 		"body": [
-			"          child: Text(",
-			"            'Este é um exemplo de texto justificado em Flutter. Justificar o texto faz com que ele se alinhe igualmente às margens esquerda e direita, criando um visual uniforme.',",
-			"             softWrap: true, // Quebra de linha automática",
-			"             overflow: TextOverflow",
-			"                 .clip, // Prevenindo o texto de sobrepor outros elementos",
-			"            textAlign: TextAlign.justify,",
-			"            style: TextStyle(fontSize: 16),",
-			"          ),",
+			" child: Text(",
+			"   'Este é um exemplo de texto justificado em Flutter. Justificar o texto faz com que ele se alinhe igualmente às margens esquerda e direita, criando um visual uniforme.',",
+			"    softWrap: true, // Quebra de linha automática",
+			"    overflow: TextOverflow",
+			"        .clip, // Prevenindo o texto de sobrepor outros elementos",
+			"   textAlign: TextAlign.justify,",
+			"   style: TextStyle(fontSize: 16),",
+			" ),",
 			"// Em style: TextStyle(), acrescentar",
 			"// color: Define a cor do texto.",
 			"// fontSize: Especifica o tamanho do texto.",
@@ -335,34 +486,90 @@
 	"dart-child-container-size": {
 		"prefix": "dart-child-container-size",
 		"body": [
-			"child: Container(",
-			"            width: 100.0,",
-			"            height: 100.0,",
-			"            color: Colors.blue,",
-			"          ),",
+			" child: Container(",
+			"   width: 100.0,",
+			"   height: 100.0,",
+			"   color: Colors.blue,",
+			" ),",
 			"  "
 		],
 		"description": "dart-child-container-size"
 	},
+	"dart-container-child-image-asset": {
+		"prefix": "dart-container-child-image-asset",
+		"body": [
+			" Container(",
+			"     padding: EdgeInsets.all(10),",
+			"     margin: EdgeInsets.all(20),",
+			"     decoration: BoxDecoration(",
+			"       border: Border.all(color: Colors.blue, width: 2)",
+			"     ),",
+			"     child: Image.asset('assets/images/ods/allods.jpg'),",
+			"   )  ",
+			" ",
+			" // flutter:",
+			" //   assets:",
+			" //     - assets/",
+			"  "
+		],
+		"description": "dart-container-child-image-asset"
+	},
 	"dart-children-Widget-text-container": {
 		"prefix": "dart-children-Widget-text-container",
 		"body": [
-			"children: <Widget>[",
-			"              Text(",
-			"                'Olá, Flutter!',",
-			"                style: TextStyle(fontSize: 24),",
-			"              ),",
-			"              SizedBox(height: 20),",
-			"                // ... outros componentes ",
-			"              Container(",
-			"                width: 100.0, // Largura do quadrado",
-			"                height: 100.0, // Altura do quadrado",
-			"                color: Colors.blue, // Cor do quadrado",
-			"              ),",
-			"            ],",
+			" children: <Widget>[",
+			"   Text(",
+			"     'Olá, Flutter!',",
+			"     style: TextStyle(fontSize: 24),",
+			"   ),",
+			"   SizedBox(height: 20),",
+			"     // ... outros componentes ",
+			"   Container(",
+			"     width: 100.0, // Largura do quadrado",
+			"     height: 100.0, // Altura do quadrado",
+			"     color: Colors.blue, // Cor do quadrado",
+			"   ),",
+			" ],",
 			"  "
 		],
 		"description": "dart-children-Widget-text-container"
+	},
+	"dart-column-children-widget-image-asset": {
+		"prefix": "dart-column-children-widget-image-asset",
+		"body": [
+			"Column(",
+			"    children: <Widget>[",
+			"      Text('Acima da imagem'),",
+			"      Image.asset('assets/images/ods/allods.jpg'),",
+			"      Text('Abaixo da imagem'),",
+			"    ],",
+			"  )  ",
+			" ",
+			" // flutter:",
+			" //   assets:",
+			" //     - assets/",
+			"  "
+		],
+		"description": "dart-column-children-widget-image-asset"
+	},
+	"dart-row-children-Widget-image-asset": {
+		"prefix": "dart-row-children-Widget-image-asset",
+		"body": [
+			" Row(",
+			"   mainAxisAlignment: MainAxisAlignment.center,",
+			"   children: <Widget>[",
+			"     Text('À esquerda da imagem'),",
+			"     Image.asset('assets/images/ods/allods.jpg', width: 100),",
+			"     Text('À direita da imagem'),",
+			"   ],",
+			" )",
+			" ",
+			" // flutter:",
+			" //   assets:",
+			" //     - assets/",
+			"  "
+		],
+		"description": "dart-row-children-Widget-image-asset"
 	},
 	"dart-ignore": {
 		"prefix": "dart-ignore",
@@ -375,11 +582,11 @@
 	"dart-list": {
 		"prefix": "dart-list",
 		"body": [
-			"  List<Map<String, dynamic>> nome_lista = [",
-			"    {'chave_string_1': 1, 'chave_string_2': 0.1, 'chave_string_3': false},",
-			"    {'chave_string_1': 1, 'chave_string_2': 1.5, 'chave_string_3': true},",
-			"    {'chave_string_1': 1, 'chave_string_2': 2.5 , 'chave_string_3': false},",
-			"  ];",
+			" List<Map<String, dynamic>> nome_lista = [",
+			"   {'chave_string_1': 1, 'chave_string_2': 0.1, 'chave_string_3': false},",
+			"   {'chave_string_1': 1, 'chave_string_2': 1.5, 'chave_string_3': true},",
+			"   {'chave_string_1': 1, 'chave_string_2': 2.5 , 'chave_string_3': false},",
+			" ];",
 			"  "
 		],
 		"description": "dart-list"
@@ -387,11 +594,11 @@
 	"dart-map": {
 		"prefix": "dart-map",
 		"body": [
-			"  Map<String, String> colecao_lista = {",
-			"    'chave001': 'Valor 1',",
-			"    'chave002': 'Valor 2',",
-			"    'chave003': 'Valor 3'",
-			"  };",
+			" Map<String, String> colecao_lista = {",
+			"   'chave001': 'Valor 1',",
+			"   'chave002': 'Valor 2',",
+			"   'chave003': 'Valor 3'",
+			" };",
 			"  "
 		],
 		"description": "dart-map"
@@ -399,7 +606,7 @@
 	"dart-set": {
 		"prefix": "dart-set",
 		"body": [
-			"Set<String> nomes = {'valor_diferente_001', 'valor_diferente_002', 'valor_diferente_003''};",
+			" Set<String> nomes = {'valor_diferente_001', 'valor_diferente_002', 'valor_diferente_003''};",
 			"  "
 		],
 		"description": "dart-set"
@@ -407,11 +614,11 @@
 	"for-in": {
 		"prefix": "for-in",
 		"body": [
-			"  for (var valor in valores_lista) {",
-			"    print(",
-			"        'Rótulo: ${valor['chave_lista']} | Rótulo: ${valor['chave_lista']} | Rótulo: ${valor['chave_lista']}'",
-			"    );",
-			"  }",
+			" for (var valor in valores_lista) {",
+			"   print(",
+			"       'Rótulo: ${valor['chave_lista']} | Rótulo: ${valor['chave_lista']} | Rótulo: ${valor['chave_lista']}'",
+			"   );",
+			" }",
 			"  "
 		],
 		"description": "for-in"
