@@ -1021,7 +1021,7 @@
             "try {",
             "    //code...",
             "}catch (\\Exception $$e) {",
-            "    $$systemReport['danger'] = $$e->getMessage();",
+            "    $$this->message->message(['ERRO: ' . $$e->getMessage()], 'danger');",
             "}"
         ],
         "description": "Try Cat"
