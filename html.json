@@ -12,6 +12,48 @@
 	// 	],
 	// 	"description": "Log output to console"
 	// }
+
+    "cdn-react-map-list": {
+	"prefix": "cdn-react-map-list",
+	"body": [
+	  "<script type=\"text/babel\">",
+	  "    function App() {",
+	  "        return (",
+	  "            <div className=\"row\">",
+	  "                {variavel_lista.map((variavel_value, index) => (",
+	  "                    <div key={index} className=\"col-12 col-sm-3 mb-5\">",
+	  "                        <pre>{variavel_value}</pre>",
+	  "                    </div>",
+	  "                ))}",
+	  "            </div>",
+	  "        );",
+	  "    }",
+	  "    ",
+	  "    ReactDOM.render(<App />, document.getElementById('root'));",
+	  "</script>"
+	],
+	"description": "Maplist em React"
+    },
+   
+    "cdn-react-pre": {
+   	"prefix": "cdn-react-pre",
+   	"body": [
+   	  "<script type=\"text/babel\">",
+   	  "    function App() {",
+   	  "        return (",
+   	  "            <div>",
+   	  "                {variavel_lista.map((variavel_value, index)",
+   	  "                <pre>{JSON.stringify(variavel_value, null, 2)}</pre>",
+   	  "            </div>",
+   	  "        );",
+   	  "    }",
+   	  "    ",
+   	  "    ReactDOM.render(<App />, document.getElementById('root'));",
+   	  "</script>"
+   	],
+   	"description": "<PRE>Em React</PRE>"
+    },
+
 	"on-view-template": {
 		"prefix": "view-template",
 		"body": [

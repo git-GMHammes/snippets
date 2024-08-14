@@ -12,7 +12,16 @@
 	// 	],
 	// 	"description": "Log output to console"
 	// }
-	
+
+	"cdn-react-pre": {
+		"prefix": "log",
+		"body": [
+			" ",
+			"{variavel_lista.map((variavel_value, index)",
+			"<pre>{JSON.stringify(variavel_value, null, 2)}</pre>",
+			" "
+		],
+		"description": "<PRE>Em React CDN</PRE>"
 	}
-	
+
 }
