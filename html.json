@@ -22,7 +22,7 @@
 	  "            <div className=\"row\">",
 	  "                {variavel_lista.map((variavel_value, index) => (",
 	  "                    <div key={index} className=\"col-12 col-sm-3 mb-5\">",
-	  "                        <pre>{variavel_value}</pre>",
+	  "                        <pre>{JSON.stringify(programas_card, null, 2)}</pre>",
 	  "                    </div>",
 	  "                ))}",
 	  "            </div>",
