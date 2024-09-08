@@ -12,7 +12,149 @@
   // 	],
   // 	"description": "Log output to console"
   // }
-
+  "react-html-funcao-post": {
+    "prefix": "react-html-funcao-post",
+    "body": [
+      " ",
+      "    const fetchData = async (url, data) => {",
+      "        try {",
+      "            const response = await fetch(url, {",
+      "        method: 'POST',",
+      "    headers: {",
+      "        'Content-Type': 'application/json',",
+      "                },",
+      "    body: JSON.stringify(data),",
+      "            });",
+      "    return await response.json();",
+      "        } catch (error) {",
+      "        console.error('Erro ao enviar dados:', error);",
+      "    // Aqui você pode adicionar lógica adicional para exibir o erro para o usuário",
+      "    return null;",
+      "        }",
+      "    };",
+      " "
+    ],
+    "description": "react-html-funcao-post"
+  },
+  "react-html-funcao-fetch-post": {
+    "prefix": "react-html-funcao-fetch-post",
+    "body": [
+      " ",
+      "const fetchData = async (url, data) => {",
+      "    try {",
+      "        const response = await fetch(url, {",
+      "            method: 'POST',",
+      "            headers: {",
+      "                'Content-Type': 'application/json',",
+      "            },",
+      "            body: JSON.stringify(data),",
+      "        });",
+      "        return await response.json();",
+      "    } catch (error) {",
+      "        console.error('Erro ao enviar dados:', error);",
+      "        // Aqui você pode adicionar lógica adicional para exibir o erro para o usuário",
+      "        return null;",
+      "    }",
+      "};",
+      " "
+    ],
+    "description": "react-html-funcao-fetch-post"
+  },
+  "react-html-funcao-submit": {
+    "prefix": "react-html-funcao-submit",
+    "body": [
+      " ",
+      "const submitAllForms = async (apiIdentifier, data) => {",
+      "    console.log('Dados a serem enviados:', data);",
+      "",
+      "    switch (apiIdentifier) {",
+      "",
+      "        case 'filtro-001':",
+      "            console.log('filtro-001');",
+      "            const updateData = captureFormData('filtro-001');",
+      "            const response = await fetchData(`\\${base_url}/\\${api_url_001}`, updateData);",
+      "            if (response && response.result && response.result.affectedRows > 0) {",
+      "                console.log('insertID:', response.result.insertID);",
+      "                setFormData(prev => ({",
+      "                    ...prev,",
+      "                    id: response.result.insertID",
+      "                }));",
+      "                const modal = new bootstrap.Modal(document.getElementById('MensagemSucessoSalvar'));",
+      "                modal.show();",
+      "            }",
+      "            break;",
+      "",
+      "        case 'filtro-002':",
+      "            console.log(apiIdentifier, '- OK');",
+      "            const data = captureFormData('filtro-adolescente');",
+      "            const responsavelData = await fetchData(`\\${base_url}/\\${api_url_002}`, data);",
+      "            if (responsavelData && responsavelData.result && responsavelData.result.dbResponse && responsavelData.result.dbResponse.length > 0) {",
+      "                console.log('form-responsavel:', responsavelData.result.dbResponse);",
+      "                setResponsaveis(responsavelData.result.dbResponse);",
+      "            }",
+      "            break;",
+      "",
+      "        case 'filtro-003':",
+      "            console.log(apiIdentifier, '- OK');",
+      "            break;",
+      "",
+      "        default:",
+      "            console.log('Identificador de API desconhecido:', apiIdentifier);",
+      "            break;",
+      "    }",
+      "};",
+      " "
+    ],
+    "description": "react-html-funcao-submit"
+  },
+  "react-html-atualiza-modal": {
+    "prefix": "react-html-atualiza-modal",
+    "body": [
+      " ",
+      "    const handleOpenModal = (parameter) => {",
+      "        console.log(\"handleOpenModal:\", parameter);",
+      "        setFormData(prontuario);",
+      "        // Exemplo",
+      "        // {apiUrlList.map((select_value, index) => (...",
+      "        // <button type=\"button\" className=\"btn btn-outline-primary\" data-bs-toggle=\"modal\" data-bs-target={`#staticBackdropProntuario$${index}`} onClick={() => handleOpenModal(select_value)}>",
+      "        //      <i className=\"bi bi-pencil-square\" />",
+      "        // </button>",
+      "    };",
+      " "
+    ],
+    "description": "react-html-atualiza-modal"
+  },
+  "react-html-capturar-digita-form": {
+    "prefix": "react-html-capturar-digita-form",
+    "body": [
+      " ",
+      "const handleChange = (event) => {",
+      "    const { name, value } = event.target;",
+      "    setFormData((prev) => ({",
+      "        ...prev,",
+      "        [name]: value",
+      "    }));",
+      " ",
+      "    // Verifica se a mudança é no campo 'variavel_001'",
+      "    if (name === 'variavel_001') {",
+      "        console.log('variavel_001');",
+      "        // submitAllForms('filtro-api');",
+      "    }",
+      "};",
+      " "
+    ],
+    "description": "react-html-capturar-digita-form"
+  },
+  "cdn-react-pre": {
+    "prefix": "cdn-react-pre",
+    "body": [
+      " ",
+      "{variavel_lista.map((variavel_value, index)",
+      "<pre>{JSON.stringify(variavel_value, null, 2)}</pre>",
+      " "
+    ],
+    "description": "<PRE>Em React CDN</PRE>"
+  },
   "script-js-XMLHttpRequest": {
     "prefix": "script-js-XMLHttpRequest",
     "body": [
@@ -22,7 +164,6 @@
     ],
     "description": "XMLHttpRequest()"
   },
-
   "script-js-open-GET-POST": {
     "prefix": "script-js-open-GET-POST",
     "body": [
@@ -32,13 +173,13 @@
     ],
     "description": "Modelo"
   },
-
   "script-refresh": {
     "prefix": "script-refresh",
-    "body": ["onClick=\"window.location.reload()\""],
+    "body": [
+      "onClick=\"window.location.reload()\""
+    ],
     "description": "Modelo"
   },
-
   "script-cep-mask": {
     "prefix": "script-cep-mask",
     "body": [
@@ -58,7 +199,6 @@
     ],
     "description": "Modelo"
   },
-
   "script-ajax-table": {
     "prefix": "ajax-table",
     "body": [
@@ -99,7 +239,6 @@
     ],
     "description": "Exemplo de Ajax Recebendo API"
   }
-
   // "script-modelo": {
   // 	"prefix": "script-modelo",
   // 	"body": [

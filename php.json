@@ -12,6 +12,7 @@
     // 	],
     // 	"description": "Log output to console"
     // }
+    
     "c4-app-Config-Commands.php": {
         "prefix": "c4-estrutura",
         "body": [
@@ -1392,7 +1393,7 @@
             "   // $$this->message = new SystemMessageController();",
             "",
             "    try {",
-            "        $$this->delete();", 
+            "        $$this->delete();",
             "    } catch (\\Throwable $$th) {",
             "        if (DEBUG_MY_PRINT) {",
             "            // myPrint($$th->getMessage(), 'src/app/Models/.php');",
