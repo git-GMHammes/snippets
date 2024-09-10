@@ -149,8 +149,13 @@
     "prefix": "cdn-react-pre",
     "body": [
       " ",
-      "{variavel_lista.map((variavel_value, index)",
-      "<pre>{JSON.stringify(variavel_value, null, 2)}</pre>",
+      "<div>",
+      "    {profissionais.map((variavel_value, index) => (",
+      "    <div key={index}>",
+      "        <pre>{JSON.stringify(variavel_value, null, 2)}</pre>",
+      "    </div>",
+      "    ))}",
+      "</div>",
       " "
     ],
     "description": "<PRE>Em React CDN</PRE>"
