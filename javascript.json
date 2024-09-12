@@ -12,6 +12,35 @@
   // 	],
   // 	"description": "Log output to console"
   // }
+  "react-React.useEffect": {
+    "prefix": "react-html-funcao-post",
+    "body": [
+      " ",
+      "// React.useEffect",
+      "React.useEffect(() => {",
+      "    console.log('React.useEffect - Carregar Dados Iniciais');",
+      "",
+      "    // Função para carregar todos os dados necessários",
+      "    const loadData = async () => {",
+      "        console.log('loadData iniciando...');",
+      "",
+      "        try {",
+      "            // Chama as funções de fetch para carregar os dados",
+      "            await fetchObjeto1();",
+      "            await fetchObjeto2();",
+      "        } catch (error) {",
+      "            console.error('Erro ao carregar dados:', error);",
+      "        } finally {",
+      "            setIsLoading(false);",
+      "        }",
+      "    };",
+      "",
+      "    loadData();",
+      "}, []);",
+      " "
+    ],
+    "description": "react-html-funcao-post"
+  },
   "react-html-funcao-post": {
     "prefix": "react-html-funcao-post",
     "body": [
