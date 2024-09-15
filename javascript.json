@@ -145,15 +145,15 @@
     ],
     "description": "react-html-capturar-digita-form"
   },
-  "cdn-react-pre": {
-    "prefix": "cdn-react-pre",
+  "react-pre-cdn": {
+    "prefix": "react-pre-cdn",
     "body": [
       " ",
       "{variavel_lista.map((variavel_value, index)",
       "<pre>{JSON.stringify(variavel_value, null, 2)}</pre>",
       " "
     ],
-    "description": "<PRE>Em React CDN</PRE>"
+    "description": "react-pre-cdn"
   },
   "script-js-XMLHttpRequest": {
     "prefix": "script-js-XMLHttpRequest",
