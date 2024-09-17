@@ -12,8 +12,17 @@
   // 	],
   // 	"description": "Log output to console"
   // }
+  "react-comentario": {
+    "prefix": "react-comentario",
+    "body": [
+      " ",
+      "{/* */}",
+      " "
+    ],
+    "description": "react-comentario"
+  },
   "react-React.useEffect": {
-    "prefix": "react-html-funcao-post",
+    "prefix": "react-React.useEffect",
     "body": [
       " ",
       "// React.useEffect",
@@ -39,7 +48,7 @@
       "}, []);",
       " "
     ],
-    "description": "react-html-funcao-post"
+    "description": "react-React.useEffect"
   },
   "react-html-funcao-post": {
     "prefix": "react-html-funcao-post",
@@ -179,7 +188,7 @@
     "body": [
       " ",
       "<div>",
-      "    {profissionais.map((variavel_value, index) => (",
+      "    {objeto.map((variavel_value, index) => (",
       "    <div key={index}>",
       "        <pre>{JSON.stringify(variavel_value, null, 2)}</pre>",
       "    </div>",
