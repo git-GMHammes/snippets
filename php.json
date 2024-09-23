@@ -481,7 +481,7 @@
             "",
             "use Exception;",
             "",
-            "class AdolescenteEndpointController extends ResourceController",
+            "class ObjetoEndpointController extends ResourceController",
             "{",
             "    use ResponseTrait;",
             "    private $$template = 'project/folder/templates/main';",
