@@ -969,7 +969,7 @@
       " ",
       "    const handleOpenModal = (parameter) => {",
       "        console.log(\"handleOpenModal:\", parameter);",
-      "        setFormData(prontuario);",
+      "        setFormData(parameter);",
       "        // Exemplo",
       "        // {apiUrlList.map((select_value, index) => (...",
       "        // <button type=\"button\" className=\"btn btn-outline-primary\" data-bs-toggle=\"modal\" data-bs-target={`#staticBackdropProntuario$${index}`} onClick={() => handleOpenModal(select_value)}>",
