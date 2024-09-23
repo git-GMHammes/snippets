@@ -12,6 +12,824 @@
   // 	],
   // 	"description": "Log output to console"
   // }
+  "react-icon-vv": {
+    "prefix": "react-icon-vv",
+    "body": [
+      "",
+    ],
+    "description": "react-icon-vv"
+  },
+  "react-icon-Lixeira": {
+    "prefix": "react-icon-Lixeira",
+    "body": [
+      "<i class=\"bi bi-trash3-fill\"></i>",
+      "<i class=\"bi bi-trash3\"></i>",
+      "<i class=\"bi bi-trash-fill\"></i>",
+      "<i class=\"bi bi-trash\"></i>",
+      "",
+    ],
+    "description": "react-icon-Lixeira"
+  },
+  "react-icon-Rede-Social": {
+    "prefix": "react-icon-Rede-Social",
+    "body": [
+      "<i class=\"bi bi-messenger\"></i>",
+      "<i class=\"bi bi-pinterest\"></i>",
+      "<i class=\"bi bi-instagram\"></i>",
+      "<i class=\"bi bi-facebook\"></i>",
+      "<i class=\"bi bi-snapchat\"></i>",
+      "<i class=\"bi bi-snapchat\"></i>",
+      "<i class=\"bi bi-twitter\"></i>",
+      "<i class=\"bi bi-twitter-x\"></i>",
+      "<i class=\"bi bi-twitch\"></i>",
+      "<i class=\"bi bi-tiktok\"></i>",
+      "<i class=\"bi bi-vimeo\"></i>",
+      "<i class=\"bi bi-wechat\"></i>",
+      "<i class=\"bi bi-whatsapp\"></i>",
+      "<i class=\"bi bi-Rede-Social\"></i>",
+    ],
+    "description": "react-icon-Rede-Social"
+  },
+  "react-icon-Telefone": {
+    "prefix": "react-icon-Telefone",
+    "body": [
+      "<i class=\"bi bi-phone-flip\"></i>",
+      "<i class=\"bi bi-phone\"></i>",
+      "<i class=\"bi bi-phone-fill\"></i>",
+      "<i class=\"bi bi-phone-vibrate\"></i>",
+      "<i class=\"bi bi-phone-vibrate-fill\"></i>",
+      "<i class=\"bi bi-telephone-x-fill\"></i>",
+      "<i class=\"bi bi-telephone-x\"></i>",
+      "<i class=\"bi bi-telephone-plus-fill\"></i>",
+      "<i class=\"bi bi-telephone-plus\"></i>",
+      "<i class=\"bi bi-telephone-outbound-fill\"></i>",
+      "<i class=\"bi bi-telephone-outbound\"></i>",
+      "<i class=\"bi bi-telephone-minus-fill\"></i>",
+      "<i class=\"bi bi-telephone-minus\"></i>",
+      "<i class=\"bi bi-telephone-inbound-fill\"></i>",
+      "<i class=\"bi bi-telephone-inbound\"></i>",
+      "<i class=\"bi bi-telephone-forward-fill\"></i>",
+      "<i class=\"bi bi-telephone-forward\"></i>",
+      "<i class=\"bi bi-telephone-fill\"></i>",
+      "<i class=\"bi bi-telephone\"></i>",
+      "",
+    ],
+    "description": "react-icon-Telefone"
+  },
+  "react-icon-Pessoa-Usuario": {
+    "prefix": "react-icon-Pessoa-Usuario",
+    "body": [
+      "<i class=\"bi bi-person-vcard\"></i>",
+      "<i class=\"bi bi-person-vcard-fill\"></i>",
+      "<i class=\"bi bi-person-video\"></i>",
+      "<i class=\"bi bi-person-video2\"></i>",
+      "<i class=\"bi bi-person-video3\"></i>",
+      "<i class=\"bi bi-person-workspace\"></i>",
+      "<i class=\"bi bi-person-wheelchair\"></i>",
+      "<i class=\"bi bi-person-walking\"></i>",
+      "<i class=\"bi bi-person-square\"></i>",
+      "<i class=\"bi bi-person-standing-dress\"></i>",
+      "<i class=\"bi bi-person-standing\"></i>",
+      "<i class=\"bi bi-person-plus-fill\"></i>",
+      "<i class=\"bi bi-person-raised-hand\"></i>",
+      "<i class=\"bi bi-person-gear\"></i>",
+      "<i class=\"bi bi-person-fill-slash\"></i>",
+      "<i class=\"bi bi-person-fill-gear\"></i>",
+      "<i class=\"bi bi-person-fill\"></i>",
+      "<i class=\"bi bi-person-bounding-box\"></i>",
+      "<i class=\"bi bi-people\"></i>",
+      "<i class=\"bi bi-person-circle\"></i>",
+      "<i class=\"bi bi-person\"></i>",
+      "",
+    ],
+    "description": "react-icon-Pessoa-Usuario"
+  },
+  "react-icon-Chave-Password": {
+    "prefix": "react-icon-Chave-Password",
+    "body": [
+      "<i class=\"bi bi-key-fill\"></i>",
+      "<i class=\"bi bi-key\"></i>",
+      "",
+    ],
+    "description": "react-icon-Chave-Password"
+  },
+  "react-icon-Imagem": {
+    "prefix": "react-icon-Imagem",
+    "body": [
+      "<i class=\"bi bi-images\"></i>",
+      "<i class=\"bi bi-image-fill\"></i>",
+      "<i class=\"bi bi-image\"></i>",
+      "",
+    ],
+    "description": "react-icon-Imagem"
+  },
+  "react-icon-Casa-Home": {
+    "prefix": "react-icon-Casa-Home",
+    "body": [
+      "<i class=\"bi bi-houses-fill\"></i>",
+      "<i class=\"bi bi-houses-fill\"></i>",
+      "<i class=\"bi bi-house-slash\"></i>",
+      "<i class=\"bi bi-house-lock\"></i>",
+      "<i class=\"bi bi-house-heart-fill\"></i>",
+      "<i class=\"bi bi-house-heart\"></i>",
+      "<i class=\"bi bi-house-gear-fill\"></i>",
+      "<i class=\"bi bi-house-fill\"></i>",
+      "<i class=\"bi bi-house-door-fill\"></i>",
+      "<i class=\"bi bi-house-door\"></i>",
+      "<i class=\"bi bi-house\"></i>",
+      "",
+    ],
+    "description": "react-icon-Casa-Home"
+  },
+  "react-icon-Mao-Positivo-Negativo": {
+    "prefix": "react-icon-Mao-Positivo-Negativo",
+    "body": [
+      "<i class=\"bi bi-hand-thumbs-up\"></i>",
+      "<i class=\"bi bi-hand-thumbs-down-fill\"></i>",
+      "<i class=\"bi bi-hand-thumbs-down\"></i>",
+      "<i class=\"bi bi-hand-index-thumb-fill\"></i>",
+      "<i class=\"bi bi-hand-index-thumb\"></i>",
+      "<i class=\"bi bi-hand-index\"></i>",
+      "",
+    ],
+    "description": "react-icon-Mao-Positivo-Negativo"
+  },
+  "react-icon-Grid-Tabela": {
+    "prefix": "react-icon-Grid-Tabela",
+    "body": [
+      "<i class=\"bi bi-table\"></i>",
+      "<i class=\"bi bi-grid-3x3\"></i>",
+      "<i class=\"bi bi-grid-3x2\"></i>",
+      "<i class=\"bi bi-grid\"></i>",
+      "",
+    ],
+    "description": "react-icon-Grid-Tabela"
+  },
+  "react-icon-Google-Local-Endereco": {
+    "prefix": "react-icon-Google-Local-Endereco",
+    "body": [
+      "<i class=\"bi bi-pin-map\"></i>",
+      "<i class=\"bi bi-pin-map-fill\"></i>",
+      "<i class=\"bi bi-geo-alt-fill\"></i>",
+      "<i class=\"bi bi-geo-alt\"></i>",
+      "<i class=\"bi bi-geo\"></i>",
+      "",
+    ],
+    "description": "react-icon-Google-Local-Endereco"
+  },
+  "react-icon-Smile-Emoji-Carinha": {
+    "prefix": "react-icon-Smile-Emoji-Carinha",
+    "body": [
+      "<i class=\"bi bi-emoji-frown-fill\"></i>",
+      "<i class=\"bi bi-emoji-frown\"></i>",
+      "<i class=\"bi bi-emoji-expressionless-fill\"></i>",
+      "<i class=\"bi bi-emoji-expressionless\"></i>",
+      "<i class=\"bi bi-emoji-heart-eyes\"></i>",
+      "<i class=\"bi bi-emoji-smile\"></i>",
+      "",
+    ],
+    "description": "react-icon-Smile-Emoji-Carinha"
+  },
+  "react-icon-E-mail": {
+    "prefix": "react-icon-E-mail",
+    "body": [
+      "<i class=\"bi bi-envelope-slash-fill\"></i>",
+      "<i class=\"bi bi-envelope-slash\"></i>",
+      "<i class=\"bi bi-envelope-paper-heart-fill\"></i>",
+      "<i class=\"bi bi-envelope-paper-heart\"></i>",
+      "<i class=\"bi bi-envelope-paper-fill\"></i>",
+      "<i class=\"bi bi-envelope-paper\"></i>",
+      "<i class=\"bi bi-envelope-open-heart-fill\"></i>",
+      "<i class=\"bi bi-envelope-open-heart\"></i>",
+      "<i class=\"bi bi-envelope-open\"></i>",
+      "<i class=\"bi bi-envelope-heart-fill\"></i>",
+      "<i class=\"bi bi-envelope-heart\"></i>",
+      "<i class=\"bi bi-envelope-heart\"></i>",
+      "<i class=\"bi bi-envelope-check\"></i>",
+      "<i class=\"bi bi-envelope-at-fill\"></i>",
+      "<i class=\"bi bi-envelope-at\"></i>",
+      "<i class=\"bi bi-envelope-arrow-up-fill\"></i>",
+      "<i class=\"bi bi-envelope-arrow-up\"></i>",
+      "<i class=\"bi bi-envelope-arrow-down-fill\"></i>",
+      "<i class=\"bi bi-envelope\"></i>",
+      "",
+    ],
+    "description": "react-icon-E-mail"
+  },
+  "react-icon-Porta-Saida": {
+    "prefix": "react-icon-Porta-Saida",
+    "body": [
+      "<i class=\"bi bi-door-open-fill\"></i>",
+      "<i class=\"bi bi-door-open\"></i>",
+      "<i class=\"bi bi-door-closed\"></i>",
+      "",
+    ],
+    "description": "react-icon-Porta-Saida"
+  },
+  "react-icon-Game-Jogo": {
+    "prefix": "react-icon-Game-jpgp",
+    "body": [
+      "<i class=\"bi bi-joystick\"></i>",
+      "<i class=\"bi bi-dpad\"></i>",
+      "<i class=\"bi bi-dpad-fill\"></i>",
+      "<i class=\"bi bi-dice-1\"></i>",
+      "<i class=\"bi bi-dice-1-fill\"></i>",
+      "<i class=\"bi bi-dice-2\"></i>",
+      "<i class=\"bi bi-dice-2-fill\"></i>",
+      "<i class=\"bi bi-dice-3\"></i>",
+      "<i class=\"bi bi-dice-3-fill\"></i>",
+      "<i class=\"bi bi-dice-3-fill\"></i>",
+      "<i class=\"bi bi-dice-4\"></i>",
+      "<i class=\"bi bi-dice-4-fill\"></i>",
+      "<i class=\"bi bi-dice-5\"></i>",
+      "<i class=\"bi bi-dice-5-fill\"></i>",
+      "<i class=\"bi bi-dice-5-fill\"></i>",
+      "<i class=\"bi bi-dice-6-fill\"></i>",
+      "<i class=\"bi bi-discord\"></i>",
+      "<i class=\"bi bi-controller\"></i>",
+      "",
+    ],
+    "description": "react-icon-Game-jpgp"
+  },
+  "react-icon-Geometria-Circulo-Meio-Proibido": {
+    "prefix": "react-icon-Geometria-Circulo-Meio-Proibido",
+    "body": [
+      "<i class=\"bi bi-dash-circle-fill\"></i>",
+      "<i class=\"bi bi-dash-circle-dotted\"></i>",
+      "<i class=\"bi bi-dash-circle\"></i>",
+      "<i class=\"bi bi-circle\"></i>",
+      "<i class=\"bi bi-circle-fill\"></i>",
+      "<i class=\"bi bi-circle-half\"></i>",
+      "<i class=\"bi bi-slash-circle\"></i>",
+      "",
+    ],
+    "description": "react-icon-Geometria-Circulo-Meio-Proibido"
+  },
+  "react-icon-Geometria-Balao": {
+    "prefix": "react-icon-Geometria-Balao",
+    "body": [
+      "<i class=\"bi bi-diamond\"></i>",
+      "<i class=\"bi bi-diamond-half\"></i>",
+      "",
+    ],
+    "description": "react-icon-Geometria-Balao"
+  },
+  "react-icon-Computador-Impressora": {
+    "prefix": "react-icon-Computador-Impressora",
+    "body": [
+      "<i class=\"bi bi-printer\"></i>",
+      "<i class=\"bi bi-printer-fill\"></i>",
+      "<i class=\"bi bi-display\"></i>",
+      "<i class=\"bi bi-displayport\"></i>",
+      "<i class=\"bi bi-displayport-fill\"></i>",
+      "<i class=\"bi bi-device-hdd\"></i>",
+      "<i class=\"bi bi-device-hdd-fill\"></i>",
+      "<i class=\"bi bi-cpu\"></i>",
+      "",
+    ],
+    "description": "react-icon-Computador-Impressora"
+  },
+  "react-icon-Banco-Dados": {
+    "prefix": "react-icon-Banco-Dados",
+    "body": [
+      "<i class=\"bi bi-database-x\"></i>",
+      "<i class=\"bi bi-database-slash\"></i>",
+      "<i class=\"bi bi-database-lock\"></i>",
+      "<i class=\"bi bi-database-fill-gear\"></i>",
+      "<i class=\"bi bi-database-exclamation\"></i>",
+      "<i class=\"bi bi-database-down\"></i>",
+      "<i class=\"bi bi-database-dash\"></i>",
+      "<i class=\"bi bi-database-check\"></i>",
+      "<i class=\"bi bi-database-add\"></i>",
+      "<i class=\"bi bi-database\"></i>",
+      "",
+    ],
+    "description": "react-icon-Banco-Dados"
+  },
+  "react-icon-Dinheiro": {
+    "prefix": "react-icon-Dinheiro",
+    "body": [
+      "<i class=\"bi bi-currency-dollar\"></i>",
+      "",
+    ],
+    "description": "react-icon-Dinheiro"
+  },
+  "react-icon-Bebida": {
+    "prefix": "react-icon-Bebida",
+    "body": [
+      "<i class=\"bi bi-cup-straw\"></i>",
+      "<i class=\"bi bi-cup-hot-fill\"></i>",
+      "<i class=\"bi bi-cup-hot\"></i>",
+      "<i class=\"bi bi-cup-fill\"></i>",
+      "<i class=\"bi bi-cup\"></i>",
+      "",
+    ],
+    "description": "react-icon-Bebida"
+  },
+  "react-icon-Bebida-Chicara-Copo": {
+    "prefix": "react-icon-Bebida-Chicara-Copo",
+    "body": [
+      "",
+    ],
+    "description": "react-icon-Bebida-Chicara-Copo"
+  },
+  "react-icon-Cartao-Credito": {
+    "prefix": "react-icon-Cartao-Credito",
+    "body": [
+      "<i class=\"bi bi-credit-card\"></i>",
+      "<i class=\"bi bi-credit-card-2-back\"></i>",
+      "<i class=\"bi bi-credit-card-2-back-fill\"></i>",
+      "",
+    ],
+    "description": "react-icon-Cartao-Credito"
+  },
+  "react-icon-Cone": {
+    "prefix": "react-icon-Cone",
+    "body": [
+      "<i class=\"bi bi-cone-striped\"></i>",
+      "",
+    ],
+    "description": "react-icon-Cone"
+  },
+  "react-icon-Codigo": {
+    "prefix": "react-icon-Codigo",
+    "body": [
+      "<i class=\"bi bi-code-square\"></i>",
+      "<i class=\"bi bi-code-slash\"></i>",
+      "<i class=\"bi bi-code\"></i>",
+      "",
+    ],
+    "description": "react-icon-Codigo"
+  },
+  "react-icon-Nuvem": {
+    "prefix": "react-icon-Nuvem",
+    "body": [
+      "<i class=\"bi bi-cloudy-fill\"></i>",
+      "<i class=\"bi bi-cloudy\"></i>",
+      "<i class=\"bi bi-clouds-fill\"></i>",
+      "<i class=\"bi bi-clouds\"></i>",
+      "<i class=\"bi bi-cloud-upload\"></i>",
+      "<i class=\"bi bi-cloud-sun-fill\"></i>",
+      "<i class=\"bi bi-cloud-sun\"></i>",
+      "<i class=\"bi bi-cloud-snow-fill\"></i>",
+      "<i class=\"bi bi-cloud-snow\"></i>",
+      "<i class=\"bi bi-cloud-sleet-fill\"></i>",
+      "<i class=\"bi bi-cloud-sleet\"></i>",
+      "<i class=\"bi bi-cloud-slash\"></i>",
+      "<i class=\"bi bi-cloud-rain-heavy-fill\"></i>",
+      "<i class=\"bi bi-cloud-rain-heavy\"></i>",
+      "<i class=\"bi bi-cloud-rain-fill\"></i>",
+      "<i class=\"bi bi-cloud-rain\"></i>",
+      "<i class=\"bi bi-cloud-plus-fill\"></i>",
+      "<i class=\"bi bi-cloud-plus\"></i>",
+      "<i class=\"bi bi-cloud-moon-fill\"></i>",
+      "<i class=\"bi bi-cloud-moon\"></i>",
+      "<i class=\"bi bi-cloud-minus-fill\"></i>",
+      "<i class=\"bi bi-cloud-minus\"></i>",
+      "<i class=\"bi bi-cloud-lightning-rain-fill\"></i>",
+      "<i class=\"bi bi-cloud-lightning-rain\"></i>",
+      "<i class=\"bi bi-cloud-lightning-fill\"></i>",
+      "<i class=\"bi bi-cloud-lightning\"></i>",
+      "<i class=\"bi bi-cloud-haze2\"></i>",
+      "<i class=\"bi bi-cloud-haze\"></i>",
+      "<i class=\"bi bi-cloud-hail-fill\"></i>",
+      "<i class=\"bi bi-cloud-hail\"></i>",
+      "<i class=\"bi bi-cloud-fog2-fill\"></i>",
+      "<i class=\"bi bi-cloud-fog2\"></i>",
+      "<i class=\"bi bi-cloud-fill\"></i>",
+      "<i class=\"bi bi-cloud-drizzle-fill\"></i>",
+      "<i class=\"bi bi-cloud-drizzle\"></i>",
+      "<i class=\"bi bi-cloud-download\"></i>",
+      "<i class=\"bi bi-cloud-check-fill\"></i>",
+      "<i class=\"bi bi-cloud-check\"></i>",
+      "<i class=\"bi bi-cloud-arrow-up\"></i>",
+      "<i class=\"bi bi-cloud-arrow-down-fill\"></i>",
+      "<i class=\"bi bi-cloud-arrow-down\"></i>",
+      "<i class=\"bi bi-cloud\"></i>",
+      "",
+    ],
+    "description": "react-icon-Nuvem"
+  },
+  "react-icon-Relogio": {
+    "prefix": "react-icon-Relogio",
+    "body": [
+      "<i class=\"bi bi-clock\"></i>",
+      "<i class=\"bi bi-clock-history\"></i>",
+      "",
+    ],
+    "description": "react-icon-Relogio"
+  },
+  "react-icon-Prancheta-Colar-Grafico": {
+    "prefix": "react-icon-Prancheta-Colar-Grafico",
+    "body": [
+      "<i class=\"bi bi-graph-up-arrow\"></i>",
+      "<i class=\"bi bi-graph-up\"></i>",
+      "<i class=\"bi bi-graph-down-arrow\"></i>",
+      "<i class=\"bi bi-graph-down\"></i>",
+      "<i class=\"bi bi-clipboard2-x\"></i>",
+      "<i class=\"bi bi-clipboard2-pulse\"></i>",
+      "<i class=\"bi bi-clipboard2-plus\"></i>",
+      "<i class=\"bi bi-clipboard2-minus\"></i>",
+      "<i class=\"bi bi-clipboard2-heart\"></i>",
+      "<i class=\"bi bi-clipboard2-data-fill\"></i>",
+      "<i class=\"bi bi-clipboard2-data\"></i>",
+      "<i class=\"bi bi-clipboard2-check\"></i>",
+      "<i class=\"bi bi-clipboard2\"></i>",
+      "<i class=\"bi bi-clipboard-x\"></i>",
+      "<i class=\"bi bi-clipboard-pulse\"></i>",
+      "<i class=\"bi bi-clipboard-plus\"></i>",
+      "<i class=\"bi bi-clipboard-minus\"></i>",
+      "<i class=\"bi bi-clipboard-heart\"></i>",
+      "<i class=\"bi bi-clipboard-data\"></i>",
+      "<i class=\"bi bi-clipboard-check\"></i>",
+      "<i class=\"bi bi-clipboard\"></i>",
+      "",
+    ],
+    "description": "react-icon-Prancheta-Colar-Grafico"
+  },
+  "react-icon-Mensagem": {
+    "prefix": "react-icon-Mensagem",
+    "body": [
+      "<i class=\"bi bi-chat-text\"></i>",
+      "<i class=\"bi bi-chat-square-text\"></i>",
+      "<i class=\"bi bi-chat-square-quote\"></i>",
+      "<i class=\"bi bi-chat-square-heart\"></i>",
+      "<i class=\"bi bi-chat-square-dots\"></i>",
+      "<i class=\"bi bi-chat-right-text\"></i>",
+      "<i class=\"bi bi-chat-right-quote\"></i>",
+      "<i class=\"bi bi-chat-right-heart\"></i>",
+      "<i class=\"bi bi-chat-right-dots\"></i>",
+      "<i class=\"bi bi-chat-right\"></i>",
+      "<i class=\"bi bi-chat-quote\"></i>",
+      "<i class=\"bi bi-chat-left-text\"></i>",
+      "<i class=\"bi bi-chat-left-quote\"></i>",
+      "<i class=\"bi bi-chat-left-heart\"></i>",
+      "<i class=\"bi bi-chat-left-dots\"></i>",
+      "<i class=\"bi bi-chat-left\"></i>",
+      "<i class=\"bi bi-chat-heart\"></i>",
+      "<i class=\"bi bi-chat-dots\"></i>",
+      "<i class=\"bi bi-chat\"></i>",
+      "",
+    ],
+    "description": "react-icon-Mensagem"
+  },
+  "react-icon-Carrinho": {
+    "prefix": "react-icon-Carrinho",
+    "body": [
+      "<i class=\"bi bi-cart\"></i>",
+      "<i class=\"bi bi-cart-check\"></i>",
+      "<i class=\"bi bi-cart-dash\"></i>",
+      "<i class=\"bi bi-cart-plus\"></i>",
+      "<i class=\"bi bi-cart-x\"></i>",
+      "<i class=\"bi bi-cart2\"></i>",
+      "<i class=\"bi bi-cart3\"></i>",
+      "<i class=\"bi bi-cart4\"></i>",
+      "",
+    ],
+    "description": "react-icon-Carrinho"
+  },
+  "react-icon-Text": {
+    "prefix": "react-icon-Text",
+    "body": [
+      "<i class=\"bi bi-card-text\"></i>",
+      "",
+    ],
+    "description": "react-icon-Text"
+  },
+  "react-icon-Card-List-Check": {
+    "prefix": "react-icon-Card-List-Check",
+    "body": [
+      "<i class=\"bi bi-card-checklist\"></i>",
+      "<i class=\"bi bi-card-list\"></i>",
+      "",
+    ],
+    "description": "react-icon-Card-List-Check"
+  },
+  "react-icon-Carro": {
+    "prefix": "react-icon-Carro",
+    "body": [
+      "<i class=\"bi bi-car-front\"></i>",
+      "<i class=\"bi bi-car-front-fill\"></i>",
+      "",
+    ],
+    "description": "react-icon-Carro"
+  },
+  "react-icon-Camera-Video": {
+    "prefix": "react-icon-Camera-Video",
+    "body": [
+      "<i class=\"bi bi-camera-video-off\"></i>",
+      "<i class=\"bi bi-camera-video\"></i>",
+      "<i class=\"bi bi-camera-reels\"></i>",
+      "",
+    ],
+    "description": "react-icon-Camera-Video"
+  },
+  "react-icon-Camera-Foto": {
+    "prefix": "react-icon-Camera-Foto",
+    "body": [
+      "<i class=\"bi bi-camera\"></i>",
+      "<i class=\"bi bi-camera2\"></i>",
+      "",
+    ],
+    "description": "react-icon-Camera-Foto"
+  },
+  "react-icon-Calendario": {
+    "prefix": "react-icon-Calendario",
+    "body": [
+      "<i class=\"bi bi-calendar-check\"></i>",
+      "<i class=\"bi bi-calendar-date\"></i>",
+      "<i class=\"bi bi-calendar-day\"></i>",
+      "<i class=\"bi bi-calendar-heart\"></i>",
+      "<i class=\"bi bi-calendar-minus\"></i>",
+      "<i class=\"bi bi-calendar-month\"></i>",
+      "<i class=\"bi bi-calendar-plus\"></i>",
+      "<i class=\"bi bi-calendar-x\"></i>",
+      "<i class=\"bi bi-calendar2-month\"></i>",
+      "<i class=\"bi bi-calendar3\"></i>",
+      "",
+    ],
+    "description": "react-icon-Calendario"
+  },
+  "react-icon-Calculadora": {
+    "prefix": "react-icon-Calculadora",
+    "body": [
+      "<i class=\"bi bi-calculator\"></i>",
+      "<i class=\"bi bi-calculator-fill\"></i>",
+      "",
+    ],
+    "description": "react-icon-Calculadora"
+  },
+  "react-icon-Bolo": {
+    "prefix": "react-icon-Bolo",
+    "body": [
+      "<i class=\"bi bi-cake\"></i>",
+      "<i class=\"bi bi-cake-fill\"></i>",
+      "<i class=\"bi bi-cake2\"></i>",
+      "<i class=\"bi bi-cake2-fill\"></i>",
+      "",
+    ],
+    "description": "react-icon-Bolo"
+  },
+  "react-icon-Onibus": {
+    "prefix": "react-icon-Onibus",
+    "body": [
+      "<i class=\"bi bi-bus-front\"></i>",
+      "<i class=\"bi bi-bus-front-fill\"></i>",
+      "",
+    ],
+    "description": "react-icon-Onibus"
+  },
+  "react-icon-Bug": {
+    "prefix": "react-icon-Bug",
+    "body": [
+      "<i class=\"bi bi-bug\"></i>",
+    ],
+    "description": "react-icon-Bug"
+  },
+  "react-icon-Navegadores": {
+    "prefix": "react-icon-Navegadores",
+    "body": [
+      "<i class=\"bi bi-browser-chrome\"></i>",
+      "<i class=\"bi bi-browser-edge\"></i>",
+      "<i class=\"bi bi-browser-firefox\"></i>",
+      "<i class=\"bi bi-browser-safari\"></i>",
+      "",
+    ],
+    "description": "react-icon-Navegadores"
+  },
+  "react-icon-Sol-Ing-Iang": {
+    "prefix": "react-icon-Sol-Luz-Ing-Iang",
+    "body": [
+      "<i class=\"bi bi-brightness-alt-high-fill\"></i>",
+      "<i class=\"bi bi-brightness-high\"></i>",
+      "<i class=\"bi bi-brightness-low-fill\"></i>",
+      "<i class=\"bi bi-brilliance\"></i>",
+      "",
+    ],
+    "description": "react-icon-Sol-Ing-Iang"
+  },
+  "react-icon-Cubo": {
+    "prefix": "react-icon-Cubo",
+    "body": [
+      "<i class=\"bi bi-box\"></i>",
+    ],
+    "description": "react-icon-Cubo"
+  },
+  "react-icon-Radio-Som": {
+    "prefix": "react-icon-Radio-Som",
+    "body": [
+      "<i class=\"bi bi-boombox\"></i>",
+    ],
+    "description": "react-icon-Radio-Som"
+  },
+  "react-icon-Favorito": {
+    "prefix": "react-icon-Favorito",
+    "body": [
+      "<i class=\"bi bi-bookmark-heart\"></i>",
+      "<i class=\"bi bi-bookmark-star\"></i>",
+      "",
+    ],
+    "description": "react-icon-Favorito"
+  },
+  "react-icon-Livro-Meio": {
+    "prefix": "react-icon-Livro-Meio",
+    "body": [
+      "<i class=\"bi bi-book-half\"></i>",
+    ],
+    "description": "react-icon-Livro-Meio"
+  },
+  "react-icon-Bluetootc": {
+    "prefix": "react-icon-Bluetootc",
+    "body": [
+      "<i class=\"bi bi-bluetooth\"></i>",
+    ],
+    "description": "react-icon-Bluetootc"
+  },
+  "react-icon-Busca-Binoculo": {
+    "prefix": "react-icon-Busca-Binoculo",
+    "body": [
+      "<i class=\"bi bi-search\"></i>",
+      "<i class=\"bi bi-binoculars\"></i>",
+    ],
+    "description": "react-icon-Busca-Binoculo"
+  },
+  "react-icon-Microsoft-Bing": {
+    "prefix": "react-icon-Microsoft-Bing",
+    "body": [
+      "<i class=\"bi bi-microsoft\"></i>",
+      "<i class=\"bi bi-bing\"></i>",
+    ],
+    "description": "react-icon-Microsoft-Bing"
+  },
+  "react-icon-Sino": {
+    "prefix": "react-icon-Sino",
+    "body": [
+      "<i class=\"bi bi-bell\"></i>",
+    ],
+    "description": "react-icon-Sino"
+  },
+  "react-icon-Bateria": {
+    "prefix": "react-icon-Bateria",
+    "body": [
+      "<i class=\"bi bi-battery-half\"></i>",
+    ],
+    "description": "react-icon-Bateria"
+  },
+  "react-icon-Graficos": {
+    "prefix": "react-icon-Graficos",
+    "body": [
+      "<i class=\"bi bi-bar-chart-steps\"></i>",
+      "",
+    ],
+    "description": "react-icon-Graficos"
+  },
+  "react-icon-Grafico-Sinal-Celular": {
+    "prefix": "react-icon-Grafico-Sinal-Celular",
+    "body": [
+      "<i class=\"bi bi-reception-4\"></i>",
+      "<i class=\"bi bi-reception-3\"></i>",
+      "<i class=\"bi bi-reception-2\"></i>",
+      "<i class=\"bi bi-reception-1\"></i>",
+      "<i class=\"bi bi-reception-0\"></i>",
+      "<i class=\"bi bi-bar-chart\"></i>",
+    ],
+    "description": "react-icon-Grafico-Sinal-Celular"
+  },
+  "react-icon-Banco": {
+    "prefix": "react-icon-Banco",
+    "body": [
+      "<i class=\"bi bi-bank\"></i>",
+    ],
+    "description": "react-icon-Banco"
+  },
+  "react-icon-Curativo-Bandaid": {
+    "prefix": "react-icon-Curativo-Bandaid",
+    "body": [
+      "<i class=\"bi bi-bandaid\"></i>",
+    ],
+    "description": "react-icon-Curativo-Bandaid"
+  },
+  "react-icon-Proibido": {
+    "prefix": "react-icon-Proibido",
+    "body": [
+      "<i class=\"bi bi-ban\"></i>",
+    ],
+    "description": "react-icon-Proibido"
+  },
+  "react-icon-Balao": {
+    "prefix": "react-icon-Balao",
+    "body": [
+      "<i class=\"bi bi-balloon\"></i>",
+    ],
+    "description": "react-icon-Balao"
+  },
+  "react-icon-Sacola": {
+    "prefix": "react-icon-Sacola",
+    "body": [
+      "<i class=\"bi bi-bag-check\"></i>",
+    ],
+    "description": "react-icon-Sacola"
+  },
+  "react-icon-Certificado": {
+    "prefix": "react-icon-Certificado",
+    "body": [
+      "<i class=\"bi bi-award-fill\"></i>",
+    ],
+    "description": "react-icon-Certificado"
+  },
+  "react-icon-Arroba": {
+    "prefix": "react-icon-Arroba",
+    "body": [
+      "<i class=\"bi bi-at\"></i>",
+    ],
+    "description": "react-icon-Arroba"
+  },
+  "react-icon-Asterisco": {
+    "prefix": "react-icon-Asterisco",
+    "body": [
+      "<i class=\"bi bi-asterisk\"></i>",
+    ],
+    "description": "react-icon-Asterisco"
+  },
+  "react-icon-Coracao-Flecha": {
+    "prefix": "react-icon-Coracao-Flecha",
+    "body": [
+      "<i class=\"bi bi-arrow-through-heart\"></i>",
+    ],
+    "description": "react-icon-Coracao-Flecha"
+  },
+  "react-icon-Atualizar-Repetir": {
+    "prefix": "react-icon-Atualizar-Repetir",
+    "body": [
+      "<i class=\"bi bi-repeat\"></i>",
+      "<i class=\"bi bi-repeat-1\"></i>",
+      "<i class=\"bi bi-arrow-repeat\"></i>",
+    ],
+    "description": "react-icon-Atualizar-Repetir"
+  },
+  "react-icon-Mac": {
+    "prefix": "react-icon-Mac",
+    "body": [
+      "<i class=\"bi bi-apple\"></i>",
+    ],
+    "description": "react-icon-Mac"
+  },
+  "react-icon-Android": {
+    "prefix": "react-icon-Android",
+    "body": [
+      "<i class=\"bi bi-android2\"></i>",
+    ],
+    "description": "react-icon-Android"
+  },
+  "react-icon-Amazon": {
+    "prefix": "react-icon-Amazon",
+    "body": [
+      "<i class=\"bi bi-amazon\"></i>",
+    ],
+    "description": "react-icon-Amazon"
+  },
+  "react-icon-Alex": {
+    "prefix": "react-icon-Alex",
+    "body": [
+      "<i class=\"bi bi-alexa\"></i>",
+    ],
+    "description": "react-icon-Alex"
+  },
+  "react-icon-Aviao": {
+    "prefix": "react-icon-Aviao",
+    "body": [
+      "<i class=\"bi bi-airplane\"></i>",
+    ],
+    "description": "react-icon-Aviao"
+  },
+  "react-icon-Calendario3": {
+    "prefix": "react-icon-Calendario3",
+    "body": [
+      "<i class=\"bi bi-calendar3\"></i>",
+    ],
+    "description": "react-icon-Calendario3"
+  },
+  "react-icon-Chave": {
+    "prefix": "react-icon-Chave",
+    "body": [
+      "<i class=\"bi bi-key\"></i>",
+    ],
+    "description": "react-icon-Chave"
+  },
+  "react- ": {
+    "prefix": "react- ",
+    "body": [
+      "&nbsp;",
+    ],
+    "description": "react- "
+  },
+  "react-icon-tab": {
+    "prefix": "react-icon-tab",
+    "body": [
+      "&emsp;",
+    ],
+    "description": "react-icon-tab"
+  },
   "react-comentario": {
     "prefix": "react-comentario",
     "body": [
