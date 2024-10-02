@@ -19,6 +19,16 @@
     ],
     "description": "react-icon-vv"
   },
+  "react-alinhamento-vertical": {
+    "prefix": "react-alinhamento-vertical",
+    "body": [
+      "#",
+      "<div className=\"d-flex justify-content-center align-items-center min-vh-100\">",
+      "</div>",
+      "#",
+    ],
+    "description": "react-alinhamento-vertical"
+  },
   "react-icon-painel-engrenagem": {
     "prefix": "react-icon-painel-engrenagem",
     "body": [
