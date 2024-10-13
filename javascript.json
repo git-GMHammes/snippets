@@ -29,6 +29,38 @@
     ],
     "description": "react-alinhamento-vertical"
   },
+  "react-icon-seta-esquerda-direita": {
+    "prefix": "react-icon-seta-esquerda-direita",
+    "body": [
+      "<i className=\"bi bi-arrow-bar-left\"></i>",
+      "<i className=\"bi bi-arrow-bar-right\"></i>",
+      "<i className=\"bi bi-arrow-left\"></i>",
+      "<i className=\"bi bi-arrow-right\"></i>",
+      "<i className=\"bi bi-arrow-left-short\"></i>",
+      "<i className=\"bi bi-arrow-right-short\"></i>",
+      "<i className=\"bi bi-box-arrow-in-left\"></i>",
+      "<i className=\"bi bi-box-arrow-in-right\"></i>",
+      "<i className=\"bi bi-box-arrow-left\"></i>",
+      "<i className=\"bi bi-box-arrow-right\"></i>",
+      "<i className=\"bi bi-caret-left\"></i>",
+      "<i className=\"bi bi-caret-right\"></i>",
+      "<i className=\"bi bi-caret-left-square\"></i>",
+      "<i className=\"bi bi-caret-right-square\"></i>",
+      "<i className=\"bi bi-chevron-bar-left\"></i>",
+      "<i className=\"bi bi-chevron-bar-right\"></i>",
+      "<i className=\"bi bi-chevron-compact-left\"></i>",
+      "<i className=\"bi bi-chevron-double-left\"></i>",
+      "<i className=\"bi bi-chevron-double-right\"></i>",
+      "<i className=\"bi bi-chevron-left\"></i>",
+      "<i className=\"bi bi-chevron-right\"></i>",
+      "<i className=\"bi bi-rewind\"></i>",
+      "<i className=\"bi bi-fast-forward\"></i>",
+      "<i className=\"bi bi-fast-forward-btn\"></i>",
+      "<i className=\"bi bi-rewind-btn\"></i>",
+      "",
+    ],
+    "description": "react-icon-seta-esquerda-direita"
+  },
   "react-icon-painel-engrenagem": {
     "prefix": "react-icon-painel-engrenagem",
     "body": [
