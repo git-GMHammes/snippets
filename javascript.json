@@ -262,7 +262,7 @@
       "                const dataReturn = await response.json();",
       "                if (dataReturn.result && dataReturn.result.dbResponse && dataReturn.result.dbResponse.length > 0) {",
       "                    // console.log('Profissao: ', dataReturn);",
-      "                    setProfissoes(dataReturn.result.dbResponse);",
+      "                    setVariavelListaAPI(dataReturn.result.dbResponse);",
       "                }",
       "            } catch (error) {",
       "                console.error('Erro ao carregar Profissões: ' + error.message);",
