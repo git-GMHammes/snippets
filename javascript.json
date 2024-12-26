@@ -496,7 +496,7 @@
       "",
       "    };",
       "",
-      "    // const rootElement = document.querySelector('.app_cadastrar');",
+      "    // const rootElement = document.querySelector('.app_modelo');",
       "    // const root = ReactDOM.createRoot(rootElement);",
       "    // root.render(<AppModelo />);",
       "    ReactDOM.render(<AppModelo />, document.querySelector('.app_modelo'));",
