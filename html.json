@@ -327,6 +327,7 @@
 			"    ) => {",
 			"        // Variáveis recebidas do Backend",
 			"        const parametros = JSON.parse(document.querySelector('.app_exemple').getAttribute('data-result'));",
+			"        const [objeto, setObjeto] = React.useState([]);",
 			"        return (",
 			"            <div>",
 			"                Escrito",
