@@ -19,6 +19,24 @@
     ],
     "description": "react-Modelo"
   },
+  "react-is-loading": {
+    "prefix": "react-is-loading",
+    "body": [
+      "",
+      "    {(isLoading) ? (",
+      "        <div>",
+      "            <div>&nbsp;</div>",
+      "            <AppLoading parametros={{ tipoLoading: 'progress', carregando: true }} />",
+      "        </div>",
+      "    ) : (",
+      "        <div>",
+      "            ",
+      "        </div>",
+      "    )}",
+      "",
+    ],
+    "description": "react-is-loading"
+  },
   "react-handleFocus": {
     "prefix": "react-handleFocus",
     "body": [
@@ -108,14 +126,14 @@
       "// POST Padrão ",
       "const fetchPost = async (custonBaseURL = base_url, custonApiPostObjeto = api_get_objeto, customPage = getVar_page) => {",
       "    const url = custonBaseURL + custonApiPostObjeto + customPage;",
-      "    const data = setFormData;",
+      "    const SetData = setFormData;",
       "    try {",
       "        const response = await fetch(url, {",
       "            method: 'POST',",
       "            headers: {",
       "                'Content-Type': 'application/json',",
       "            },",
-      "            body: JSON.stringify(data),",
+      "            body: JSON.stringify(SetData),",
       "        });",
       "        const data = await response.json();",
       "        if (data.result && data.result.dbResponse && data.result.dbResponse.length > 0) {",
@@ -649,6 +667,10 @@
       "<i className=\"bi bi-fast-forward\"></i>",
       "<i className=\"bi bi-fast-forward-btn\"></i>",
       "<i className=\"bi bi-rewind-btn\"></i>",
+      "<i className=\"bi bi-chevron-compact-down\"></i>",
+      "<i className=\"bi bi-chevron-compact-up\"></i>",
+      "<i className=\"bi bi-chevron-down\"></i>",
+      "<i className=\"bi bi-chevron-up\"></i>",
       "",
     ],
     "description": "react-icon-seta-esquerda-direita"
