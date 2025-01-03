@@ -198,6 +198,7 @@
       "            setDataLoading(false);",
       "        }",
       "    } catch (error) {",
+      "        console.error('Erro ao enviar dados:', error);",
       "        setMessage({",
       "            show: true,",
       "            type: 'light',",
