@@ -320,11 +320,17 @@
 			" ",
 			"<div class=\"app_exemple\" data-result='<?php echo json_encode($$parametros_backend); ?>'></div>",
 			"<script type=\"text/babel\">",
+<<<<<<< Updated upstream
 			"    const AppExample = (",
 			"        {",
 			"            parametros = {},",
 			"            formData = {}, ",
 			"            setFormData = () => { }",
+=======
+			"    const AppExemple = (",
+			"        {",
+			"            parametros = {}",
+>>>>>>> Stashed changes
 			"        }",
 			"    ) => {",
 			"        // Variáveis recebidas do Backend",
@@ -376,7 +382,11 @@
 			"<div class=\"app_exemple\" data-result='<?php echo json_encode($$parametros_backend); ?>'></div>",
 			"",
 			"<script type=\"text/babel\">",
-			"    const AppExemple = () => {",
+			"    const AppExemple = (",
+			"        {",
+			"            parametros = {}",
+			"        }",
+			"    ) => {",
 			"        // Variáveis recebidas do Backend",
 			"        const parametros = JSON.parse(document.querySelector('.app_exemple').getAttribute('data-result'));",
 			"        // Prepara as Variáveis do REACT recebidas pelo BACKEND",
@@ -773,6 +783,29 @@
 		],
 		"description": "Primeiro"
 	},
+<<<<<<< Updated upstream
+=======
+	"on-react-babel": {
+		"prefix": "on-react-babel",
+		"body": [
+			"<script type=\"text/babel\">",
+			"class NomeDaClass extends React.Component {",
+			"    funcaoDaClasse() {",
+			"        // Sua lógica aqui",
+			"    }",
+			"    render() {",
+			"        return (",
+			"            <div>",
+			"                &emsp;",
+			"            </div>",
+			"        );",
+			"    }",
+			"}",
+			"</script>"
+		],
+		"description": "React + Babel + JSX"
+	},
+>>>>>>> Stashed changes
 	"on- ": {
 		"prefix": "on- ",
 		"body": [
