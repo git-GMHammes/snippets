@@ -33,6 +33,37 @@
     ],
     "description": "react-form-submitAllForms"
   },
+  "react-AppSelectMultipleCtr": {
+    "prefix": "react-AppSelectMultipleCtr",
+    "body": [
+      "",
+      "<AppSelectMultipleCtr",
+      "    parametros={parametros}",
+      "    formData={formData}",
+      "    setFormData={setFormData}",
+      "    fieldAttributes={{",
+      "    attributeOrigemForm: `${${1:origemForm}}`,",
+      "        label: 'AppSelectMultipleCtr',",
+      "        name: 'AppSelectMultipleCtr',",
+      "        errorMessage: '', // Mensagem de Erro personalizada",
+      "        attributeFieldKey: ['id', 'key'], // Chave do campo",
+      "        attributeFieldName: ['bank_column_api', 'value'], // Nome do campo",
+      "        attributeRequired: true,",
+      "        attributeDisabled: false,",
+      "        objetoArrayKey: [",
+      "            { key: '1', value: 'Opção 1' },",
+      "            { key: '2', value: 'Opção 2' },",
+      "            { key: '3', value: 'Opção 3' },",
+      "            { key: '4', value: 'Opção 4' }",
+      "        ],",
+      "        api_get: `api/get`,",
+      "        api_post: `api/post`,",
+      "        api_filter: `api/filter`,",
+      "    }} />",
+      "",
+    ],
+    "description": "react-AppSelectMultipleCtr"
+  },
   "react-AppSelect": {
     "prefix": "react-AppSelect",
     "body": [
