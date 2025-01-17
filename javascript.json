@@ -19,6 +19,18 @@
     ],
     "description": "react-Modelo"
   },
+  "react-AppJson": {
+    "prefix": "react-AppJson",
+    "body": [
+      "",
+      "                    <AppJson",
+      "                        parametros={parametros}",
+      "                        dbResponse={formData}",
+      "                    />",
+      "",
+    ],
+    "description": "react-AppJson"
+  },
   "react-form-submitAllForms": {
     "prefix": "react-form-submitAllForms",
     "body": [
