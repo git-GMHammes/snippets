@@ -744,6 +744,44 @@
     ],
     "description": "react-html-atualiza-modal"
   },
+  "react-html-fecharModal": {
+    "prefix": "react-html-fecharModal",
+    "body": [
+      " ",
+      " "
+    ],
+    "description": "react-html-fecharModal"
+  },
+  "fechar-modal-bootstrap-debug": {
+    "prefix": "close-modal-debug",
+    "body": [
+      "const ${1:fecharModalComDebug} = () => {",
+      "    // Log inicial com o ID do modal",
+      "    console.log('Tentando fechar modal com ID:', ${2:idModal});",
+      "",
+      "    // Busca o elemento do modal no DOM",
+      "    const modalElement = document.getElementById(`\\${${2:idModal}}`);",
+      "    console.log('Elemento do modal:', modalElement);",
+      "",
+      "    // Obtém a instância do modal do Bootstrap",
+      "    const modalInstance = bootstrap.Modal.getInstance(modalElement);",
+      "    console.log('Instância do modal:', modalInstance);",
+      "",
+      "    if (modalInstance) {",
+      "        try {",
+      "            // Tenta fechar o modal",
+      "            modalInstance.hide();",
+      "            console.log('Modal fechado com sucesso');",
+      "        } catch (${3:erro}) {",
+      "            console.error('Erro ao fechar modal:', ${3:erro});",
+      "        }",
+      "    } else {",
+      "        console.error('Não foi possível obter instância do modal');",
+      "    }",
+      "};"
+    ],
+    "description": "Cria uma função para fechar modal do Bootstrap com logs de debug detalhados"
+  },
   "react-html-capturar-digita-form": {
     "prefix": "react-html-capturar-digita-form",
     "body": [
