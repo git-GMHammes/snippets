@@ -31,6 +31,19 @@
     ],
     "description": "react-AppJson"
   },
+  "react-AppMessage": {
+    "prefix": "react-AppMessage",
+    "body": [
+      "",
+			"<div>",
+			"    <AppMessageCard",
+			"        parametros={message}",
+			"        modalId={`modal_${token_csrf}`}",
+			"    />",
+			"</div>",      "",
+    ],
+    "description": "react-AppMessage"
+  },
   "react-form-submitAllForms": {
     "prefix": "react-form-submitAllForms",
     "body": [
