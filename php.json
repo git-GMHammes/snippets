@@ -12,6 +12,17 @@
     // 	],
     // 	"description": "Log output to console"
     // }
+    "c4-app-btn-onClick": {
+        "prefix": "c4-app-btn-onClick",
+        "body": [
+            "",
+            "<button onClick={() => nomeFuncao()}>",
+            "    CLique Aqui",
+            "</button>",
+            ""
+        ],
+        "description": "c4-app-btn-onClick"
+    },
     "c4-app-Config-Commands": {
         "prefix": "c4-app-Config-Commands",
         "body": [
@@ -1283,6 +1294,7 @@
             "            }",
             "        }",
             "",
+            "        (isset($$processRequestFields['modelo'])) ? ($$dbCreate['modelo'] = $$processRequestFields['modelo']) : (NULL);",
             "        // myPrint($$dbCreate, 'src\\app\\Controllers\\ExempleDbController.php');",
             "        return ($$dbCreate);",
             "    }",
