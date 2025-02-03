@@ -12,8 +12,8 @@
 	// 	],
 	// 	"description": "Log output to console"
 	// }
-	"react-script-type-text-babel": {
-		"prefix": "react-script-type-text-babel",
+	"react-cdn-script-type-text-babel": {
+		"prefix": "react-cdn-script-type-text-babel",
 		"body": [
 			"",
 			"<script type=\"text/babel\">",
@@ -21,10 +21,10 @@
 			"</script>",
 			""
 		],
-		"description": "react-script-type-text-babel"
+		"description": "react-cdn-script-type-text-babel"
 	},
-	"react-html-modal": {
-		"prefix": "react-html-modal",
+	"react-cdn-html-modal": {
+		"prefix": "react-cdn-html-modal",
 		"body": [
 			"",
 			"    {/* Button trigger modal */}",
@@ -51,10 +51,10 @@
 			"    </div>",
 			""
 		],
-		"description": "react-html-modal"
+		"description": "react-cdn-html-modal"
 	},
-	"react-row.cdn": {
-		"prefix": "react-row.cdn",
+	"react-cdn-row.cdn": {
+		"prefix": "react-cdn-row.cdn",
 		"body": [
 			" ",
 			"<div>",
@@ -88,10 +88,10 @@
 			"</div>",
 			" "
 		],
-		"description": "react-row.cdn"
+		"description": "react-cdn-row.cdn"
 	},
-	"react-input-group": {
-		"prefix": "react-input-group",
+	"react-cdn-input-group": {
+		"prefix": "react-cdn-input-group",
 		"body": [
 			" ",
 			"<div>",
@@ -140,10 +140,10 @@
 			"</div>",
 			" "
 		],
-		"description": "react-input-group"
+		"description": "react-cdn-input-group"
 	},
-	"react-flex-center": {
-		"prefix": "react-flex-center",
+	"react-cdn-flex-center": {
+		"prefix": "react-cdn-flex-center",
 		"body": [
 			" ",
 			"<div className=\"d-flex justify-content-center h-100\">",
@@ -151,10 +151,10 @@
 			"</div>",
 			" "
 		],
-		"description": "react-flex-center"
+		"description": "react-cdn-flex-center"
 	},
-	"react-flex-center-h-100": {
-		"prefix": "react-flex-center-h-100",
+	"react-cdn-flex-center-h-100": {
+		"prefix": "react-cdn-flex-center-h-100",
 		"body": [
 			" ",
 			"<div className=\"d-flex justify-content-center h-100\">",
@@ -162,10 +162,10 @@
 			"</div>",
 			" "
 		],
-		"description": "react-flex-center-h-100"
+		"description": "react-cdn-flex-center-h-100"
 	},
-	"react-container-bg-color": {
-		"prefix": "react-container-bg-color",
+	"react-cdn-container-bg-color": {
+		"prefix": "react-cdn-container-bg-color",
 		"body": [
 			" ",
 			"<div>",
@@ -181,10 +181,10 @@
 			"</div>",
 			" "
 		],
-		"description": "react-container-bg-color"
+		"description": "react-cdn-container-bg-color"
 	},
-	"react-alert-cdn": {
-		"prefix": "react-alert-cdn",
+	"react-cdn-alert-cdn": {
+		"prefix": "react-cdn-alert-cdn",
 		"body": [
 			" ",
 			"<div>",
@@ -215,10 +215,10 @@
 			"</div>",
 			" "
 		],
-		"description": "react-alert-cdn"
+		"description": "react-cdn-alert-cdn"
 	},
-	"react-btn-cdn": {
-		"prefix": "react-btn-cdn",
+	"react-cdn-btn-cdn": {
+		"prefix": "react-cdn-btn-cdn",
 		"body": [
 			" ",
 			"<div>",
@@ -233,10 +233,10 @@
 			"</div>",
 			" "
 		],
-		"description": "react-btn-cdn"
+		"description": "react-cdn-btn-cdn"
 	},
-	"react-card-alinhamento": {
-		"prefix": "react-card-alinhamento",
+	"react-cdn-card-alinhamento": {
+		"prefix": "react-cdn-card-alinhamento",
 		"body": [
 			" ",
 			"<div>",
@@ -275,10 +275,10 @@
 			"</div>",
 			" "
 		],
-		"description": "react-card-alinhamento"
+		"description": "react-cdn-card-alinhamento"
 	},
-	"react-card-cdn": {
-		"prefix": "react-card-cdn",
+	"react-cdn-card-cdn": {
+		"prefix": "react-cdn-card-cdn",
 		"body": [
 			" ",
 			"<div>",
@@ -342,10 +342,10 @@
 			"</div>",
 			" "
 		],
-		"description": "react-card-cdn"
+		"description": "react-cdn-card-cdn"
 	},
-	"react-html-base-min": {
-		"prefix": "react-html-base-min",
+	"react-cdn-html-base-min": {
+		"prefix": "react-cdn-html-base-min",
 		"body": [
 			" ",
 			"<div class=\"app_exemple\" data-result='<?php echo json_encode($$parametros_backend); ?>'></div>",
@@ -373,10 +373,10 @@
 			"</script>",
 			" "
 		],
-		"description": "react-html-base-min"
+		"description": "react-cdn-html-base-min"
 	},
-	"react-html-base-max": {
-		"prefix": "react-html-base-max",
+	"react-cdn-html-base-max": {
+		"prefix": "react-cdn-html-base-max",
 		"body": [
 			" ",
 			"<?php",
@@ -900,7 +900,7 @@
 			"?>",
 			" "
 		],
-		"description": "react-html-base-max"
+		"description": "react-cdn-html-base-max"
 	},
 	"on-view-template": {
 		"prefix": "view-template",

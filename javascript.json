@@ -12,15 +12,33 @@
   // 	],
   // 	"description": "Log output to console"
   // }
-  "react-Modelo": {
-    "prefix": "react-Modelo",
+  "react-cdn-Modelo": {
+    "prefix": "react-cdn-Modelo",
     "body": [
       "",
     ],
-    "description": "react-Modelo"
+    "description": "react-cdn-Modelo"
   },
-  "react-AppJson": {
-    "prefix": "react-AppJson",
+  "react--full-Modelo": {
+    "prefix": "react--full-Modelo",
+    "body": [
+      "",
+      "const AppComponent = () => {",
+      "    return (",
+      "        <div className=\"container mt-4\">",
+      "            <h1>Habilidade.Com</h1>",
+      "            <p>Sistemas Inteligentes.</p>",
+      "        </div>",
+      "    );",
+      "};",
+      "",
+      "export default AppComponent;",
+      "",
+    ],
+    "description": "react--full-Modelo"
+  },
+  "react-cdn-AppJson": {
+    "prefix": "react-cdn-AppJson",
     "body": [
       "",
       "<AppJson",
@@ -29,23 +47,24 @@
       "/>",
       "",
     ],
-    "description": "react-AppJson"
+    "description": "react-cdn-AppJson"
   },
-  "react-AppMessage": {
-    "prefix": "react-AppMessage",
+  "react-cdn-AppMessage": {
+    "prefix": "react-cdn-AppMessage",
     "body": [
       "",
-			"<div>",
-			"    <AppMessageCard",
-			"        parametros={message}",
-			"        modalId={`modal_${token_csrf}`}",
-			"    />",
-			"</div>",      "",
+      "<div>",
+      "    <AppMessageCard",
+      "        parametros={message}",
+      "        modalId={`modal_${token_csrf}`}",
+      "    />",
+      "</div>",
+      "",
     ],
-    "description": "react-AppMessage"
+    "description": "react-cdn-AppMessage"
   },
-  "react-form-submitAllForms": {
-    "prefix": "react-form-submitAllForms",
+  "react-cdn-form-submitAllForms": {
+    "prefix": "react-cdn-form-submitAllForms",
     "body": [
       "",
       "<form className=\"was-validated\" onSubmit={(e)=> {",
@@ -56,10 +75,10 @@
       "</form>",
       "",
     ],
-    "description": "react-form-submitAllForms"
+    "description": "react-cdn-form-submitAllForms"
   },
-  "react-AppSelectMultipleCtr": {
-    "prefix": "react-AppSelectMultipleCtr",
+  "react-cdn-AppSelectMultipleCtr": {
+    "prefix": "react-cdn-AppSelectMultipleCtr",
     "body": [
       "",
       "<AppSelectMultipleCtr",
@@ -88,10 +107,10 @@
       "/>",
       "",
     ],
-    "description": "react-AppSelectMultipleCtr"
+    "description": "react-cdn-AppSelectMultipleCtr"
   },
-  "react-AppSelect": {
-    "prefix": "react-AppSelect",
+  "react-cdn-AppSelect": {
+    "prefix": "react-cdn-AppSelect",
     "body": [
       "",
       "<AppSelect",
@@ -120,10 +139,10 @@
       " />",
       "",
     ],
-    "description": "react-AppSelect"
+    "description": "react-cdn-AppSelect"
   },
-  "react-AppSelectBtnCheck": {
-    "prefix": "react-AppSelectBtnCheck",
+  "react-cdn-AppSelectBtnCheck": {
+    "prefix": "react-cdn-AppSelectBtnCheck",
     "body": [
       "",
       "<AppSelectBtnCheck",
@@ -152,10 +171,10 @@
       "/>",
       "",
     ],
-    "description": "react-AppSelectBtnCheck"
+    "description": "react-cdn-AppSelectBtnCheck"
   },
-  "react-AppSelectBtnRadio": {
-    "prefix": "react-AppSelectBtnRadio",
+  "react-cdn-AppSelectBtnRadio": {
+    "prefix": "react-cdn-AppSelectBtnRadio",
     "body": [
       "",
       "<AppSelectBtnRadio",
@@ -184,10 +203,10 @@
       "/>",
       "",
     ],
-    "description": "react-AppSelectBtnRadio"
+    "description": "react-cdn-AppSelectBtnRadio"
   },
-  "react-AppText": {
-    "prefix": "react-AppText",
+  "react-cdn-AppText": {
+    "prefix": "react-cdn-AppText",
     "body": [
       "",
       "<AppText parametros={parametros} formData={formData} setFormData={setFormData}",
@@ -210,10 +229,10 @@
       "/>",
       "",
     ],
-    "description": "react-AppText"
+    "description": "react-cdn-AppText"
   },
-  "react-typeof": {
-    "prefix": "react-typeof",
+  "react-cdn-typeof": {
+    "prefix": "react-cdn-typeof",
     "body": [
       "",
       "{typeof ScriptDesejado !== \"undefined\" ? (",
@@ -227,10 +246,10 @@
       ")}",
       "",
     ],
-    "description": "react-typeof"
+    "description": "react-cdn-typeof"
   },
-  "react-is-loading": {
-    "prefix": "react-is-loading",
+  "react-cdn-is-loading": {
+    "prefix": "react-cdn-is-loading",
     "body": [
       "",
       "    {(isLoading) ? (",
@@ -245,10 +264,10 @@
       "    )}",
       "",
     ],
-    "description": "react-is-loading"
+    "description": "react-cdn-is-loading"
   },
-  "react-handleFocus": {
-    "prefix": "react-handleFocus",
+  "react-cdn-handleFocus": {
+    "prefix": "react-cdn-handleFocus",
     "body": [
       "",
       "// Função handleFocus para receber foco",
@@ -273,10 +292,10 @@
       "};",
       ""
     ],
-    "description": "react-handleFocus"
+    "description": "react-cdn-handleFocus"
   },
-  "react-handleChange": {
-    "prefix": "react-handleChange",
+  "react-cdn-handleChange": {
+    "prefix": "react-cdn-handleChange",
     "body": [
       "",
       "// Função handleChange simplificada",
@@ -300,10 +319,10 @@
       "};",
       ""
     ],
-    "description": "react-handleChange"
+    "description": "react-cdn-handleChange"
   },
-  "react-handleBlur": {
-    "prefix": "react-handleBlur",
+  "react-cdn-handleBlur": {
+    "prefix": "react-cdn-handleBlur",
     "body": [
       "",
       "// Função que executa após a retirada do foco",
@@ -327,10 +346,10 @@
       "}",
       ""
     ],
-    "description": "react-handleBlur"
+    "description": "react-cdn-handleBlur"
   },
-  "react-post": {
-    "prefix": "react-post",
+  "react-cdn-post": {
+    "prefix": "react-cdn-post",
     "body": [
       " ",
       "// POST Padrão ",
@@ -372,10 +391,10 @@
       "};",
       " "
     ],
-    "description": "react-post"
+    "description": "react-cdn-post"
   },
-  "react-get": {
-    "prefix": "react-get",
+  "react-cdn-get": {
+    "prefix": "react-cdn-get",
     "body": [
       "",
       "// Fetch para GET",
@@ -418,10 +437,10 @@
       "};",
       "",
     ],
-    "description": "react-get"
+    "description": "react-cdn-get"
   },
-  "react-AppForm": {
-    "prefix": "react-AppForm",
+  "react-cdn-AppForm": {
+    "prefix": "react-cdn-AppForm",
     "body": [
       "",
       "    const AppForm = ({ setParametros = {} }) => {",
@@ -661,10 +680,10 @@
       "    ReactDOM.render(<AppForm />, document.querySelector('.app_form'));",
       "",
     ],
-    "description": "react-AppForm"
+    "description": "react-cdn-AppForm"
   },
-  "react-React.useEffect": {
-    "prefix": "react-React.useEffect",
+  "react-cdn-React.useEffect": {
+    "prefix": "react-cdn-React.useEffect",
     "body": [
       "",
       "        // React.useEffect",
@@ -691,10 +710,10 @@
       "        }, []);",
       ""
     ],
-    "description": "react-React.useEffect"
+    "description": "react-cdn-React.useEffect"
   },
-  "react-html-funcao-submit": {
-    "prefix": "react-html-funcao-submit",
+  "react-cdn-html-funcao-submit": {
+    "prefix": "react-cdn-html-funcao-submit",
     "body": [
       " ",
       "const submitAllForms = async (apiIdentifier, data) => {",
@@ -738,10 +757,10 @@
       "};",
       " "
     ],
-    "description": "react-html-funcao-submit"
+    "description": "react-cdn-html-funcao-submit"
   },
-  "react-html-atualiza-modal": {
-    "prefix": "react-html-atualiza-modal",
+  "react-cdn-html-atualiza-modal": {
+    "prefix": "react-cdn-html-atualiza-modal",
     "body": [
       " ",
       "    const handleOpenModal = (parameter) => {",
@@ -755,15 +774,15 @@
       "    };",
       " "
     ],
-    "description": "react-html-atualiza-modal"
+    "description": "react-cdn-html-atualiza-modal"
   },
-  "react-html-fecharModal": {
-    "prefix": "react-html-fecharModal",
+  "react-cdn-html-fecharModal": {
+    "prefix": "react-cdn-html-fecharModal",
     "body": [
       " ",
       " "
     ],
-    "description": "react-html-fecharModal"
+    "description": "react-cdn-html-fecharModal"
   },
   "fechar-modal-bootstrap-debug": {
     "prefix": "close-modal-debug",
@@ -795,8 +814,8 @@
     ],
     "description": "Cria uma função para fechar modal do Bootstrap com logs de debug detalhados"
   },
-  "react-html-capturar-digita-form": {
-    "prefix": "react-html-capturar-digita-form",
+  "react-cdn-html-capturar-digita-form": {
+    "prefix": "react-cdn-html-capturar-digita-form",
     "body": [
       " ",
       "const handleChange = (event) => {",
@@ -814,10 +833,10 @@
       "};",
       " "
     ],
-    "description": "react-html-capturar-digita-form"
+    "description": "react-cdn-html-capturar-digita-form"
   },
-  "react-pre-cdn": {
-    "prefix": "react-pre-cdn",
+  "react-cdn-pre-cdn": {
+    "prefix": "react-cdn-pre-cdn",
     "body": [
       " ",
       "<div>",
@@ -829,7 +848,7 @@
       "</div>",
       " "
     ],
-    "description": "react-pre-cdn"
+    "description": "react-cdn-pre-cdn"
   },
   "script-js-XMLHttpRequest": {
     "prefix": "script-js-XMLHttpRequest",
@@ -915,8 +934,8 @@
     ],
     "description": "Exemplo de Ajax Recebendo API"
   },
-  "react-alinhamento-vertical": {
-    "prefix": "react-alinhamento-vertical",
+  "react-cdn-alinhamento-vertical": {
+    "prefix": "react-cdn-alinhamento-vertical",
     "body": [
       "",
       "<div className=\"d-flex justify-content-center align-items-center min-vh-100\">",
@@ -924,10 +943,10 @@
       "</div>",
       "",
     ],
-    "description": "react-alinhamento-vertical"
+    "description": "react-cdn-alinhamento-vertical"
   },
-  "react-alinhamento-horizontal": {
-    "prefix": "react-alinhamento-horizontal",
+  "react-cdn-alinhamento-horizontal": {
+    "prefix": "react-cdn-alinhamento-horizontal",
     "body": [
       "",
       "<div className=\"d-flex justify-content-between align-items-center bg-light m-0 p-0 border rounded\">",
@@ -945,10 +964,10 @@
       "<div className=\"text-center p-0\">Texto centralizado</div>",
       "",
     ],
-    "description": "react-alinhamento-horizontal"
+    "description": "react-cdn-alinhamento-horizontal"
   },
-  "react-icon-seta-esquerda-direita": {
-    "prefix": "react-icon-seta-esquerda-direita",
+  "react-cdn-icon-seta-esquerda-direita": {
+    "prefix": "react-cdn-icon-seta-esquerda-direita",
     "body": [
       "<i className=\"bi bi-caret-down\" />",
       "<i className=\"bi bi-caret-down-fill\" />",
@@ -989,10 +1008,10 @@
       "<i className=\"bi bi-chevron-up\"></i>",
       "",
     ],
-    "description": "react-icon-seta-esquerda-direita"
+    "description": "react-cdn-icon-seta-esquerda-direita"
   },
-  "react-icon-lista-editar-excluir-buscar": {
-    "prefix": "react-icon-lista-editar-excluir",
+  "react-cdn-icon-lista-editar-excluir-buscar": {
+    "prefix": "react-cdn-icon-lista-editar-excluir",
     "body": [
       "<i className=\"bi bi-file-earmark-spreadsheet\"></i>",
       "<i className=\"bi bi-file-earmark-ruled\"></i>",
@@ -1007,10 +1026,10 @@
       "<i className=\"bi bi-search\"></i>",
       "",
     ],
-    "description": "react-icon-lista-editar-excluir"
+    "description": "react-cdn-icon-lista-editar-excluir"
   },
-  "react-icon-painel-engrenagem": {
-    "prefix": "react-icon-painel-engrenagem",
+  "react-cdn-icon-painel-engrenagem": {
+    "prefix": "react-cdn-icon-painel-engrenagem",
     "body": [
       "<i className=\"bi bi-gear-wide-connected\"></i>",
       "<i className=\"bi bi-gear-wide\"></i>",
@@ -1018,10 +1037,10 @@
       "<i className=\"bi bi-gear\"></i>",
       "",
     ],
-    "description": "react-icon-painel-engrenagem"
+    "description": "react-cdn-icon-painel-engrenagem"
   },
-  "react-icon-Lixeira": {
-    "prefix": "react-icon-Lixeira",
+  "react-cdn-icon-Lixeira": {
+    "prefix": "react-cdn-icon-Lixeira",
     "body": [
       "<i className=\"bi bi-trash3-fill\"></i>",
       "<i className=\"bi bi-trash3\"></i>",
@@ -1029,10 +1048,10 @@
       "<i className=\"bi bi-trash\"></i>",
       "",
     ],
-    "description": "react-icon-Lixeira"
+    "description": "react-cdn-icon-Lixeira"
   },
-  "react-icon-Rede-Social": {
-    "prefix": "react-icon-Rede-Social",
+  "react-cdn-icon-Rede-Social": {
+    "prefix": "react-cdn-icon-Rede-Social",
     "body": [
       "<i className=\"bi bi-messenger\"></i>",
       "<i className=\"bi bi-pinterest\"></i>",
@@ -1050,10 +1069,10 @@
       "<i className=\"bi bi-whatsapp\"></i>",
       "<i className=\"bi bi-Rede-Social\"></i>",
     ],
-    "description": "react-icon-Rede-Social"
+    "description": "react-cdn-icon-Rede-Social"
   },
-  "react-icon-Telefone": {
-    "prefix": "react-icon-Telefone",
+  "react-cdn-icon-Telefone": {
+    "prefix": "react-cdn-icon-Telefone",
     "body": [
       "<i className=\"bi bi-phone-flip\"></i>",
       "<i className=\"bi bi-phone\"></i>",
@@ -1076,10 +1095,10 @@
       "<i className=\"bi bi-telephone\"></i>",
       "",
     ],
-    "description": "react-icon-Telefone"
+    "description": "react-cdn-icon-Telefone"
   },
-  "react-icon-Pessoa-Usuario": {
-    "prefix": "react-icon-Pessoa-Usuario",
+  "react-cdn-icon-Pessoa-Usuario": {
+    "prefix": "react-cdn-icon-Pessoa-Usuario",
     "body": [
       "<i className=\"bi bi-person-vcard\"></i>",
       "<i className=\"bi bi-person-vcard-fill\"></i>",
@@ -1104,29 +1123,29 @@
       "<i className=\"bi bi-person\"></i>",
       "",
     ],
-    "description": "react-icon-Pessoa-Usuario"
+    "description": "react-cdn-icon-Pessoa-Usuario"
   },
-  "react-icon-Chave-Password": {
-    "prefix": "react-icon-Chave-Password",
+  "react-cdn-icon-Chave-Password": {
+    "prefix": "react-cdn-icon-Chave-Password",
     "body": [
       "<i className=\"bi bi-key-fill\"></i>",
       "<i className=\"bi bi-key\"></i>",
       "",
     ],
-    "description": "react-icon-Chave-Password"
+    "description": "react-cdn-icon-Chave-Password"
   },
-  "react-icon-Imagem": {
-    "prefix": "react-icon-Imagem",
+  "react-cdn-icon-Imagem": {
+    "prefix": "react-cdn-icon-Imagem",
     "body": [
       "<i className=\"bi bi-images\"></i>",
       "<i className=\"bi bi-image-fill\"></i>",
       "<i className=\"bi bi-image\"></i>",
       "",
     ],
-    "description": "react-icon-Imagem"
+    "description": "react-cdn-icon-Imagem"
   },
-  "react-icon-Casa-Home": {
-    "prefix": "react-icon-Casa-Home",
+  "react-cdn-icon-Casa-Home": {
+    "prefix": "react-cdn-icon-Casa-Home",
     "body": [
       "<i className=\"bi bi-houses-fill\"></i>",
       "<i className=\"bi bi-houses-fill\"></i>",
@@ -1141,10 +1160,10 @@
       "<i className=\"bi bi-house\"></i>",
       "",
     ],
-    "description": "react-icon-Casa-Home"
+    "description": "react-cdn-icon-Casa-Home"
   },
-  "react-icon-Mao-Positivo-Negativo": {
-    "prefix": "react-icon-Mao-Positivo-Negativo",
+  "react-cdn-icon-Mao-Positivo-Negativo": {
+    "prefix": "react-cdn-icon-Mao-Positivo-Negativo",
     "body": [
       "<i className=\"bi bi-hand-thumbs-up\"></i>",
       "<i className=\"bi bi-hand-thumbs-down-fill\"></i>",
@@ -1154,10 +1173,10 @@
       "<i className=\"bi bi-hand-index\"></i>",
       "",
     ],
-    "description": "react-icon-Mao-Positivo-Negativo"
+    "description": "react-cdn-icon-Mao-Positivo-Negativo"
   },
-  "react-icon-Grid-Tabela": {
-    "prefix": "react-icon-Grid-Tabela",
+  "react-cdn-icon-Grid-Tabela": {
+    "prefix": "react-cdn-icon-Grid-Tabela",
     "body": [
       "<i className=\"bi bi-table\"></i>",
       "<i className=\"bi bi-grid-3x3\"></i>",
@@ -1165,10 +1184,10 @@
       "<i className=\"bi bi-grid\"></i>",
       "",
     ],
-    "description": "react-icon-Grid-Tabela"
+    "description": "react-cdn-icon-Grid-Tabela"
   },
-  "react-icon-Google-Local-Endereco": {
-    "prefix": "react-icon-Google-Local-Endereco",
+  "react-cdn-icon-Google-Local-Endereco": {
+    "prefix": "react-cdn-icon-Google-Local-Endereco",
     "body": [
       "<i className=\"bi bi-pin-map\"></i>",
       "<i className=\"bi bi-pin-map-fill\"></i>",
@@ -1177,10 +1196,10 @@
       "<i className=\"bi bi-geo\"></i>",
       "",
     ],
-    "description": "react-icon-Google-Local-Endereco"
+    "description": "react-cdn-icon-Google-Local-Endereco"
   },
-  "react-icon-Smile-Emoji-Carinha": {
-    "prefix": "react-icon-Smile-Emoji-Carinha",
+  "react-cdn-icon-Smile-Emoji-Carinha": {
+    "prefix": "react-cdn-icon-Smile-Emoji-Carinha",
     "body": [
       "<i className=\"bi bi-emoji-frown-fill\"></i>",
       "<i className=\"bi bi-emoji-frown\"></i>",
@@ -1190,10 +1209,10 @@
       "<i className=\"bi bi-emoji-smile\"></i>",
       "",
     ],
-    "description": "react-icon-Smile-Emoji-Carinha"
+    "description": "react-cdn-icon-Smile-Emoji-Carinha"
   },
-  "react-icon-E-mail": {
-    "prefix": "react-icon-E-mail",
+  "react-cdn-icon-E-mail": {
+    "prefix": "react-cdn-icon-E-mail",
     "body": [
       "<i className=\"bi bi-envelope-slash-fill\"></i>",
       "<i className=\"bi bi-envelope-slash\"></i>",
@@ -1216,20 +1235,20 @@
       "<i className=\"bi bi-envelope\"></i>",
       "",
     ],
-    "description": "react-icon-E-mail"
+    "description": "react-cdn-icon-E-mail"
   },
-  "react-icon-Porta-Saida": {
-    "prefix": "react-icon-Porta-Saida",
+  "react-cdn-icon-Porta-Saida": {
+    "prefix": "react-cdn-icon-Porta-Saida",
     "body": [
       "<i className=\"bi bi-door-open-fill\"></i>",
       "<i className=\"bi bi-door-open\"></i>",
       "<i className=\"bi bi-door-closed\"></i>",
       "",
     ],
-    "description": "react-icon-Porta-Saida"
+    "description": "react-cdn-icon-Porta-Saida"
   },
-  "react-icon-Game-Jogo": {
-    "prefix": "react-icon-Game-jpgp",
+  "react-cdn-icon-Game-Jogo": {
+    "prefix": "react-cdn-icon-Game-jpgp",
     "body": [
       "<i className=\"bi bi-joystick\"></i>",
       "<i className=\"bi bi-dpad\"></i>",
@@ -1251,10 +1270,10 @@
       "<i className=\"bi bi-controller\"></i>",
       "",
     ],
-    "description": "react-icon-Game-jpgp"
+    "description": "react-cdn-icon-Game-jpgp"
   },
-  "react-icon-Geometria-Circulo-Meio-Proibido": {
-    "prefix": "react-icon-Geometria-Circulo-Meio-Proibido",
+  "react-cdn-icon-Geometria-Circulo-Meio-Proibido": {
+    "prefix": "react-cdn-icon-Geometria-Circulo-Meio-Proibido",
     "body": [
       "<i className=\"bi bi-dash-circle-fill\"></i>",
       "<i className=\"bi bi-dash-circle-dotted\"></i>",
@@ -1265,19 +1284,19 @@
       "<i className=\"bi bi-slash-circle\"></i>",
       "",
     ],
-    "description": "react-icon-Geometria-Circulo-Meio-Proibido"
+    "description": "react-cdn-icon-Geometria-Circulo-Meio-Proibido"
   },
-  "react-icon-Geometria-Balao": {
-    "prefix": "react-icon-Geometria-Balao",
+  "react-cdn-icon-Geometria-Balao": {
+    "prefix": "react-cdn-icon-Geometria-Balao",
     "body": [
       "<i className=\"bi bi-diamond\"></i>",
       "<i className=\"bi bi-diamond-half\"></i>",
       "",
     ],
-    "description": "react-icon-Geometria-Balao"
+    "description": "react-cdn-icon-Geometria-Balao"
   },
-  "react-icon-Computador-Impressora": {
-    "prefix": "react-icon-Computador-Impressora",
+  "react-cdn-icon-Computador-Impressora": {
+    "prefix": "react-cdn-icon-Computador-Impressora",
     "body": [
       "<i className=\"bi bi-printer\"></i>",
       "<i className=\"bi bi-printer-fill\"></i>",
@@ -1289,10 +1308,10 @@
       "<i className=\"bi bi-cpu\"></i>",
       "",
     ],
-    "description": "react-icon-Computador-Impressora"
+    "description": "react-cdn-icon-Computador-Impressora"
   },
-  "react-icon-Banco-Dados": {
-    "prefix": "react-icon-Banco-Dados",
+  "react-cdn-icon-Banco-Dados": {
+    "prefix": "react-cdn-icon-Banco-Dados",
     "body": [
       "<i className=\"bi bi-database-x\"></i>",
       "<i className=\"bi bi-database-slash\"></i>",
@@ -1306,18 +1325,18 @@
       "<i className=\"bi bi-database\"></i>",
       "",
     ],
-    "description": "react-icon-Banco-Dados"
+    "description": "react-cdn-icon-Banco-Dados"
   },
-  "react-icon-Dinheiro": {
-    "prefix": "react-icon-Dinheiro",
+  "react-cdn-icon-Dinheiro": {
+    "prefix": "react-cdn-icon-Dinheiro",
     "body": [
       "<i className=\"bi bi-currency-dollar\"></i>",
       "",
     ],
-    "description": "react-icon-Dinheiro"
+    "description": "react-cdn-icon-Dinheiro"
   },
-  "react-icon-Bebida": {
-    "prefix": "react-icon-Bebida",
+  "react-cdn-icon-Bebida": {
+    "prefix": "react-cdn-icon-Bebida",
     "body": [
       "<i className=\"bi bi-cup-straw\"></i>",
       "<i className=\"bi bi-cup-hot-fill\"></i>",
@@ -1326,45 +1345,45 @@
       "<i className=\"bi bi-cup\"></i>",
       "",
     ],
-    "description": "react-icon-Bebida"
+    "description": "react-cdn-icon-Bebida"
   },
-  "react-icon-Bebida-Chicara-Copo": {
-    "prefix": "react-icon-Bebida-Chicara-Copo",
+  "react-cdn-icon-Bebida-Chicara-Copo": {
+    "prefix": "react-cdn-icon-Bebida-Chicara-Copo",
     "body": [
       "",
     ],
-    "description": "react-icon-Bebida-Chicara-Copo"
+    "description": "react-cdn-icon-Bebida-Chicara-Copo"
   },
-  "react-icon-Cartao-Credito": {
-    "prefix": "react-icon-Cartao-Credito",
+  "react-cdn-icon-Cartao-Credito": {
+    "prefix": "react-cdn-icon-Cartao-Credito",
     "body": [
       "<i className=\"bi bi-credit-card\"></i>",
       "<i className=\"bi bi-credit-card-2-back\"></i>",
       "<i className=\"bi bi-credit-card-2-back-fill\"></i>",
       "",
     ],
-    "description": "react-icon-Cartao-Credito"
+    "description": "react-cdn-icon-Cartao-Credito"
   },
-  "react-icon-Cone": {
-    "prefix": "react-icon-Cone",
+  "react-cdn-icon-Cone": {
+    "prefix": "react-cdn-icon-Cone",
     "body": [
       "<i className=\"bi bi-cone-striped\"></i>",
       "",
     ],
-    "description": "react-icon-Cone"
+    "description": "react-cdn-icon-Cone"
   },
-  "react-icon-Codigo": {
-    "prefix": "react-icon-Codigo",
+  "react-cdn-icon-Codigo": {
+    "prefix": "react-cdn-icon-Codigo",
     "body": [
       "<i className=\"bi bi-code-square\"></i>",
       "<i className=\"bi bi-code-slash\"></i>",
       "<i className=\"bi bi-code\"></i>",
       "",
     ],
-    "description": "react-icon-Codigo"
+    "description": "react-cdn-icon-Codigo"
   },
-  "react-icon-Nuvem": {
-    "prefix": "react-icon-Nuvem",
+  "react-cdn-icon-Nuvem": {
+    "prefix": "react-cdn-icon-Nuvem",
     "body": [
       "<i className=\"bi bi-cloudy-fill\"></i>",
       "<i className=\"bi bi-cloudy\"></i>",
@@ -1410,19 +1429,19 @@
       "<i className=\"bi bi-cloud\"></i>",
       "",
     ],
-    "description": "react-icon-Nuvem"
+    "description": "react-cdn-icon-Nuvem"
   },
-  "react-icon-Relogio": {
-    "prefix": "react-icon-Relogio",
+  "react-cdn-icon-Relogio": {
+    "prefix": "react-cdn-icon-Relogio",
     "body": [
       "<i className=\"bi bi-clock\"></i>",
       "<i className=\"bi bi-clock-history\"></i>",
       "",
     ],
-    "description": "react-icon-Relogio"
+    "description": "react-cdn-icon-Relogio"
   },
-  "react-icon-Prancheta-Colar-Grafico": {
-    "prefix": "react-icon-Prancheta-Colar-Grafico",
+  "react-cdn-icon-Prancheta-Colar-Grafico": {
+    "prefix": "react-cdn-icon-Prancheta-Colar-Grafico",
     "body": [
       "<i className=\"bi bi-graph-up-arrow\"></i>",
       "<i className=\"bi bi-graph-up\"></i>",
@@ -1447,10 +1466,10 @@
       "<i className=\"bi bi-clipboard\"></i>",
       "",
     ],
-    "description": "react-icon-Prancheta-Colar-Grafico"
+    "description": "react-cdn-icon-Prancheta-Colar-Grafico"
   },
-  "react-icon-Mensagem": {
-    "prefix": "react-icon-Mensagem",
+  "react-cdn-icon-Mensagem": {
+    "prefix": "react-cdn-icon-Mensagem",
     "body": [
       "<i className=\"bi bi-chat-text\"></i>",
       "<i className=\"bi bi-chat-square-text\"></i>",
@@ -1473,10 +1492,10 @@
       "<i className=\"bi bi-chat\"></i>",
       "",
     ],
-    "description": "react-icon-Mensagem"
+    "description": "react-cdn-icon-Mensagem"
   },
-  "react-icon-Carrinho": {
-    "prefix": "react-icon-Carrinho",
+  "react-cdn-icon-Carrinho": {
+    "prefix": "react-cdn-icon-Carrinho",
     "body": [
       "<i className=\"bi bi-cart\"></i>",
       "<i className=\"bi bi-cart-check\"></i>",
@@ -1488,55 +1507,55 @@
       "<i className=\"bi bi-cart4\"></i>",
       "",
     ],
-    "description": "react-icon-Carrinho"
+    "description": "react-cdn-icon-Carrinho"
   },
-  "react-icon-Text": {
-    "prefix": "react-icon-Text",
+  "react-cdn-icon-Text": {
+    "prefix": "react-cdn-icon-Text",
     "body": [
       "<i className=\"bi bi-card-text\"></i>",
       "",
     ],
-    "description": "react-icon-Text"
+    "description": "react-cdn-icon-Text"
   },
-  "react-icon-Card-List-Check": {
-    "prefix": "react-icon-Card-List-Check",
+  "react-cdn-icon-Card-List-Check": {
+    "prefix": "react-cdn-icon-Card-List-Check",
     "body": [
       "<i className=\"bi bi-card-checklist\"></i>",
       "<i className=\"bi bi-card-list\"></i>",
       "",
     ],
-    "description": "react-icon-Card-List-Check"
+    "description": "react-cdn-icon-Card-List-Check"
   },
-  "react-icon-Carro": {
-    "prefix": "react-icon-Carro",
+  "react-cdn-icon-Carro": {
+    "prefix": "react-cdn-icon-Carro",
     "body": [
       "<i className=\"bi bi-car-front\"></i>",
       "<i className=\"bi bi-car-front-fill\"></i>",
       "",
     ],
-    "description": "react-icon-Carro"
+    "description": "react-cdn-icon-Carro"
   },
-  "react-icon-Camera-Video": {
-    "prefix": "react-icon-Camera-Video",
+  "react-cdn-icon-Camera-Video": {
+    "prefix": "react-cdn-icon-Camera-Video",
     "body": [
       "<i className=\"bi bi-camera-video-off\"></i>",
       "<i className=\"bi bi-camera-video\"></i>",
       "<i className=\"bi bi-camera-reels\"></i>",
       "",
     ],
-    "description": "react-icon-Camera-Video"
+    "description": "react-cdn-icon-Camera-Video"
   },
-  "react-icon-Camera-Foto": {
-    "prefix": "react-icon-Camera-Foto",
+  "react-cdn-icon-Camera-Foto": {
+    "prefix": "react-cdn-icon-Camera-Foto",
     "body": [
       "<i className=\"bi bi-camera\"></i>",
       "<i className=\"bi bi-camera2\"></i>",
       "",
     ],
-    "description": "react-icon-Camera-Foto"
+    "description": "react-cdn-icon-Camera-Foto"
   },
-  "react-icon-Calendario": {
-    "prefix": "react-icon-Calendario",
+  "react-cdn-icon-Calendario": {
+    "prefix": "react-cdn-icon-Calendario",
     "body": [
       "<i className=\"bi bi-calendar-check\"></i>",
       "<i className=\"bi bi-calendar-date\"></i>",
@@ -1550,19 +1569,19 @@
       "<i className=\"bi bi-calendar3\"></i>",
       "",
     ],
-    "description": "react-icon-Calendario"
+    "description": "react-cdn-icon-Calendario"
   },
-  "react-icon-Calculadora": {
-    "prefix": "react-icon-Calculadora",
+  "react-cdn-icon-Calculadora": {
+    "prefix": "react-cdn-icon-Calculadora",
     "body": [
       "<i className=\"bi bi-calculator\"></i>",
       "<i className=\"bi bi-calculator-fill\"></i>",
       "",
     ],
-    "description": "react-icon-Calculadora"
+    "description": "react-cdn-icon-Calculadora"
   },
-  "react-icon-Bolo": {
-    "prefix": "react-icon-Bolo",
+  "react-cdn-icon-Bolo": {
+    "prefix": "react-cdn-icon-Bolo",
     "body": [
       "<i className=\"bi bi-cake\"></i>",
       "<i className=\"bi bi-cake-fill\"></i>",
@@ -1570,26 +1589,26 @@
       "<i className=\"bi bi-cake2-fill\"></i>",
       "",
     ],
-    "description": "react-icon-Bolo"
+    "description": "react-cdn-icon-Bolo"
   },
-  "react-icon-Onibus": {
-    "prefix": "react-icon-Onibus",
+  "react-cdn-icon-Onibus": {
+    "prefix": "react-cdn-icon-Onibus",
     "body": [
       "<i className=\"bi bi-bus-front\"></i>",
       "<i className=\"bi bi-bus-front-fill\"></i>",
       "",
     ],
-    "description": "react-icon-Onibus"
+    "description": "react-cdn-icon-Onibus"
   },
-  "react-icon-Bug": {
-    "prefix": "react-icon-Bug",
+  "react-cdn-icon-Bug": {
+    "prefix": "react-cdn-icon-Bug",
     "body": [
       "<i className=\"bi bi-bug\"></i>",
     ],
-    "description": "react-icon-Bug"
+    "description": "react-cdn-icon-Bug"
   },
-  "react-icon-Navegadores": {
-    "prefix": "react-icon-Navegadores",
+  "react-cdn-icon-Navegadores": {
+    "prefix": "react-cdn-icon-Navegadores",
     "body": [
       "<i className=\"bi bi-browser-chrome\"></i>",
       "<i className=\"bi bi-browser-edge\"></i>",
@@ -1597,10 +1616,10 @@
       "<i className=\"bi bi-browser-safari\"></i>",
       "",
     ],
-    "description": "react-icon-Navegadores"
+    "description": "react-cdn-icon-Navegadores"
   },
-  "react-icon-Sol-Ing-Iang": {
-    "prefix": "react-icon-Sol-Luz-Ing-Iang",
+  "react-cdn-icon-Sol-Ing-Iang": {
+    "prefix": "react-cdn-icon-Sol-Luz-Ing-Iang",
     "body": [
       "<i className=\"bi bi-brightness-alt-high-fill\"></i>",
       "<i className=\"bi bi-brightness-high\"></i>",
@@ -1608,85 +1627,85 @@
       "<i className=\"bi bi-brilliance\"></i>",
       "",
     ],
-    "description": "react-icon-Sol-Ing-Iang"
+    "description": "react-cdn-icon-Sol-Ing-Iang"
   },
-  "react-icon-Cubo": {
-    "prefix": "react-icon-Cubo",
+  "react-cdn-icon-Cubo": {
+    "prefix": "react-cdn-icon-Cubo",
     "body": [
       "<i className=\"bi bi-box\"></i>",
     ],
-    "description": "react-icon-Cubo"
+    "description": "react-cdn-icon-Cubo"
   },
-  "react-icon-Radio-Som": {
-    "prefix": "react-icon-Radio-Som",
+  "react-cdn-icon-Radio-Som": {
+    "prefix": "react-cdn-icon-Radio-Som",
     "body": [
       "<i className=\"bi bi-boombox\"></i>",
     ],
-    "description": "react-icon-Radio-Som"
+    "description": "react-cdn-icon-Radio-Som"
   },
-  "react-icon-Favorito": {
-    "prefix": "react-icon-Favorito",
+  "react-cdn-icon-Favorito": {
+    "prefix": "react-cdn-icon-Favorito",
     "body": [
       "<i className=\"bi bi-bookmark-heart\"></i>",
       "<i className=\"bi bi-bookmark-star\"></i>",
       "",
     ],
-    "description": "react-icon-Favorito"
+    "description": "react-cdn-icon-Favorito"
   },
-  "react-icon-Livro-Meio": {
-    "prefix": "react-icon-Livro-Meio",
+  "react-cdn-icon-Livro-Meio": {
+    "prefix": "react-cdn-icon-Livro-Meio",
     "body": [
       "<i className=\"bi bi-book-half\"></i>",
     ],
-    "description": "react-icon-Livro-Meio"
+    "description": "react-cdn-icon-Livro-Meio"
   },
-  "react-icon-Bluetootc": {
-    "prefix": "react-icon-Bluetootc",
+  "react-cdn-icon-Bluetootc": {
+    "prefix": "react-cdn-icon-Bluetootc",
     "body": [
       "<i className=\"bi bi-bluetooth\"></i>",
     ],
-    "description": "react-icon-Bluetootc"
+    "description": "react-cdn-icon-Bluetootc"
   },
-  "react-icon-Busca-Binoculo": {
-    "prefix": "react-icon-Busca-Binoculo",
+  "react-cdn-icon-Busca-Binoculo": {
+    "prefix": "react-cdn-icon-Busca-Binoculo",
     "body": [
       "<i className=\"bi bi-search\"></i>",
       "<i className=\"bi bi-binoculars\"></i>",
     ],
-    "description": "react-icon-Busca-Binoculo"
+    "description": "react-cdn-icon-Busca-Binoculo"
   },
-  "react-icon-Microsoft-Bing": {
-    "prefix": "react-icon-Microsoft-Bing",
+  "react-cdn-icon-Microsoft-Bing": {
+    "prefix": "react-cdn-icon-Microsoft-Bing",
     "body": [
       "<i className=\"bi bi-microsoft\"></i>",
       "<i className=\"bi bi-bing\"></i>",
     ],
-    "description": "react-icon-Microsoft-Bing"
+    "description": "react-cdn-icon-Microsoft-Bing"
   },
-  "react-icon-Sino": {
-    "prefix": "react-icon-Sino",
+  "react-cdn-icon-Sino": {
+    "prefix": "react-cdn-icon-Sino",
     "body": [
       "<i className=\"bi bi-bell\"></i>",
     ],
-    "description": "react-icon-Sino"
+    "description": "react-cdn-icon-Sino"
   },
-  "react-icon-Bateria": {
-    "prefix": "react-icon-Bateria",
+  "react-cdn-icon-Bateria": {
+    "prefix": "react-cdn-icon-Bateria",
     "body": [
       "<i className=\"bi bi-battery-half\"></i>",
     ],
-    "description": "react-icon-Bateria"
+    "description": "react-cdn-icon-Bateria"
   },
-  "react-icon-Graficos": {
-    "prefix": "react-icon-Graficos",
+  "react-cdn-icon-Graficos": {
+    "prefix": "react-cdn-icon-Graficos",
     "body": [
       "<i className=\"bi bi-bar-chart-steps\"></i>",
       "",
     ],
-    "description": "react-icon-Graficos"
+    "description": "react-cdn-icon-Graficos"
   },
-  "react-icon-Grafico-Sinal-Celular": {
-    "prefix": "react-icon-Grafico-Sinal-Celular",
+  "react-cdn-icon-Grafico-Sinal-Celular": {
+    "prefix": "react-cdn-icon-Grafico-Sinal-Celular",
     "body": [
       "<i className=\"bi bi-reception-4\"></i>",
       "<i className=\"bi bi-reception-3\"></i>",
@@ -1695,151 +1714,151 @@
       "<i className=\"bi bi-reception-0\"></i>",
       "<i className=\"bi bi-bar-chart\"></i>",
     ],
-    "description": "react-icon-Grafico-Sinal-Celular"
+    "description": "react-cdn-icon-Grafico-Sinal-Celular"
   },
-  "react-icon-Banco": {
-    "prefix": "react-icon-Banco",
+  "react-cdn-icon-Banco": {
+    "prefix": "react-cdn-icon-Banco",
     "body": [
       "<i className=\"bi bi-bank\"></i>",
     ],
-    "description": "react-icon-Banco"
+    "description": "react-cdn-icon-Banco"
   },
-  "react-icon-Curativo-Bandaid": {
-    "prefix": "react-icon-Curativo-Bandaid",
+  "react-cdn-icon-Curativo-Bandaid": {
+    "prefix": "react-cdn-icon-Curativo-Bandaid",
     "body": [
       "<i className=\"bi bi-bandaid\"></i>",
     ],
-    "description": "react-icon-Curativo-Bandaid"
+    "description": "react-cdn-icon-Curativo-Bandaid"
   },
-  "react-icon-Proibido": {
-    "prefix": "react-icon-Proibido",
+  "react-cdn-icon-Proibido": {
+    "prefix": "react-cdn-icon-Proibido",
     "body": [
       "<i className=\"bi bi-ban\"></i>",
     ],
-    "description": "react-icon-Proibido"
+    "description": "react-cdn-icon-Proibido"
   },
-  "react-icon-Balao": {
-    "prefix": "react-icon-Balao",
+  "react-cdn-icon-Balao": {
+    "prefix": "react-cdn-icon-Balao",
     "body": [
       "<i className=\"bi bi-balloon\"></i>",
     ],
-    "description": "react-icon-Balao"
+    "description": "react-cdn-icon-Balao"
   },
-  "react-icon-Sacola": {
-    "prefix": "react-icon-Sacola",
+  "react-cdn-icon-Sacola": {
+    "prefix": "react-cdn-icon-Sacola",
     "body": [
       "<i className=\"bi bi-bag-check\"></i>",
     ],
-    "description": "react-icon-Sacola"
+    "description": "react-cdn-icon-Sacola"
   },
-  "react-icon-Certificado": {
-    "prefix": "react-icon-Certificado",
+  "react-cdn-icon-Certificado": {
+    "prefix": "react-cdn-icon-Certificado",
     "body": [
       "<i className=\"bi bi-award-fill\"></i>",
     ],
-    "description": "react-icon-Certificado"
+    "description": "react-cdn-icon-Certificado"
   },
-  "react-icon-Arroba": {
-    "prefix": "react-icon-Arroba",
+  "react-cdn-icon-Arroba": {
+    "prefix": "react-cdn-icon-Arroba",
     "body": [
       "<i className=\"bi bi-at\"></i>",
     ],
-    "description": "react-icon-Arroba"
+    "description": "react-cdn-icon-Arroba"
   },
-  "react-icon-Asterisco": {
-    "prefix": "react-icon-Asterisco",
+  "react-cdn-icon-Asterisco": {
+    "prefix": "react-cdn-icon-Asterisco",
     "body": [
       "<i className=\"bi bi-asterisk\"></i>",
     ],
-    "description": "react-icon-Asterisco"
+    "description": "react-cdn-icon-Asterisco"
   },
-  "react-icon-Coracao-Flecha": {
-    "prefix": "react-icon-Coracao-Flecha",
+  "react-cdn-icon-Coracao-Flecha": {
+    "prefix": "react-cdn-icon-Coracao-Flecha",
     "body": [
       "<i className=\"bi bi-arrow-through-heart\"></i>",
     ],
-    "description": "react-icon-Coracao-Flecha"
+    "description": "react-cdn-icon-Coracao-Flecha"
   },
-  "react-icon-Atualizar-Repetir": {
-    "prefix": "react-icon-Atualizar-Repetir",
+  "react-cdn-icon-Atualizar-Repetir": {
+    "prefix": "react-cdn-icon-Atualizar-Repetir",
     "body": [
       "<i className=\"bi bi-repeat\"></i>",
       "<i className=\"bi bi-repeat-1\"></i>",
       "<i className=\"bi bi-arrow-repeat\"></i>",
     ],
-    "description": "react-icon-Atualizar-Repetir"
+    "description": "react-cdn-icon-Atualizar-Repetir"
   },
-  "react-icon-Mac": {
-    "prefix": "react-icon-Mac",
+  "react-cdn-icon-Mac": {
+    "prefix": "react-cdn-icon-Mac",
     "body": [
       "<i className=\"bi bi-apple\"></i>",
     ],
-    "description": "react-icon-Mac"
+    "description": "react-cdn-icon-Mac"
   },
-  "react-icon-Android": {
-    "prefix": "react-icon-Android",
+  "react-cdn-icon-Android": {
+    "prefix": "react-cdn-icon-Android",
     "body": [
       "<i className=\"bi bi-android2\"></i>",
     ],
-    "description": "react-icon-Android"
+    "description": "react-cdn-icon-Android"
   },
-  "react-icon-Amazon": {
-    "prefix": "react-icon-Amazon",
+  "react-cdn-icon-Amazon": {
+    "prefix": "react-cdn-icon-Amazon",
     "body": [
       "<i className=\"bi bi-amazon\"></i>",
     ],
-    "description": "react-icon-Amazon"
+    "description": "react-cdn-icon-Amazon"
   },
-  "react-icon-Alex": {
-    "prefix": "react-icon-Alex",
+  "react-cdn-icon-Alex": {
+    "prefix": "react-cdn-icon-Alex",
     "body": [
       "<i className=\"bi bi-alexa\"></i>",
     ],
-    "description": "react-icon-Alex"
+    "description": "react-cdn-icon-Alex"
   },
-  "react-icon-Aviao": {
-    "prefix": "react-icon-Aviao",
+  "react-cdn-icon-Aviao": {
+    "prefix": "react-cdn-icon-Aviao",
     "body": [
       "<i className=\"bi bi-airplane\"></i>",
     ],
-    "description": "react-icon-Aviao"
+    "description": "react-cdn-icon-Aviao"
   },
-  "react-icon-Calendario3": {
-    "prefix": "react-icon-Calendario3",
+  "react-cdn-icon-Calendario3": {
+    "prefix": "react-cdn-icon-Calendario3",
     "body": [
       "<i className=\"bi bi-calendar3\"></i>",
     ],
-    "description": "react-icon-Calendario3"
+    "description": "react-cdn-icon-Calendario3"
   },
-  "react-icon-Chave": {
-    "prefix": "react-icon-Chave",
+  "react-cdn-icon-Chave": {
+    "prefix": "react-cdn-icon-Chave",
     "body": [
       "<i className=\"bi bi-key\"></i>",
     ],
-    "description": "react-icon-Chave"
+    "description": "react-cdn-icon-Chave"
   },
-  "react- ": {
-    "prefix": "react- ",
+  "react-cdn- ": {
+    "prefix": "react-cdn- ",
     "body": [
       "&nbsp;",
     ],
-    "description": "react- "
+    "description": "react-cdn- "
   },
-  "react-icon-tab": {
-    "prefix": "react-icon-tab",
+  "react-cdn-icon-tab": {
+    "prefix": "react-cdn-icon-tab",
     "body": [
       "&emsp;",
     ],
-    "description": "react-icon-tab"
+    "description": "react-cdn-icon-tab"
   },
-  "react-comentario": {
-    "prefix": "react-comentario",
+  "react-cdn-comentario": {
+    "prefix": "react-cdn-comentario",
     "body": [
       " ",
       "{/* */}",
       " "
     ],
-    "description": "react-comentario"
+    "description": "react-cdn-comentario"
   }
   // "script-modelo": {
   // 	"prefix": "script-modelo",
