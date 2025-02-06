@@ -355,7 +355,7 @@
       "// POST Padrão ",
       "const fetchPost = async (custonBaseURL = base_url, custonApiPostObjeto = api_get_objeto, customPage = getVar_page) => {",
       "    const url = custonBaseURL + custonApiPostObjeto + customPage;",
-      "    const SetData = formData;",
+      "    const setData = formData;",
       "    try {",
       "        const response = await fetch(url, {",
       "            method: 'POST',",
