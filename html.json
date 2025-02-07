@@ -563,7 +563,7 @@
 			"            } catch (error) {",
 			"                console.error('Erro ao enviar dados:', error);",
 			"                // Aqui você pode adicionar lógica adicional para exibir o erro para o usuário",
-			"                return null;",
+			"                return false;",
 			"            }",
 			"        };",
 			" ",
