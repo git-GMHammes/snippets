@@ -312,7 +312,7 @@
       "        });",
       "        # www/nomeProjeto/objeto/endpoint/(:any)",
       "        $$routes->group('endpoint', function ($$routes) {",
-      "            # www/nomeProjeto/objeto/endpoint/criar/(:any)",
+      "            # www/nomeProjeto/objeto/endpoint/cadastrar/(:any)",
       "            $$routes->get('cadastrar', 'EndPointController::dbCreate');",
       "            $$routes->get('cadastrar/(:segment)', 'EndPointController::dbCreate/$$1');",
       "            $$routes->get('cadastrar/(:any)', 'EndPointController::dbCreate/$$1');",
@@ -388,7 +388,7 @@
     "body": [
       "# www/project/group/endpoint/(:any)",
       "$$routes->group('endpoint', function ($$routes) {",
-      "    # www/project/group/endpoint/criar/(:any)",
+      "    # www/project/group/endpoint/cadastrar/(:any)",
       "    $$routes->get('cadastrar', 'ObjetoEndpointController::dbCreate');",
       "    $$routes->get('cadastrar/(:segment)', 'ObjetoEndpointController::dbCreate/$$1');",
       "    $$routes->get('cadastrar/(:any)', 'ObjetoEndpointController::dbCreate/$$1');",
