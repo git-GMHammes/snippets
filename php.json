@@ -448,7 +448,7 @@
       "# ",
       "use Exception;",
       "",
-      "class NomeController extends ResourceController",
+      "class ApiController extends ResourceController",
       "{",
       "    use ResponseTrait;",
       "    private $$ModelResponse;",
