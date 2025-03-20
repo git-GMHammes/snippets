@@ -1061,8 +1061,6 @@
 		],
 		"description": "Primeiro"
 	},
-<<<<<<< Updated upstream
-=======
 	"on-react-babel": {
 		"prefix": "on-react-babel",
 		"body": [
@@ -1083,7 +1081,6 @@
 		],
 		"description": "React + Babel + JSX"
 	},
->>>>>>> Stashed changes
 	"on- ": {
 		"prefix": "on- ",
 		"body": [
