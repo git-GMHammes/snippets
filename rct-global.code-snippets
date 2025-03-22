@@ -15,6 +15,17 @@
 	// 	],
 	// 	"description": "Log output to console"
 	// }
+	"rct-": {
+		"scope": "rct-",
+		"prefix": "rct-",
+		"body": [
+			"",
+			"",
+			""
+		],
+		"description": "rct-"
+	},
+	
 	"rct-boot-row": {
 		"prefix": "rct-boot-row",
 		"body": [
