@@ -40,7 +40,7 @@
 		"prefix": "rct-modal-descricao-animacao",
 		"body": [
 			"",
-			"// Tipos de animações para abrir um modal, com uma breve descrição de cada:",
+			"Tipos de animações para abrir um modal, com uma breve descrição de cada:",
 			"",
 			"// Fade In - O modal aparece gradualmente, aumentando sua opacidade de 0 a 100%.",
 			"// Slide Down - O modal desliza de cima para baixo até sua posição final.",
