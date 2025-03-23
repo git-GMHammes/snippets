@@ -25,7 +25,59 @@
 		],
 		"description": "rct-"
 	},
-	
+	"rct-import-components": {
+		"scope": "rct-import-components",
+		"prefix": "rct-import-components",
+		"body": [
+			"",
+			"// import InvocaComponente from '../../components/pasta/pasta/ComponenteExemplo';",
+			""
+		],
+		"description": "rct-import-components"
+	},
+	"rct-modal-descricao-animacao": {
+		"scope": "rct-modal-descricao-animacao",
+		"prefix": "rct-modal-descricao-animacao",
+		"body": [
+			"",
+			"// Tipos de animações para abrir um modal, com uma breve descrição de cada:",
+			"",
+			"// Fade In - O modal aparece gradualmente, aumentando sua opacidade de 0 a 100%.",
+			"// Slide Down - O modal desliza de cima para baixo até sua posição final.",
+			"// Slide Up - O modal emerge de baixo para cima até sua posição final.",
+			"// Zoom In - O modal começa pequeno e cresce até seu tamanho final.",
+			"// Zoom Out - O modal começa grande e diminui até seu tamanho final.",
+			"// Flip - O modal gira em um eixo (horizontal ou vertical) enquanto aparece.",
+			"// Bounce - O modal aparece com um efeito de salto, ultrapassando ligeiramente seu tamanho final antes de estabilizar.",
+			"// Swing - O modal aparece com um movimento pendular.",
+			"// Rotate - O modal gira enquanto aparece na tela.",
+			"// Scale - Similar ao zoom, mas pode ser aplicado com diferentes proporções nos eixos X e Y.",
+			"// Shake - O modal aparece com um movimento trêmulo lateral.",
+			"// Pulsate - O modal pisca algumas vezes enquanto aparece, alternando entre visível e menos visível.",
+			"// Slide In Left/Right - O modal desliza horizontalmente (da esquerda ou direita) até sua posição.",
+			"// Blur In - O fundo é desfocado enquanto o modal aparece em foco.",
+			"// Elastic - O modal se estica além de seu tamanho final e depois retrai para o tamanho correto.",
+			""
+		],
+		"description": "rct-modal-descricao-animacao"
+	},
+	"rct-geraId": {
+		"scope": "rct-geraId",
+		"prefix": "rct-geraId",
+		"body": [
+			"",
+			"    const gerarId = () => {",
+			"        const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';",
+			"        let result = '';",
+			"        for (let i = 0; i < 16; i++) {",
+			"            result += characters.charAt(Math.floor(Math.random() * characters.length));",
+			"        }",
+			"        return result;",
+			"    };",
+			""
+		],
+		"description": "rct-geraId"
+	},
 	"rct-boot-row": {
 		"prefix": "rct-boot-row",
 		"body": [
