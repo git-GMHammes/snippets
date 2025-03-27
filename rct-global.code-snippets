@@ -78,8 +78,8 @@
 		],
 		"description": "rct-geraId"
 	},
-	"rct-boot-row": {
-		"prefix": "rct-boot-row",
+	"rct-btn-row": {
+		"prefix": "rct-btn-row",
 		"body": [
 			"",
 			"    <div className=\"container text-center\">",
@@ -110,39 +110,39 @@
 			"    </div>",
 			""
 		],
-		"description": "rct-boot-row"
+		"description": "rct-btn-row"
 	},
-	"rct-boot-img-fluid": {
-		"prefix": "rct-boot-img-fluid",
+	"rct-btn-img-fluid": {
+		"prefix": "rct-btn-img-fluid",
 		"body": [
 			"<img src=\"$1\" className=\"img-fluid\" alt=\"$2\" />"
 		],
-		"description": "rct-boot-img-fluid"
+		"description": "rct-btn-img-fluid"
 	},
-	"rct-boot-img-thumbnail": {
-		"prefix": "rct-boot-img-thumbnail",
+	"rct-btn-img-thumbnail": {
+		"prefix": "rct-btn-img-thumbnail",
 		"body": [
 			"<img src=\"$1\" className=\"img-thumbnail\" alt=\"$2\" />"
 		],
-		"description": "rct-boot-img-thumbnail"
+		"description": "rct-btn-img-thumbnail"
 	},
-	"rct-boot-img-float": {
-		"prefix": "rct-boot-img-float",
+	"rct-btn-img-float": {
+		"prefix": "rct-btn-img-float",
 		"body": [
 			"<img src=\"$1\" className=\"rounded float-start\" alt=\"$2\" />",
 			"<img src=\"$3\" className=\"rounded float-end\" alt=\"$4\" />"
 		],
-		"description": "rct-boot-img-float"
+		"description": "rct-btn-img-float"
 	},
-	"rct-boot-img-center": {
-		"prefix": "rct-boot-img-center",
+	"rct-btn-img-center": {
+		"prefix": "rct-btn-img-center",
 		"body": [
 			"<img src=\"$1\" className=\"rounded mx-auto d-block\" alt=\"$2\" />"
 		],
-		"description": "rct-boot-img-center"
+		"description": "rct-btn-img-center"
 	},
-	"rct-boot-table-complete": {
-		"prefix": "rct-boot-table-complete",
+	"rct-btn-table-complete": {
+		"prefix": "rct-btn-table-complete",
 		"body": [
 			"<table className=\"table table-striped table-hover\">",
 			"  <thead>",
@@ -180,10 +180,10 @@
 			"  </tfoot>",
 			"</table>"
 		],
-		"description": "rct-boot-table-complete"
+		"description": "rct-btn-table-complete"
 	},
-	"rct-boot-form-basic": {
-		"prefix": "rct-boot-form-basic",
+	"rct-btn-form-basic": {
+		"prefix": "rct-btn-form-basic",
 		"body": [
 			"<div className=\"mb-3\">",
 			"  <label htmlFor=\"exampleFormControlInput1\" className=\"form-label\">Email address</label>",
@@ -194,34 +194,34 @@
 			"  <textarea className=\"form-control\" id=\"exampleFormControlTextarea1\" rows=\"3\"></textarea>",
 			"</div>"
 		],
-		"description": "rct-boot-form-basic"
+		"description": "rct-btn-form-basic"
 	},
-	"rct-boot-form-sizes": {
-		"prefix": "rct-boot-form-sizes",
+	"rct-btn-form-sizes": {
+		"prefix": "rct-btn-form-sizes",
 		"body": [
 			"<input className=\"form-control form-control-lg\" type=\"text\" placeholder=\".form-control-lg\" aria-label=\".form-control-lg example\" />",
 			"<input className=\"form-control\" type=\"text\" placeholder=\"Default input\" aria-label=\"default input example\" />",
 			"<input className=\"form-control form-control-sm\" type=\"text\" placeholder=\".form-control-sm\" aria-label=\".form-control-sm example\" />"
 		],
-		"description": "rct-boot-form-sizes"
+		"description": "rct-btn-form-sizes"
 	},
-	"rct-boot-form-disabled": {
-		"prefix": "rct-boot-form-disabled",
+	"rct-btn-form-disabled": {
+		"prefix": "rct-btn-form-disabled",
 		"body": [
 			"<input className=\"form-control\" type=\"text\" placeholder=\"Disabled input\" aria-label=\"Disabled input example\" disabled />",
 			"<input className=\"form-control\" type=\"text\" value=\"Disabled readonly input\" aria-label=\"Disabled input example\" disabled readOnly />"
 		],
-		"description": "rct-boot-form-disabled"
+		"description": "rct-btn-form-disabled"
 	},
-	"rct-boot-form-readonly": {
-		"prefix": "rct-boot-form-readonly",
+	"rct-btn-form-readonly": {
+		"prefix": "rct-btn-form-readonly",
 		"body": [
 			"<input className=\"form-control\" type=\"text\" value=\"Readonly input here...\" aria-label=\"readonly input example\" readOnly />"
 		],
-		"description": "rct-boot-form-readonly"
+		"description": "rct-btn-form-readonly"
 	},
-	"rct-boot-form-inline": {
-		"prefix": "rct-boot-form-inline",
+	"rct-btn-form-inline": {
+		"prefix": "rct-btn-form-inline",
 		"body": [
 			"<form className=\"row g-3\">",
 			"  <div className=\"col-auto\">",
@@ -237,10 +237,10 @@
 			"  </div>",
 			"</form>"
 		],
-		"description": "rct-boot-form-inline"
+		"description": "rct-btn-form-inline"
 	},
-	"rct-boot-form-file": {
-		"prefix": "rct-boot-form-file",
+	"rct-btn-form-file": {
+		"prefix": "rct-btn-form-file",
 		"body": [
 			"<div className=\"mb-3\">",
 			"  <label htmlFor=\"formFile\" className=\"form-label\">Default file input example</label>",
@@ -263,18 +263,18 @@
 			"  <input className=\"form-control form-control-lg\" id=\"formFileLg\" type=\"file\" />",
 			"</div>"
 		],
-		"description": "rct-boot-form-file"
+		"description": "rct-btn-form-file"
 	},
-	"rct-boot-form-color": {
-		"prefix": "rct-boot-form-color",
+	"rct-btn-form-color": {
+		"prefix": "rct-btn-form-color",
 		"body": [
 			"<label htmlFor=\"exampleColorInput\" className=\"form-label\">Color picker</label>",
 			"<input type=\"color\" className=\"form-control form-control-color\" id=\"exampleColorInput\" value=\"#563d7c\" title=\"Choose your color\" />"
 		],
-		"description": "rct-boot-form-color"
+		"description": "rct-btn-form-color"
 	},
-	"rct-boot-form-select-sizes": {
-		"prefix": "rct-boot-form-select-sizes",
+	"rct-btn-form-select-sizes": {
+		"prefix": "rct-btn-form-select-sizes",
 		"body": [
 			"<select className=\"form-select form-select-lg mb-3\" aria-label=\"Large select example\">",
 			"  <option selected>Open this select menu</option>",
@@ -289,10 +289,10 @@
 			"  <option value=\"3\">Three</option>",
 			"</select>"
 		],
-		"description": "rct-boot-form-select-sizes"
+		"description": "rct-btn-form-select-sizes"
 	},
-	"rct-boot-form-checkbox-indeterminate": {
-		"prefix": "rct-boot-form-checkbox-indeterminate",
+	"rct-btn-form-checkbox-indeterminate": {
+		"prefix": "rct-btn-form-checkbox-indeterminate",
 		"body": [
 			"<div className=\"form-check\">",
 			"  <input className=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"flexCheckIndeterminate\" />",
@@ -301,10 +301,10 @@
 			"  </label>",
 			"</div>"
 		],
-		"description": "rct-boot-form-checkbox-indeterminate"
+		"description": "rct-btn-form-checkbox-indeterminate"
 	},
-	"rct-boot-form-radio": {
-		"prefix": "rct-boot-form-radio",
+	"rct-btn-form-radio": {
+		"prefix": "rct-btn-form-radio",
 		"body": [
 			"<div className=\"form-check\">",
 			"  <input className=\"form-check-input\" type=\"radio\" name=\"flexRadioDefault\" id=\"flexRadioDefault1\" />",
@@ -319,10 +319,10 @@
 			"  </label>",
 			"</div>"
 		],
-		"description": "rct-boot-form-radio"
+		"description": "rct-btn-form-radio"
 	},
-	"rct-boot-form-switch": {
-		"prefix": "rct-boot-form-switch",
+	"rct-btn-form-switch": {
+		"prefix": "rct-btn-form-switch",
 		"body": [
 			"<div className=\"form-check form-switch\">",
 			"  <input className=\"form-check-input\" type=\"checkbox\" role=\"switch\" id=\"flexSwitchCheckDefault\" />",
@@ -341,10 +341,10 @@
 			"  <label className=\"form-check-label\" htmlFor=\"flexSwitchCheckCheckedDisabled\">Disabled checked switch checkbox input</label>",
 			"</div>"
 		],
-		"description": "rct-boot-form-switch"
+		"description": "rct-btn-form-switch"
 	},
-	"rct-boot-form-inline-checks": {
-		"prefix": "rct-boot-form-inline-checks",
+	"rct-btn-form-inline-checks": {
+		"prefix": "rct-btn-form-inline-checks",
 		"body": [
 			"<div className=\"form-check form-check-inline\">",
 			"  <input className=\"form-check-input\" type=\"checkbox\" id=\"inlineCheckbox1\" value=\"option1\" />",
@@ -371,10 +371,10 @@
 			"  <label className=\"form-check-label\" htmlFor=\"inlineRadio3\">3 (disabled)</label>",
 			"</div>"
 		],
-		"description": "rct-boot-form-inline-checks"
+		"description": "rct-btn-form-inline-checks"
 	},
-	"rct-boot-form-reverse-checks": {
-		"prefix": "rct-boot-form-reverse-checks",
+	"rct-btn-form-reverse-checks": {
+		"prefix": "rct-btn-form-reverse-checks",
 		"body": [
 			"<div className=\"form-check form-check-reverse\">",
 			"  <input className=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"reverseCheck1\" />",
@@ -393,10 +393,10 @@
 			"  <label className=\"form-check-label\" htmlFor=\"flexSwitchCheckReverse\">Reverse switch checkbox input</label>",
 			"</div>"
 		],
-		"description": "rct-boot-form-reverse-checks"
+		"description": "rct-btn-form-reverse-checks"
 	},
-	"rct-boot-btn-toggle": {
-		"prefix": "rct-boot-btn-toggle",
+	"rct-btn-btn-toggle": {
+		"prefix": "rct-btn-btn-toggle",
 		"body": [
 			"<input type=\"checkbox\" className=\"btn-check\" id=\"btn-check-outlined\" autoComplete=\"off\" />",
 			"<label className=\"btn btn-outline-primary\" htmlFor=\"btn-check-outlined\">Single toggle</label><br />",
@@ -407,18 +407,18 @@
 			"<input type=\"radio\" className=\"btn-check\" name=\"options-outlined\" id=\"danger-outlined\" autoComplete=\"off\" />",
 			"<label className=\"btn btn-outline-danger\" htmlFor=\"danger-outlined\">Danger radio</label>"
 		],
-		"description": "rct-boot-btn-toggle"
+		"description": "rct-btn-btn-toggle"
 	},
-	"rct-boot-form-range": {
-		"prefix": "rct-boot-form-range",
+	"rct-btn-form-range": {
+		"prefix": "rct-btn-form-range",
 		"body": [
 			"<label htmlFor=\"customRange3\" className=\"form-label\">Example range</label>",
 			"<input type=\"range\" className=\"form-range\" min=\"0\" max=\"5\" step=\"0.5\" id=\"customRange3\" />"
 		],
-		"description": "rct-boot-form-range"
+		"description": "rct-btn-form-range"
 	},
-	"rct-boot-form-input-group-basic": {
-		"prefix": "rct-boot-form-input-group-basic",
+	"rct-btn-form-input-group-basic": {
+		"prefix": "rct-btn-form-input-group-basic",
 		"body": [
 			"<div className=\"input-group mb-3\">",
 			"  <span className=\"input-group-text\" id=\"basic-addon1\">@</span>",
@@ -429,10 +429,10 @@
 			"  <span className=\"input-group-text\" id=\"basic-addon2\">@example.com</span>",
 			"</div>"
 		],
-		"description": "rct-boot-form-input-group-basic"
+		"description": "rct-btn-form-input-group-basic"
 	},
-	"rct-boot-form-input-group-url": {
-		"prefix": "rct-boot-form-input-group-url",
+	"rct-btn-form-input-group-url": {
+		"prefix": "rct-btn-form-input-group-url",
 		"body": [
 			"<div className=\"mb-3\">",
 			"  <label htmlFor=\"basic-url\" className=\"form-label\">Your vanity URL</label>",
@@ -443,10 +443,10 @@
 			"  <div className=\"form-text\" id=\"basic-addon4\">Example help text goes outside the input group.</div>",
 			"</div>"
 		],
-		"description": "rct-boot-form-input-group-url"
+		"description": "rct-btn-form-input-group-url"
 	},
-	"rct-boot-input-group-buttons": {
-		"prefix": "rct-boot-input-group-buttons",
+	"rct-btn-input-group-buttons": {
+		"prefix": "rct-btn-input-group-buttons",
 		"body": [
 			"<div className=\"input-group mb-3\">",
 			"  <button className=\"btn btn-outline-secondary\" type=\"button\" id=\"button-addon1\">Button</button>",
@@ -457,10 +457,10 @@
 			"  <button className=\"btn btn-outline-secondary\" type=\"button\" id=\"button-addon2\">Button</button>",
 			"</div>"
 		],
-		"description": "rct-boot-input-group-buttons"
+		"description": "rct-btn-input-group-buttons"
 	},
-	"rct-boot-form-input-group-sizes": {
-		"prefix": "rct-boot-form-input-group-sizes",
+	"rct-btn-form-input-group-sizes": {
+		"prefix": "rct-btn-form-input-group-sizes",
 		"body": [
 			"<div className=\"input-group input-group-sm mb-3\">",
 			"  <span className=\"input-group-text\" id=\"inputGroup-sizing-sm\">Small</span>",
@@ -475,10 +475,10 @@
 			"  <input type=\"text\" className=\"form-control\" aria-label=\"Sizing example input\" aria-describedby=\"inputGroup-sizing-lg\" />",
 			"</div>"
 		],
-		"description": "rct-boot-form-input-group-sizes"
+		"description": "rct-btn-form-input-group-sizes"
 	},
-	"rct-boot-group-dropdown": {
-		"prefix": "rct-boot-group-dropdown",
+	"rct-btn-group-dropdown": {
+		"prefix": "rct-btn-group-dropdown",
 		"body": [
 			"<div className=\"input-group mb-3\">",
 			"  <button className=\"btn btn-outline-secondary dropdown-toggle\" type=\"button\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\">Dropdown</button>",
@@ -522,10 +522,10 @@
 			"  </ul>",
 			"</div>"
 		],
-		"description": "rct-boot-group-dropdown"
+		"description": "rct-btn-group-dropdown"
 	},
-	"rct-boot-form-group-select": {
-		"prefix": "rct-boot-form-group-select",
+	"rct-btn-form-group-select": {
+		"prefix": "rct-btn-form-group-select",
 		"body": [
 			"<div className=\"input-group mb-3\">",
 			"  <label className=\"input-group-text\" htmlFor=\"inputGroupSelect01\">Options</label>",
@@ -564,10 +564,10 @@
 			"  <button className=\"btn btn-outline-secondary\" type=\"button\">Button</button>",
 			"</div>"
 		],
-		"description": "rct-boot-form-group-select"
+		"description": "rct-btn-form-group-select"
 	},
-	"rct-boot-form-input-group-file": {
-		"prefix": "rct-boot-form-input-group-file",
+	"rct-btn-form-input-group-file": {
+		"prefix": "rct-btn-form-input-group-file",
 		"body": [
 			"<div className=\"input-group mb-3\">",
 			"  <label className=\"input-group-text\" htmlFor=\"inputGroupFile01\">Upload</label>",
@@ -586,10 +586,10 @@
 			"  <button className=\"btn btn-outline-secondary\" type=\"button\" id=\"inputGroupFileAddon04\">Button</button>",
 			"</div>"
 		],
-		"description": "rct-boot-form-input-group-file"
+		"description": "rct-btn-form-input-group-file"
 	},
-	"rct-boot-form-label-floating": {
-		"prefix": "rct-boot-form-label-floating",
+	"rct-btn-form-label-floating": {
+		"prefix": "rct-btn-form-label-floating",
 		"body": [
 			"<div className=\"form-floating mb-3\">",
 			"  <input type=\"email\" className=\"form-control\" id=\"floatingInput\" placeholder=\"name@example.com\" />",
@@ -600,20 +600,20 @@
 			"  <label htmlFor=\"floatingPassword\">Password</label>",
 			"</div>"
 		],
-		"description": "rct-boot-form-label-floating"
+		"description": "rct-btn-form-label-floating"
 	},
-	"rct-boot-form-label-floating-textarea": {
-		"prefix": "rct-boot-form-label-floating-textarea",
+	"rct-btn-form-label-floating-textarea": {
+		"prefix": "rct-btn-form-label-floating-textarea",
 		"body": [
 			"<div className=\"form-floating\">",
 			"  <textarea className=\"form-control\" placeholder=\"Leave a comment here\" id=\"floatingTextarea\"></textarea>",
 			"  <label htmlFor=\"floatingTextarea\">Comments</label>",
 			"</div>"
 		],
-		"description": "rct-boot-form-label-floating-textarea"
+		"description": "rct-btn-form-label-floating-textarea"
 	},
-	"rct-boot-form-label-floating-select": {
-		"prefix": "rct-boot-form-label-floating-select",
+	"rct-btn-form-label-floating-select": {
+		"prefix": "rct-btn-form-label-floating-select",
 		"body": [
 			"<div className=\"form-floating\">",
 			"  <select className=\"form-select\" id=\"floatingSelect\" aria-label=\"Floating label select example\" defaultValue=\"\">",
@@ -625,10 +625,10 @@
 			"  <label htmlFor=\"floatingSelect\">Works with selects</label>",
 			"</div>"
 		],
-		"description": "rct-boot-form-label-floating-select"
+		"description": "rct-btn-form-label-floating-select"
 	},
-	"rct-boot-form-label-floating-input-group": {
-		"prefix": "rct-boot-form-label-floating-input-group",
+	"rct-btn-form-label-floating-input-group": {
+		"prefix": "rct-btn-form-label-floating-input-group",
 		"body": [
 			"<div className=\"input-group mb-3\">",
 			"  <span className=\"input-group-text\">@</span>",
@@ -638,10 +638,10 @@
 			"  </div>",
 			"</div>"
 		],
-		"description": "rct-boot-form-label-floating-input-group"
+		"description": "rct-btn-form-label-floating-input-group"
 	},
-	"rct-boot-form-label-floating-grid": {
-		"prefix": "rct-boot-form-label-floating-grid",
+	"rct-btn-form-label-floating-grid": {
+		"prefix": "rct-btn-form-label-floating-grid",
 		"body": [
 			"<div className=\"row g-2\">",
 			"  <div className=\"col-md\">",
@@ -663,10 +663,10 @@
 			"  </div>",
 			"</div>"
 		],
-		"description": "rct-boot-form-label-floating-grid"
+		"description": "rct-btn-form-label-floating-grid"
 	},
-	"rct-boot-form-grid-complete": {
-		"prefix": "rct-boot-form-grid-complete",
+	"rct-btn-form-grid-complete": {
+		"prefix": "rct-btn-form-grid-complete",
 		"body": [
 			"<form className=\"row g-3\">",
 			"  <div className=\"col-md-6\">",
@@ -713,10 +713,10 @@
 			"  </div>",
 			"</form>"
 		],
-		"description": "rct-boot-form-grid-complete"
+		"description": "rct-btn-form-grid-complete"
 	},
-	"rct-boot-form-grid-simple": {
-		"prefix": "rct-boot-form-grid-simple",
+	"rct-btn-form-grid-simple": {
+		"prefix": "rct-btn-form-grid-simple",
 		"body": [
 			"<div className=\"row g-3\">",
 			"  <div className=\"col-sm-7\">",
@@ -730,10 +730,10 @@
 			"  </div>",
 			"</div>"
 		],
-		"description": "rct-boot-form-grid-simple"
+		"description": "rct-btn-form-grid-simple"
 	},
-	"rct-boot-form-inline-responsive": {
-		"prefix": "rct-boot-form-inline-responsive",
+	"rct-btn-form-inline-responsive": {
+		"prefix": "rct-btn-form-inline-responsive",
 		"body": [
 			"<form className=\"row row-cols-lg-auto g-3 align-items-center\">",
 			"  <div className=\"col-12\">",
@@ -765,10 +765,10 @@
 			"  </div>",
 			"</form>"
 		],
-		"description": "rct-boot-form-inline-responsive"
+		"description": "rct-btn-form-inline-responsive"
 	},
-	"rct-boot-form-validation": {
-		"prefix": "rct-boot-form-validation",
+	"rct-btn-form-validation": {
+		"prefix": "rct-btn-form-validation",
 		"body": [
 			"<form className=\"was-validated\">",
 			"  <div className=\"mb-3\">",
@@ -827,10 +827,10 @@
 			"  </div>",
 			"</form>"
 		],
-		"description": "rct-boot-form-validation"
+		"description": "rct-btn-form-validation"
 	},
-	"rct-boot-accordion": {
-		"prefix": "rct-boot-accordion",
+	"rct-btn-accordion": {
+		"prefix": "rct-btn-accordion",
 		"body": [
 			"<div className=\"accordion\" id=\"accordionPanelsStayOpenExample\">",
 			"  <div className=\"accordion-item\">",
@@ -871,10 +871,10 @@
 			"  </div>",
 			"</div>"
 		],
-		"description": "rct-boot-accordion"
+		"description": "rct-btn-accordion"
 	},
-	"rct-boot-alerts": {
-		"prefix": "rct-boot-alerts",
+	"rct-btn-alerts": {
+		"prefix": "rct-btn-alerts",
 		"body": [
 			"<div className=\"alert alert-primary\" role=\"alert\">",
 			"  A simple primary alert—check it out!",
@@ -901,10 +901,10 @@
 			"  A simple dark alert—check it out!",
 			"</div>"
 		],
-		"description": "rct-boot-alerts"
+		"description": "rct-btn-alerts"
 	},
-	"rct-boot-alerts-with-icons": {
-		"prefix": "rct-boot-alerts-with-icons",
+	"rct-btn-alerts-with-icons": {
+		"prefix": "rct-btn-alerts-with-icons",
 		"body": [
 			"<svg xmlns=\"http://www.w3.org/2000/svg\" className=\"d-none\">",
 			"  <symbol id=\"check-circle-fill\" viewBox=\"0 0 16 16\">",
@@ -942,10 +942,10 @@
 			"  </div>",
 			"</div>"
 		],
-		"description": "rct-boot-alerts-with-icons"
+		"description": "rct-btn-alerts-with-icons"
 	},
-	"rct-boot-alerts-fechar": {
-		"prefix": "rct-boot-alerts-fechar",
+	"rct-btn-alerts-fechar": {
+		"prefix": "rct-btn-alerts-fechar",
 		"body": [
 			"<div className=\"alert alert-primary alert-dismissible fade show\" role=\"alert\">",
 			"  <strong>Primary alert!</strong> This is an important primary message.",
@@ -980,19 +980,19 @@
 			"  <button type=\"button\" className=\"btn-close\" data-bs-dismiss=\"alert\" aria-label=\"Close\"></button>",
 			"</div>"
 		],
-		"description": "rct-boot-alerts-fechar"
+		"description": "rct-btn-alerts-fechar"
 	},
-	"rct-boot-btn-badge-numero": {
-		"prefix": "rct-boot-btn-badge-numero",
+	"rct-btn-btn-badge-numero": {
+		"prefix": "rct-btn-btn-badge-numero",
 		"body": [
 			"<button type=\"button\" className=\"btn btn-primary\">",
 			"  Notifications <span className=\"badge text-bg-secondary\">4</span>",
 			"</button>"
 		],
-		"description": "rct-boot-btn-badge-numero"
+		"description": "rct-btn-btn-badge-numero"
 	},
-	"rct-boot-badges-color": {
-		"prefix": "rct-boot-badges-color",
+	"rct-btn-badges-color": {
+		"prefix": "rct-btn-badges-color",
 		"body": [
 			"<span className=\"badge text-bg-primary\">Primary</span>",
 			"<span className=\"badge text-bg-secondary\">Secondary</span>",
@@ -1003,10 +1003,10 @@
 			"<span className=\"badge text-bg-light\">Light</span>",
 			"<span className=\"badge text-bg-dark\">Dark</span>"
 		],
-		"description": "rct-boot-badges-color"
+		"description": "rct-btn-badges-color"
 	},
-	"rct-boot-badges-arredondado": {
-		"prefix": "rct-boot-badges-arredondado",
+	"rct-btn-badges-arredondado": {
+		"prefix": "rct-btn-badges-arredondado",
 		"body": [
 			"<span className=\"badge rounded-pill text-bg-primary\">Primary</span>",
 			"<span className=\"badge rounded-pill text-bg-secondary\">Secondary</span>",
@@ -1017,10 +1017,10 @@
 			"<span className=\"badge rounded-pill text-bg-light\">Light</span>",
 			"<span className=\"badge rounded-pill text-bg-dark\">Dark</span>"
 		],
-		"description": "rct-boot-badges-arredondado"
+		"description": "rct-btn-badges-arredondado"
 	},
-	"rct-boot-botoes": {
-		"prefix": "rct-boot-botoes",
+	"rct-btn-botoes": {
+		"prefix": "rct-btn-botoes",
 		"body": [
 			"<div className='m-2'>",
 			"<a className='ms-2 btn btn-primary' href='#' role='button'>${1:Link}</a>",
@@ -1057,10 +1057,10 @@
 			"<button type=\"button\" className=\"ms-2 btn btn-outline-dark\">Default Dark</button>",
 			"</div>"
 		],
-		"description": "rct-boot-botoes"
+		"description": "rct-btn-botoes"
 	},
-	"rct-boot-card-basic": {
-		"prefix": "rct-boot-card-basic",
+	"rct-btn-card-basic": {
+		"prefix": "rct-btn-card-basic",
 		"body": [
 			"<div className=\"card\">",
 			"  <div className=\"card-header\">",
@@ -1073,10 +1073,10 @@
 			"  </div>",
 			"</div>"
 		],
-		"description": "rct-boot-card-basic"
+		"description": "rct-btn-card-basic"
 	},
-	"rct-boot-card-image": {
-		"prefix": "rct-boot-card-image",
+	"rct-btn-card-image": {
+		"prefix": "rct-btn-card-image",
 		"body": [
 			"<div className=\"card\" style={{width: '18rem'}}>",
 			"  <img src=\"$1\" className=\"card-img-top\" alt=\"$2\" />",
@@ -1087,10 +1087,10 @@
 			"  </div>",
 			"</div>"
 		],
-		"description": "rct-boot-card-image"
+		"description": "rct-btn-card-image"
 	},
-	"rct-boot-card-header-footer": {
-		"prefix": "rct-boot-card-header-footer",
+	"rct-btn-card-header-footer": {
+		"prefix": "rct-btn-card-header-footer",
 		"body": [
 			"<div className=\"card text-center\">",
 			"  <div className=\"card-header\">",
@@ -1106,10 +1106,10 @@
 			"  </div>",
 			"</div>"
 		],
-		"description": "rct-boot-card-header-footer"
+		"description": "rct-btn-card-header-footer"
 	},
-	"rct-boot-card-centered": {
-		"prefix": "rct-boot-card-centered",
+	"rct-btn-card-centered": {
+		"prefix": "rct-btn-card-centered",
 		"body": [
 			"<div className=\"card text-center\">",
 			"  <div className=\"card-header\">",
@@ -1125,10 +1125,10 @@
 			"  </div>",
 			"</div>"
 		],
-		"description": "rct-boot-card-centered"
+		"description": "rct-btn-card-centered"
 	},
-	"rct-boot-card-modern": {
-		"prefix": "rct-boot-card-modern",
+	"rct-btn-card-modern": {
+		"prefix": "rct-btn-card-modern",
 		"body": [
 			"<div className=\"card text-center\">",
 			"  <div className=\"card-header\">",
@@ -1144,10 +1144,10 @@
 			"  </div>",
 			"</div>"
 		],
-		"description": "rct-boot-card-modern"
+		"description": "rct-btn-card-modern"
 	},
-	"rct-boot-dropdown-form": {
-		"prefix": "rct-boot-dropdown-form",
+	"rct-btn-dropdown-form": {
+		"prefix": "rct-btn-dropdown-form",
 		"body": [
 			"<div className=\"dropdown\">",
 			"  <button type=\"button\" className=\"btn btn-primary dropdown-toggle\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\" data-bs-auto-close=\"outside\">",
@@ -1174,10 +1174,10 @@
 			"  </form>",
 			"</div>"
 		],
-		"description": "rct-boot-dropdown-form"
+		"description": "rct-btn-dropdown-form"
 	},
-	"rct-boot-dropdown-multiple": {
-		"prefix": "rct-boot-dropdown-multiple",
+	"rct-btn-dropdown-multiple": {
+		"prefix": "rct-btn-dropdown-multiple",
 		"body": [
 			"<div className=\"btn-group\">",
 			"  <button className=\"btn btn-primary dropdown-toggle\" type=\"button\" data-bs-toggle=\"dropdown\" data-bs-auto-close=\"true\" aria-expanded=\"false\">",
@@ -1260,10 +1260,10 @@
 			"  </ul>",
 			"</div>"
 		],
-		"description": "rct-boot-dropdown-multiple"
+		"description": "rct-btn-dropdown-multiple"
 	},
-	"rct-boot-navbar-scroll": {
-		"prefix": "rct-boot-navbar-scroll",
+	"rct-btn-navbar-scroll": {
+		"prefix": "rct-btn-navbar-scroll",
 		"body": [
 			"<nav className=\"navbar navbar-expand-lg bg-body-tertiary\">",
 			"  <div className=\"container-fluid\">",
@@ -1302,10 +1302,10 @@
 			"  </div>",
 			"</nav>"
 		],
-		"description": "rct-boot-navbar-scroll"
+		"description": "rct-btn-navbar-scroll"
 	},
-	"rct-boot-navbar-brand-centered": {
-		"prefix": "rct-boot-navbar-brand-centered",
+	"rct-btn-navbar-brand-centered": {
+		"prefix": "rct-btn-navbar-brand-centered",
 		"body": [
 			"<nav className=\"navbar navbar-expand-lg bg-body-tertiary\">",
 			"  <div className=\"container-fluid\">",
@@ -1329,10 +1329,10 @@
 			"  </div>",
 			"</nav>"
 		],
-		"description": "rct-boot-navbar-brand-centered"
+		"description": "rct-btn-navbar-brand-centered"
 	},
-	"rct-boot-navbar-offcanvas": {
-		"prefix": "rct-boot-navbar-offcanvas",
+	"rct-btn-navbar-offcanvas": {
+		"prefix": "rct-btn-navbar-offcanvas",
 		"body": [
 			"<nav className=\"navbar navbar-expand-lg bg-body-tertiary\">",
 			"  <div className=\"container-fluid\">",
@@ -1374,10 +1374,10 @@
 			"  </div>",
 			"</nav>"
 		],
-		"description": "rct-boot-navbar-offcanvas"
+		"description": "rct-btn-navbar-offcanvas"
 	},
-	"rct-boot-navbar-colored": {
-		"prefix": "rct-boot-navbar-colored",
+	"rct-btn-navbar-colored": {
+		"prefix": "rct-btn-navbar-colored",
 		"body": [
 			"<nav className=\"navbar navbar-expand-lg navbar-dark bg-primary\">",
 			"  <div className=\"container-fluid\">",
@@ -1405,10 +1405,10 @@
 			"  </div>",
 			"</nav>"
 		],
-		"description": "rct-boot-navbar-colored"
+		"description": "rct-btn-navbar-colored"
 	},
-	"rct-boot-offcanvas-basic": {
-		"prefix": "rct-boot-offcanvas-basic",
+	"rct-btn-offcanvas-basic": {
+		"prefix": "rct-btn-offcanvas-basic",
 		"body": [
 			"<a className=\"btn btn-primary\" data-bs-toggle=\"offcanvas\" href=\"#offcanvasExample\" role=\"button\" aria-controls=\"offcanvasExample\">",
 			"  Link with href",
@@ -1438,10 +1438,10 @@
 			"  </div>",
 			"</div>"
 		],
-		"description": "rct-boot-offcanvas-basic"
+		"description": "rct-btn-offcanvas-basic"
 	},
-	"rct-boot-offcanvas-all-positions": {
-		"prefix": "rct-boot-offcanvas-all-positions",
+	"rct-btn-offcanvas-all-positions": {
+		"prefix": "rct-btn-offcanvas-all-positions",
 		"body": [
 			"// Offcanvas with different colors, placements, and trigger methods",
 			"<div>",
@@ -1559,10 +1559,10 @@
 			"  </div>",
 			"</div>"
 		],
-		"description": "rct-boot-offcanvas-all-positions"
+		"description": "rct-btn-offcanvas-all-positions"
 	},
-	"rct-boot-pagination-basic": {
-		"prefix": "rct-boot-pagination-basic",
+	"rct-btn-pagination-basic": {
+		"prefix": "rct-btn-pagination-basic",
 		"body": [
 			"<nav aria-label=\"Basic pagination\">",
 			"  <ul className=\"pagination\">",
@@ -1580,10 +1580,10 @@
 			"  </ul>",
 			"</nav>"
 		],
-		"description": "rct-boot-pagination-basic"
+		"description": "rct-btn-pagination-basic"
 	},
-	"rct-boot-pagination-sizes": {
-		"prefix": "rct-boot-pagination-sizes",
+	"rct-btn-pagination-sizes": {
+		"prefix": "rct-btn-pagination-sizes",
 		"body": [
 			"<nav aria-label=\"Pagination Sizes\">",
 			"  {/* Large Pagination */}",
@@ -1616,10 +1616,10 @@
 			"    </li>",
 			"  </ul>"
 		],
-		"description": "rct-boot-pagination-sizes"
+		"description": "rct-btn-pagination-sizes"
 	},
-	"rct-boot-pagination-alignment": {
-		"prefix": "rct-boot-pagination-alignment",
+	"rct-btn-pagination-alignment": {
+		"prefix": "rct-btn-pagination-alignment",
 		"body": [
 			"<nav aria-label=\"Pagination Alignment\">",
 			"  {/* Center Aligned */}",
@@ -1656,10 +1656,10 @@
 			"    </ul>",
 			"  </div>"
 		],
-		"description": "rct-boot-pagination-alignment"
+		"description": "rct-btn-pagination-alignment"
 	},
-	"rct-boot-pagination-with-icons": {
-		"prefix": "rct-boot-pagination-with-icons",
+	"rct-btn-pagination-with-icons": {
+		"prefix": "rct-btn-pagination-with-icons",
 		"body": [
 			"<nav aria-label=\"Pagination with Icons\">",
 			"  <ul className=\"pagination\">",
@@ -1681,10 +1681,10 @@
 			"  </ul>",
 			"</nav>"
 		],
-		"description": "rct-boot-pagination-with-icons"
+		"description": "rct-btn-pagination-with-icons"
 	},
-	"rct-boot-card-with-placeholder": {
-		"prefix": "rct-boot-card-with-placeholder",
+	"rct-btn-card-with-placeholder": {
+		"prefix": "rct-btn-card-with-placeholder",
 		"body": [
 			"<div className=\"card\">",
 			"  <img src=\"$1\" className=\"card-img-top\" alt=\"$2\" />",
@@ -1711,19 +1711,19 @@
 			"  </div>",
 			"</div>"
 		],
-		"description": "rct-boot-card-with-placeholder"
+		"description": "rct-btn-card-with-placeholder"
 	},
-	"rct-boot-progress-basic": {
-		"prefix": "rct-boot-progress-basic",
+	"rct-btn-progress-basic": {
+		"prefix": "rct-btn-progress-basic",
 		"body": [
 			"<div className=\"progress\" role=\"progressbar\" aria-label=\"Example with label\" aria-valuenow=\"25\" aria-valuemin=\"0\" aria-valuemax=\"100\">",
 			"  <div className=\"progress-bar\" style={{width: '25%'}}>25%</div>",
 			"</div>"
 		],
-		"description": "rct-boot-progress-basic"
+		"description": "rct-btn-progress-basic"
 	},
-	"rct-boot-progress-multiple": {
-		"prefix": "rct-boot-progress-multiple",
+	"rct-btn-progress-multiple": {
+		"prefix": "rct-btn-progress-multiple",
 		"body": [
 			"<div className=\"progress\" role=\"progressbar\" aria-label=\"Multibar progress\" aria-valuenow=\"75\" aria-valuemin=\"0\" aria-valuemax=\"100\">",
 			"  <div className=\"progress-bar\" style={{width: '15%'}}>15%</div>",
@@ -1731,10 +1731,10 @@
 			"  <div className=\"progress-bar bg-info\" style={{width: '20%'}}>20%</div>",
 			"</div>"
 		],
-		"description": "rct-boot-progress-multiple"
+		"description": "rct-btn-progress-multiple"
 	},
-	"rct-boot-progress-colors": {
-		"prefix": "rct-boot-progress-colors",
+	"rct-btn-progress-colors": {
+		"prefix": "rct-btn-progress-colors",
 		"body": [
 			"<div className=\"d-grid gap-2\">",
 			"  <div className=\"progress\" role=\"progressbar\" aria-label=\"Primary progress\" aria-valuenow=\"25\" aria-valuemin=\"0\" aria-valuemax=\"100\">",
@@ -1751,10 +1751,10 @@
 			"  </div>",
 			"</div>"
 		],
-		"description": "rct-boot-progress-colors"
+		"description": "rct-btn-progress-colors"
 	},
-	"rct-boot-progress-striped": {
-		"prefix": "rct-boot-progress-striped",
+	"rct-btn-progress-striped": {
+		"prefix": "rct-btn-progress-striped",
 		"body": [
 			"<div className=\"d-grid gap-2\">",
 			"  <div className=\"progress\" role=\"progressbar\" aria-label=\"Striped primary\" aria-valuenow=\"25\" aria-valuemin=\"0\" aria-valuemax=\"100\">",
@@ -1768,10 +1768,10 @@
 			"  </div>",
 			"</div>"
 		],
-		"description": "rct-boot-progress-striped"
+		"description": "rct-btn-progress-striped"
 	},
-	"rct-boot-progress-height": {
-		"prefix": "rct-boot-progress-height",
+	"rct-btn-progress-height": {
+		"prefix": "rct-btn-progress-height",
 		"body": [
 			"<div className=\"d-grid gap-2\">",
 			"  <div className=\"progress\" role=\"progressbar\" aria-label=\"Small progress\" aria-valuenow=\"25\" aria-valuemin=\"0\" aria-valuemax=\"100\" style={{height: '10px'}}>",
@@ -1785,10 +1785,10 @@
 			"  </div>",
 			"</div>"
 		],
-		"description": "rct-boot-progress-height"
+		"description": "rct-btn-progress-height"
 	},
-	"rct-boot-spinner-colors": {
-		"prefix": "rct-boot-spinner-colors",
+	"rct-btn-spinner-colors": {
+		"prefix": "rct-btn-spinner-colors",
 		"body": [
 			"// Spinner Colors",
 			"<div className=\"d-flex flex-wrap gap-2\">",
@@ -1819,10 +1819,10 @@
 			"  </div>",
 			"</div>"
 		],
-		"description": "rct-boot-spinner-colors"
+		"description": "rct-btn-spinner-colors"
 	},
-	"rct-boot-spinner-grow": {
-		"prefix": "rct-boot-spinner-grow",
+	"rct-btn-spinner-grow": {
+		"prefix": "rct-btn-spinner-grow",
 		"body": [
 			"// Grow Spinners with Colors",
 			"<div className=\"d-flex flex-wrap gap-2\">",
@@ -1852,10 +1852,10 @@
 			"  </div>",
 			"</div>"
 		],
-		"description": "rct-boot-spinner-grow"
+		"description": "rct-btn-spinner-grow"
 	},
-	"rct-boot-spinner-sizes": {
-		"prefix": "rct-boot-spinner-sizes",
+	"rct-btn-spinner-sizes": {
+		"prefix": "rct-btn-spinner-sizes",
 		"body": [
 			"// Spinner Sizes",
 			"<div className=\"d-flex flex-wrap align-items-center gap-3\">",
@@ -1873,10 +1873,10 @@
 			"  </div>",
 			"</div>"
 		],
-		"description": "rct-boot-spinner-sizes"
+		"description": "rct-btn-spinner-sizes"
 	},
-	"rct-boot-spinner-button": {
-		"prefix": "rct-boot-spinner-button",
+	"rct-btn-spinner-button": {
+		"prefix": "rct-btn-spinner-button",
 		"body": [
 			"// Spinner Inside Button",
 			"<button className=\"btn btn-primary\" type=\"button\" disabled>",
@@ -1888,10 +1888,10 @@
 			"  Loading...",
 			"</button>"
 		],
-		"description": "rct-boot-spinner-button"
+		"description": "rct-btn-spinner-button"
 	},
-	"rct-boot-toast-basic": {
-		"prefix": "rct-boot-toast-basic",
+	"rct-btn-toast-basic": {
+		"prefix": "rct-btn-toast-basic",
 		"body": [
 			"<button type=\"button\" className=\"btn btn-primary\" id=\"liveToastBtn\">Show live toast</button>",
 			"<div className=\"toast-container position-fixed bottom-0 end-0 p-3\">",
@@ -1908,10 +1908,10 @@
 			"  </div>",
 			"</div>"
 		],
-		"description": "rct-boot-toast-basic"
+		"description": "rct-btn-toast-basic"
 	},
-	"rct-boot-toast-multiple-positions": {
-		"prefix": "rct-boot-toast-multiple-positions",
+	"rct-btn-toast-multiple-positions": {
+		"prefix": "rct-btn-toast-multiple-positions",
 		"body": [
 			"// Toast Positions",
 			"<div className=\"toast-container position-fixed top-0 start-0 p-3\">",
@@ -1963,10 +1963,10 @@
 			"  </div>",
 			"</div>"
 		],
-		"description": "rct-boot-toast-multiple-positions"
+		"description": "rct-btn-toast-multiple-positions"
 	},
-	"rct-boot-toast-colors": {
-		"prefix": "rct-boot-toast-colors",
+	"rct-btn-toast-colors": {
+		"prefix": "rct-btn-toast-colors",
 		"body": [
 			"// Colored Toasts",
 			"<div className=\"toast-container position-fixed bottom-0 end-0 p-3\">",
@@ -2002,10 +2002,10 @@
 			"  </div>",
 			"</div>"
 		],
-		"description": "rct-boot-toast-colors"
+		"description": "rct-btn-toast-colors"
 	},
-	"rct-boot-toast-stacked": {
-		"prefix": "rct-boot-toast-stacked",
+	"rct-btn-toast-stacked": {
+		"prefix": "rct-btn-toast-stacked",
 		"body": [
 			"// Stacked Toasts",
 			"<div className=\"toast-container position-fixed bottom-0 end-0 p-3\">",
@@ -2041,10 +2041,10 @@
 			"  </div>",
 			"</div>"
 		],
-		"description": "rct-boot-toast-stacked"
+		"description": "rct-btn-toast-stacked"
 	},
-	"rct-boot-background-text-colors": {
-		"prefix": "rct-boot-background-text-colors",
+	"rct-btn-background-text-colors": {
+		"prefix": "rct-btn-background-text-colors",
 		"body": [
 			"// Background Colors with Contrasting Text",
 			"<div className=\"d-grid gap-2\">",
@@ -2058,10 +2058,10 @@
 			"  <div className=\"text-bg-dark p-3\">Dark with contrasting color</div>",
 			"</div>"
 		],
-		"description": "rct-boot-background-text-colors"
+		"description": "rct-btn-background-text-colors"
 	},
-	"rct-boot-background-badges": {
-		"prefix": "rct-boot-background-badges",
+	"rct-btn-background-badges": {
+		"prefix": "rct-btn-background-badges",
 		"body": [
 			"// Badges with Background Colors",
 			"<div className=\"d-flex flex-wrap gap-2\">",
@@ -2075,10 +2075,10 @@
 			"  <span className=\"badge text-bg-dark\">Dark</span>",
 			"</div>"
 		],
-		"description": "rct-boot-background-badges"
+		"description": "rct-btn-background-badges"
 	},
-	"rct-boot-background-cards": {
-		"prefix": "rct-boot-background-cards",
+	"rct-btn-background-cards": {
+		"prefix": "rct-btn-background-cards",
 		"body": [
 			"// Cards with Background Colors",
 			"<div className=\"row\">",
@@ -2108,10 +2108,10 @@
 			"  </div>",
 			"</div>"
 		],
-		"description": "rct-boot-background-cards"
+		"description": "rct-btn-background-cards"
 	},
-	"rct-boot-background-alerts": {
-		"prefix": "rct-boot-background-alerts",
+	"rct-btn-background-alerts": {
+		"prefix": "rct-btn-background-alerts",
 		"body": [
 			"// Alerts with Background Colors",
 			"<div className=\"d-grid gap-2\">",
@@ -2141,19 +2141,19 @@
 			"  </div>",
 			"</div>"
 		],
-		"description": "rct-boot-background-alerts"
+		"description": "rct-btn-background-alerts"
 	},
-	"rct-boot-flex-display": {
-		"prefix": "rct-boot-flex-display",
+	"rct-btn-flex-display": {
+		"prefix": "rct-btn-flex-display",
 		"body": [
 			"// Flex Display Variations",
 			"<div className=\"d-flex p-2\">I'm a flexbox container!</div>",
 			"<div className=\"d-inline-flex p-2\">I'm an inline flexbox container!</div>"
 		],
-		"description": "rct-boot-flex-display"
+		"description": "rct-btn-flex-display"
 	},
-	"rct-boot-flex-direction": {
-		"prefix": "rct-boot-flex-direction",
+	"rct-btn-flex-direction": {
+		"prefix": "rct-btn-flex-direction",
 		"body": [
 			"// Flex Direction Variations",
 			"// Horizontal Directions",
@@ -2180,10 +2180,10 @@
 			"  <div className=\"p-2\">Flex item 3</div>",
 			"</div>"
 		],
-		"description": "rct-boot-flex-direction"
+		"description": "rct-btn-flex-direction"
 	},
-	"rct-boot-flex-justify-content": {
-		"prefix": "rct-boot-flex-justify-content",
+	"rct-btn-flex-justify-content": {
+		"prefix": "rct-btn-flex-justify-content",
 		"body": [
 			"// Justify Content Variations",
 			"<div className=\"d-flex justify-content-start mb-2\">",
@@ -2211,10 +2211,10 @@
 			"  <div className=\"p-2\">Flex item</div>",
 			"</div>"
 		],
-		"description": "rct-boot-flex-justify-content"
+		"description": "rct-btn-flex-justify-content"
 	},
-	"rct-boot-flex-align-items": {
-		"prefix": "rct-boot-flex-align-items",
+	"rct-btn-flex-align-items": {
+		"prefix": "rct-btn-flex-align-items",
 		"body": [
 			"// Align Items Variations",
 			"<div className=\"d-flex align-items-start\" style={{height: '100px'}}>",
@@ -2238,10 +2238,10 @@
 			"  <div className=\"p-2\">Flex item</div>",
 			"</div>"
 		],
-		"description": "rct-boot-flex-align-items"
+		"description": "rct-btn-flex-align-items"
 	},
-	"rct-boot-flex-auto-margins": {
-		"prefix": "rct-boot-flex-auto-margins",
+	"rct-btn-flex-auto-margins": {
+		"prefix": "rct-btn-flex-auto-margins",
 		"body": [
 			"// Flex Auto Margins Variations",
 			"// Default Layout",
@@ -2265,10 +2265,10 @@
 			"  <div className=\"ms-auto p-2\">Flex item</div>",
 			"</div>"
 		],
-		"description": "rct-boot-flex-auto-margins"
+		"description": "rct-btn-flex-auto-margins"
 	},
-	"rct-boot-flex-wrap": {
-		"prefix": "rct-boot-flex-wrap",
+	"rct-btn-flex-wrap": {
+		"prefix": "rct-btn-flex-wrap",
 		"body": [
 			"// Flex Wrap Variations",
 			"// No Wrap (Default)",
@@ -2298,10 +2298,10 @@
 			"  <div className=\"p-2\">Flex item 5</div>",
 			"</div>"
 		],
-		"description": "rct-boot-flex-wrap"
+		"description": "rct-btn-flex-wrap"
 	},
-	"rct-boot-inline-alignment": {
-		"prefix": "rct-boot-inline-alignment",
+	"rct-btn-inline-alignment": {
+		"prefix": "rct-btn-inline-alignment",
 		"body": [
 			"// Inline Elements Alignment",
 			"<div>",
@@ -2313,10 +2313,10 @@
 			"  <span className=\"align-text-bottom\">text-bottom</span>",
 			"</div>"
 		],
-		"description": "rct-boot-inline-alignment"
+		"description": "rct-btn-inline-alignment"
 	},
-	"rct-boot-table-alignment": {
-		"prefix": "rct-boot-table-alignment",
+	"rct-btn-table-alignment": {
+		"prefix": "rct-btn-table-alignment",
 		"body": [
 			"// Table Cells Alignment",
 			"<table className=\"table\" style={{height: '100px'}}>",
@@ -2332,10 +2332,10 @@
 			"  </tbody>",
 			"</table>"
 		],
-		"description": "rct-boot-table-alignment"
+		"description": "rct-btn-table-alignment"
 	},
-	"rct-boot-image-alignment": {
-		"prefix": "rct-boot-image-alignment",
+	"rct-btn-image-alignment": {
+		"prefix": "rct-btn-image-alignment",
 		"body": [
 			"// Image Alignment with Text",
 			"<div>",
@@ -2345,10 +2345,10 @@
 			"  <img src=\"$4\" className=\"rounded align-bottom\" style={{height: '50px'}} alt=\"Bottom Aligned\"/>",
 			"</div>"
 		],
-		"description": "rct-boot-image-alignment"
+		"description": "rct-btn-image-alignment"
 	},
-	"rct-boot-text-alignment": {
-		"prefix": "rct-boot-text-alignment",
+	"rct-btn-text-alignment": {
+		"prefix": "rct-btn-text-alignment",
 		"body": [
 			"// Responsive Text Alignment",
 			"<div>",
@@ -2362,10 +2362,10 @@
 			"  <p className=\"text-lg-end\">Right aligned on large screens and up</p>",
 			"</div>"
 		],
-		"description": "rct-boot-text-alignment"
+		"description": "rct-btn-text-alignment"
 	},
-	"rct-boot-modal": {
-		"prefix": "rct-boot-modal",
+	"rct-btn-modal": {
+		"prefix": "rct-btn-modal",
 		"body": [
 			"<button type='button' className='btn btn-primary' data-bs-toggle='modal' data-bs-target='#staticBackdrop'>",
 			"  Launch static backdrop modal",
@@ -2391,8 +2391,8 @@
 		],
 		"description": "Snippet de Modal Bootstrap para React"
 	},
-	"rct-boot-icon-seta-esquerda-direita": {
-		"prefix": "rct-boot-icon-seta-esquerda-direita",
+	"rct-btn-icon-seta-esquerda-direita": {
+		"prefix": "rct-btn-icon-seta-esquerda-direita",
 		"body": [
 			"<i className=\"bi bi-caret-down\" />",
 			"<i className=\"bi bi-caret-down-fill\" />",
@@ -2433,10 +2433,10 @@
 			"<i className=\"bi bi-chevron-up\"></i>",
 			"",
 		],
-		"description": "rct-boot-icon-seta-esquerda-direita"
+		"description": "rct-btn-icon-seta-esquerda-direita"
 	},
-	"rct-boot-icon-lista-editar-excluir-buscar": {
-		"prefix": "rct-boot-icon-lista-editar-excluir",
+	"rct-btn-icon-lista-editar-excluir-buscar": {
+		"prefix": "rct-btn-icon-lista-editar-excluir",
 		"body": [
 			"<i className=\"bi bi-file-earmark-spreadsheet\"></i>",
 			"<i className=\"bi bi-file-earmark-ruled\"></i>",
@@ -2451,10 +2451,10 @@
 			"<i className=\"bi bi-search\"></i>",
 			"",
 		],
-		"description": "rct-boot-icon-lista-editar-excluir"
+		"description": "rct-btn-icon-lista-editar-excluir"
 	},
-	"rct-boot-icon-painel-engrenagem": {
-		"prefix": "rct-boot-icon-painel-engrenagem",
+	"rct-btn-icon-painel-engrenagem": {
+		"prefix": "rct-btn-icon-painel-engrenagem",
 		"body": [
 			"<i className=\"bi bi-gear-wide-connected\"></i>",
 			"<i className=\"bi bi-gear-wide\"></i>",
@@ -2462,10 +2462,10 @@
 			"<i className=\"bi bi-gear\"></i>",
 			"",
 		],
-		"description": "rct-boot-icon-painel-engrenagem"
+		"description": "rct-btn-icon-painel-engrenagem"
 	},
-	"rct-boot-icon-Lixeira": {
-		"prefix": "rct-boot-icon-Lixeira",
+	"rct-btn-icon-Lixeira": {
+		"prefix": "rct-btn-icon-Lixeira",
 		"body": [
 			"<i className=\"bi bi-trash3-fill\"></i>",
 			"<i className=\"bi bi-trash3\"></i>",
@@ -2473,10 +2473,10 @@
 			"<i className=\"bi bi-trash\"></i>",
 			"",
 		],
-		"description": "rct-boot-icon-Lixeira"
+		"description": "rct-btn-icon-Lixeira"
 	},
-	"rct-boot-icon-Rede-Social": {
-		"prefix": "rct-boot-icon-Rede-Social",
+	"rct-btn-icon-Rede-Social": {
+		"prefix": "rct-btn-icon-Rede-Social",
 		"body": [
 			"<i className=\"bi bi-messenger\"></i>",
 			"<i className=\"bi bi-pinterest\"></i>",
@@ -2494,10 +2494,10 @@
 			"<i className=\"bi bi-whatsapp\"></i>",
 			"<i className=\"bi bi-Rede-Social\"></i>",
 		],
-		"description": "rct-boot-icon-Rede-Social"
+		"description": "rct-btn-icon-Rede-Social"
 	},
-	"rct-boot-icon-Telefone": {
-		"prefix": "rct-boot-icon-Telefone",
+	"rct-btn-icon-Telefone": {
+		"prefix": "rct-btn-icon-Telefone",
 		"body": [
 			"<i className=\"bi bi-phone-flip\"></i>",
 			"<i className=\"bi bi-phone\"></i>",
@@ -2520,10 +2520,10 @@
 			"<i className=\"bi bi-telephone\"></i>",
 			"",
 		],
-		"description": "rct-boot-icon-Telefone"
+		"description": "rct-btn-icon-Telefone"
 	},
-	"rct-boot-icon-Pessoa-Usuario": {
-		"prefix": "rct-boot-icon-Pessoa-Usuario",
+	"rct-btn-icon-Pessoa-Usuario": {
+		"prefix": "rct-btn-icon-Pessoa-Usuario",
 		"body": [
 			"<i className=\"bi bi-person-vcard\"></i>",
 			"<i className=\"bi bi-person-vcard-fill\"></i>",
@@ -2548,29 +2548,29 @@
 			"<i className=\"bi bi-person\"></i>",
 			"",
 		],
-		"description": "rct-boot-icon-Pessoa-Usuario"
+		"description": "rct-btn-icon-Pessoa-Usuario"
 	},
-	"rct-boot-icon-Chave-Password": {
-		"prefix": "rct-boot-icon-Chave-Password",
+	"rct-btn-icon-Chave-Password": {
+		"prefix": "rct-btn-icon-Chave-Password",
 		"body": [
 			"<i className=\"bi bi-key-fill\"></i>",
 			"<i className=\"bi bi-key\"></i>",
 			"",
 		],
-		"description": "rct-boot-icon-Chave-Password"
+		"description": "rct-btn-icon-Chave-Password"
 	},
-	"rct-boot-icon-Imagem": {
-		"prefix": "rct-boot-icon-Imagem",
+	"rct-btn-icon-Imagem": {
+		"prefix": "rct-btn-icon-Imagem",
 		"body": [
 			"<i className=\"bi bi-images\"></i>",
 			"<i className=\"bi bi-image-fill\"></i>",
 			"<i className=\"bi bi-image\"></i>",
 			"",
 		],
-		"description": "rct-boot-icon-Imagem"
+		"description": "rct-btn-icon-Imagem"
 	},
-	"rct-boot-icon-Casa-Home": {
-		"prefix": "rct-boot-icon-Casa-Home",
+	"rct-btn-icon-Casa-Home": {
+		"prefix": "rct-btn-icon-Casa-Home",
 		"body": [
 			"<i className=\"bi bi-houses-fill\"></i>",
 			"<i className=\"bi bi-houses-fill\"></i>",
@@ -2585,10 +2585,10 @@
 			"<i className=\"bi bi-house\"></i>",
 			"",
 		],
-		"description": "rct-boot-icon-Casa-Home"
+		"description": "rct-btn-icon-Casa-Home"
 	},
-	"rct-boot-icon-Mao-Positivo-Negativo": {
-		"prefix": "rct-boot-icon-Mao-Positivo-Negativo",
+	"rct-btn-icon-Mao-Positivo-Negativo": {
+		"prefix": "rct-btn-icon-Mao-Positivo-Negativo",
 		"body": [
 			"<i className=\"bi bi-hand-thumbs-up\"></i>",
 			"<i className=\"bi bi-hand-thumbs-down-fill\"></i>",
@@ -2598,10 +2598,10 @@
 			"<i className=\"bi bi-hand-index\"></i>",
 			"",
 		],
-		"description": "rct-boot-icon-Mao-Positivo-Negativo"
+		"description": "rct-btn-icon-Mao-Positivo-Negativo"
 	},
-	"rct-boot-icon-Grid-Tabela": {
-		"prefix": "rct-boot-icon-Grid-Tabela",
+	"rct-btn-icon-Grid-Tabela": {
+		"prefix": "rct-btn-icon-Grid-Tabela",
 		"body": [
 			"<i className=\"bi bi-table\"></i>",
 			"<i className=\"bi bi-grid-3x3\"></i>",
@@ -2609,10 +2609,10 @@
 			"<i className=\"bi bi-grid\"></i>",
 			"",
 		],
-		"description": "rct-boot-icon-Grid-Tabela"
+		"description": "rct-btn-icon-Grid-Tabela"
 	},
-	"rct-boot-icon-Google-Local-Endereco": {
-		"prefix": "rct-boot-icon-Google-Local-Endereco",
+	"rct-btn-icon-Google-Local-Endereco": {
+		"prefix": "rct-btn-icon-Google-Local-Endereco",
 		"body": [
 			"<i className=\"bi bi-pin-map\"></i>",
 			"<i className=\"bi bi-pin-map-fill\"></i>",
@@ -2621,10 +2621,10 @@
 			"<i className=\"bi bi-geo\"></i>",
 			"",
 		],
-		"description": "rct-boot-icon-Google-Local-Endereco"
+		"description": "rct-btn-icon-Google-Local-Endereco"
 	},
-	"rct-boot-icon-Smile-Emoji-Carinha": {
-		"prefix": "rct-boot-icon-Smile-Emoji-Carinha",
+	"rct-btn-icon-Smile-Emoji-Carinha": {
+		"prefix": "rct-btn-icon-Smile-Emoji-Carinha",
 		"body": [
 			"<i className=\"bi bi-emoji-frown-fill\"></i>",
 			"<i className=\"bi bi-emoji-frown\"></i>",
@@ -2634,10 +2634,10 @@
 			"<i className=\"bi bi-emoji-smile\"></i>",
 			"",
 		],
-		"description": "rct-boot-icon-Smile-Emoji-Carinha"
+		"description": "rct-btn-icon-Smile-Emoji-Carinha"
 	},
-	"rct-boot-icon-E-mail": {
-		"prefix": "rct-boot-icon-E-mail",
+	"rct-btn-icon-E-mail": {
+		"prefix": "rct-btn-icon-E-mail",
 		"body": [
 			"<i className=\"bi bi-envelope-slash-fill\"></i>",
 			"<i className=\"bi bi-envelope-slash\"></i>",
@@ -2660,20 +2660,20 @@
 			"<i className=\"bi bi-envelope\"></i>",
 			"",
 		],
-		"description": "rct-boot-icon-E-mail"
+		"description": "rct-btn-icon-E-mail"
 	},
-	"rct-boot-icon-Porta-Saida": {
-		"prefix": "rct-boot-icon-Porta-Saida",
+	"rct-btn-icon-Porta-Saida": {
+		"prefix": "rct-btn-icon-Porta-Saida",
 		"body": [
 			"<i className=\"bi bi-door-open-fill\"></i>",
 			"<i className=\"bi bi-door-open\"></i>",
 			"<i className=\"bi bi-door-closed\"></i>",
 			"",
 		],
-		"description": "rct-boot-icon-Porta-Saida"
+		"description": "rct-btn-icon-Porta-Saida"
 	},
-	"rct-boot-icon-Game-Jogo": {
-		"prefix": "rct-boot-icon-Game-jpgp",
+	"rct-btn-icon-Game-Jogo": {
+		"prefix": "rct-btn-icon-Game-jpgp",
 		"body": [
 			"<i className=\"bi bi-joystick\"></i>",
 			"<i className=\"bi bi-dpad\"></i>",
@@ -2695,10 +2695,10 @@
 			"<i className=\"bi bi-controller\"></i>",
 			"",
 		],
-		"description": "rct-boot-icon-Game-jpgp"
+		"description": "rct-btn-icon-Game-jpgp"
 	},
-	"rct-boot-icon-Geometria-Circulo-Meio-Proibido": {
-		"prefix": "rct-boot-icon-Geometria-Circulo-Meio-Proibido",
+	"rct-btn-icon-Geometria-Circulo-Meio-Proibido": {
+		"prefix": "rct-btn-icon-Geometria-Circulo-Meio-Proibido",
 		"body": [
 			"<i className=\"bi bi-dash-circle-fill\"></i>",
 			"<i className=\"bi bi-dash-circle-dotted\"></i>",
@@ -2709,19 +2709,19 @@
 			"<i className=\"bi bi-slash-circle\"></i>",
 			"",
 		],
-		"description": "rct-boot-icon-Geometria-Circulo-Meio-Proibido"
+		"description": "rct-btn-icon-Geometria-Circulo-Meio-Proibido"
 	},
-	"rct-boot-icon-Geometria-Balao": {
-		"prefix": "rct-boot-icon-Geometria-Balao",
+	"rct-btn-icon-Geometria-Balao": {
+		"prefix": "rct-btn-icon-Geometria-Balao",
 		"body": [
 			"<i className=\"bi bi-diamond\"></i>",
 			"<i className=\"bi bi-diamond-half\"></i>",
 			"",
 		],
-		"description": "rct-boot-icon-Geometria-Balao"
+		"description": "rct-btn-icon-Geometria-Balao"
 	},
-	"rct-boot-icon-Computador-Impressora": {
-		"prefix": "rct-boot-icon-Computador-Impressora",
+	"rct-btn-icon-Computador-Impressora": {
+		"prefix": "rct-btn-icon-Computador-Impressora",
 		"body": [
 			"<i className=\"bi bi-printer\"></i>",
 			"<i className=\"bi bi-printer-fill\"></i>",
@@ -2733,10 +2733,10 @@
 			"<i className=\"bi bi-cpu\"></i>",
 			"",
 		],
-		"description": "rct-boot-icon-Computador-Impressora"
+		"description": "rct-btn-icon-Computador-Impressora"
 	},
-	"rct-boot-icon-Banco-Dados": {
-		"prefix": "rct-boot-icon-Banco-Dados",
+	"rct-btn-icon-Banco-Dados": {
+		"prefix": "rct-btn-icon-Banco-Dados",
 		"body": [
 			"<i className=\"bi bi-database-x\"></i>",
 			"<i className=\"bi bi-database-slash\"></i>",
@@ -2750,18 +2750,18 @@
 			"<i className=\"bi bi-database\"></i>",
 			"",
 		],
-		"description": "rct-boot-icon-Banco-Dados"
+		"description": "rct-btn-icon-Banco-Dados"
 	},
-	"rct-boot-icon-Dinheiro": {
-		"prefix": "rct-boot-icon-Dinheiro",
+	"rct-btn-icon-Dinheiro": {
+		"prefix": "rct-btn-icon-Dinheiro",
 		"body": [
 			"<i className=\"bi bi-currency-dollar\"></i>",
 			"",
 		],
-		"description": "rct-boot-icon-Dinheiro"
+		"description": "rct-btn-icon-Dinheiro"
 	},
-	"rct-boot-icon-Bebida": {
-		"prefix": "rct-boot-icon-Bebida",
+	"rct-btn-icon-Bebida": {
+		"prefix": "rct-btn-icon-Bebida",
 		"body": [
 			"<i className=\"bi bi-cup-straw\"></i>",
 			"<i className=\"bi bi-cup-hot-fill\"></i>",
@@ -2770,45 +2770,45 @@
 			"<i className=\"bi bi-cup\"></i>",
 			"",
 		],
-		"description": "rct-boot-icon-Bebida"
+		"description": "rct-btn-icon-Bebida"
 	},
-	"rct-boot-icon-Bebida-Chicara-Copo": {
-		"prefix": "rct-boot-icon-Bebida-Chicara-Copo",
+	"rct-btn-icon-Bebida-Chicara-Copo": {
+		"prefix": "rct-btn-icon-Bebida-Chicara-Copo",
 		"body": [
 			"",
 		],
-		"description": "rct-boot-icon-Bebida-Chicara-Copo"
+		"description": "rct-btn-icon-Bebida-Chicara-Copo"
 	},
-	"rct-boot-icon-Cartao-Credito": {
-		"prefix": "rct-boot-icon-Cartao-Credito",
+	"rct-btn-icon-Cartao-Credito": {
+		"prefix": "rct-btn-icon-Cartao-Credito",
 		"body": [
 			"<i className=\"bi bi-credit-card\"></i>",
 			"<i className=\"bi bi-credit-card-2-back\"></i>",
 			"<i className=\"bi bi-credit-card-2-back-fill\"></i>",
 			"",
 		],
-		"description": "rct-boot-icon-Cartao-Credito"
+		"description": "rct-btn-icon-Cartao-Credito"
 	},
-	"rct-boot-icon-Cone": {
-		"prefix": "rct-boot-icon-Cone",
+	"rct-btn-icon-Cone": {
+		"prefix": "rct-btn-icon-Cone",
 		"body": [
 			"<i className=\"bi bi-cone-striped\"></i>",
 			"",
 		],
-		"description": "rct-boot-icon-Cone"
+		"description": "rct-btn-icon-Cone"
 	},
-	"rct-boot-icon-Codigo": {
-		"prefix": "rct-boot-icon-Codigo",
+	"rct-btn-icon-Codigo": {
+		"prefix": "rct-btn-icon-Codigo",
 		"body": [
 			"<i className=\"bi bi-code-square\"></i>",
 			"<i className=\"bi bi-code-slash\"></i>",
 			"<i className=\"bi bi-code\"></i>",
 			"",
 		],
-		"description": "rct-boot-icon-Codigo"
+		"description": "rct-btn-icon-Codigo"
 	},
-	"rct-boot-icon-Nuvem": {
-		"prefix": "rct-boot-icon-Nuvem",
+	"rct-btn-icon-Nuvem": {
+		"prefix": "rct-btn-icon-Nuvem",
 		"body": [
 			"<i className=\"bi bi-cloudy-fill\"></i>",
 			"<i className=\"bi bi-cloudy\"></i>",
@@ -2854,19 +2854,19 @@
 			"<i className=\"bi bi-cloud\"></i>",
 			"",
 		],
-		"description": "rct-boot-icon-Nuvem"
+		"description": "rct-btn-icon-Nuvem"
 	},
-	"rct-boot-icon-Relogio": {
-		"prefix": "rct-boot-icon-Relogio",
+	"rct-btn-icon-Relogio": {
+		"prefix": "rct-btn-icon-Relogio",
 		"body": [
 			"<i className=\"bi bi-clock\"></i>",
 			"<i className=\"bi bi-clock-history\"></i>",
 			"",
 		],
-		"description": "rct-boot-icon-Relogio"
+		"description": "rct-btn-icon-Relogio"
 	},
-	"rct-boot-icon-Prancheta-Colar-Grafico": {
-		"prefix": "rct-boot-icon-Prancheta-Colar-Grafico",
+	"rct-btn-icon-Prancheta-Colar-Grafico": {
+		"prefix": "rct-btn-icon-Prancheta-Colar-Grafico",
 		"body": [
 			"<i className=\"bi bi-graph-up-arrow\"></i>",
 			"<i className=\"bi bi-graph-up\"></i>",
@@ -2891,10 +2891,10 @@
 			"<i className=\"bi bi-clipboard\"></i>",
 			"",
 		],
-		"description": "rct-boot-icon-Prancheta-Colar-Grafico"
+		"description": "rct-btn-icon-Prancheta-Colar-Grafico"
 	},
-	"rct-boot-icon-Mensagem": {
-		"prefix": "rct-boot-icon-Mensagem",
+	"rct-btn-icon-Mensagem": {
+		"prefix": "rct-btn-icon-Mensagem",
 		"body": [
 			"<i className=\"bi bi-chat-text\"></i>",
 			"<i className=\"bi bi-chat-square-text\"></i>",
@@ -2917,10 +2917,10 @@
 			"<i className=\"bi bi-chat\"></i>",
 			"",
 		],
-		"description": "rct-boot-icon-Mensagem"
+		"description": "rct-btn-icon-Mensagem"
 	},
-	"rct-boot-icon-Carrinho": {
-		"prefix": "rct-boot-icon-Carrinho",
+	"rct-btn-icon-Carrinho": {
+		"prefix": "rct-btn-icon-Carrinho",
 		"body": [
 			"<i className=\"bi bi-cart\"></i>",
 			"<i className=\"bi bi-cart-check\"></i>",
@@ -2932,55 +2932,55 @@
 			"<i className=\"bi bi-cart4\"></i>",
 			"",
 		],
-		"description": "rct-boot-icon-Carrinho"
+		"description": "rct-btn-icon-Carrinho"
 	},
-	"rct-boot-icon-Text": {
-		"prefix": "rct-boot-icon-Text",
+	"rct-btn-icon-Text": {
+		"prefix": "rct-btn-icon-Text",
 		"body": [
 			"<i className=\"bi bi-card-text\"></i>",
 			"",
 		],
-		"description": "rct-boot-icon-Text"
+		"description": "rct-btn-icon-Text"
 	},
-	"rct-boot-icon-Card-List-Check": {
-		"prefix": "rct-boot-icon-Card-List-Check",
+	"rct-btn-icon-Card-List-Check": {
+		"prefix": "rct-btn-icon-Card-List-Check",
 		"body": [
 			"<i className=\"bi bi-card-checklist\"></i>",
 			"<i className=\"bi bi-card-list\"></i>",
 			"",
 		],
-		"description": "rct-boot-icon-Card-List-Check"
+		"description": "rct-btn-icon-Card-List-Check"
 	},
-	"rct-boot-icon-Carro": {
-		"prefix": "rct-boot-icon-Carro",
+	"rct-btn-icon-Carro": {
+		"prefix": "rct-btn-icon-Carro",
 		"body": [
 			"<i className=\"bi bi-car-front\"></i>",
 			"<i className=\"bi bi-car-front-fill\"></i>",
 			"",
 		],
-		"description": "rct-boot-icon-Carro"
+		"description": "rct-btn-icon-Carro"
 	},
-	"rct-boot-icon-Camera-Video": {
-		"prefix": "rct-boot-icon-Camera-Video",
+	"rct-btn-icon-Camera-Video": {
+		"prefix": "rct-btn-icon-Camera-Video",
 		"body": [
 			"<i className=\"bi bi-camera-video-off\"></i>",
 			"<i className=\"bi bi-camera-video\"></i>",
 			"<i className=\"bi bi-camera-reels\"></i>",
 			"",
 		],
-		"description": "rct-boot-icon-Camera-Video"
+		"description": "rct-btn-icon-Camera-Video"
 	},
-	"rct-boot-icon-Camera-Foto": {
-		"prefix": "rct-boot-icon-Camera-Foto",
+	"rct-btn-icon-Camera-Foto": {
+		"prefix": "rct-btn-icon-Camera-Foto",
 		"body": [
 			"<i className=\"bi bi-camera\"></i>",
 			"<i className=\"bi bi-camera2\"></i>",
 			"",
 		],
-		"description": "rct-boot-icon-Camera-Foto"
+		"description": "rct-btn-icon-Camera-Foto"
 	},
-	"rct-boot-icon-Calendario": {
-		"prefix": "rct-boot-icon-Calendario",
+	"rct-btn-icon-Calendario": {
+		"prefix": "rct-btn-icon-Calendario",
 		"body": [
 			"<i className=\"bi bi-calendar-check\"></i>",
 			"<i className=\"bi bi-calendar-date\"></i>",
@@ -2994,19 +2994,19 @@
 			"<i className=\"bi bi-calendar3\"></i>",
 			"",
 		],
-		"description": "rct-boot-icon-Calendario"
+		"description": "rct-btn-icon-Calendario"
 	},
-	"rct-boot-icon-Calculadora": {
-		"prefix": "rct-boot-icon-Calculadora",
+	"rct-btn-icon-Calculadora": {
+		"prefix": "rct-btn-icon-Calculadora",
 		"body": [
 			"<i className=\"bi bi-calculator\"></i>",
 			"<i className=\"bi bi-calculator-fill\"></i>",
 			"",
 		],
-		"description": "rct-boot-icon-Calculadora"
+		"description": "rct-btn-icon-Calculadora"
 	},
-	"rct-boot-icon-Bolo": {
-		"prefix": "rct-boot-icon-Bolo",
+	"rct-btn-icon-Bolo": {
+		"prefix": "rct-btn-icon-Bolo",
 		"body": [
 			"<i className=\"bi bi-cake\"></i>",
 			"<i className=\"bi bi-cake-fill\"></i>",
@@ -3014,26 +3014,26 @@
 			"<i className=\"bi bi-cake2-fill\"></i>",
 			"",
 		],
-		"description": "rct-boot-icon-Bolo"
+		"description": "rct-btn-icon-Bolo"
 	},
-	"rct-boot-icon-Onibus": {
-		"prefix": "rct-boot-icon-Onibus",
+	"rct-btn-icon-Onibus": {
+		"prefix": "rct-btn-icon-Onibus",
 		"body": [
 			"<i className=\"bi bi-bus-front\"></i>",
 			"<i className=\"bi bi-bus-front-fill\"></i>",
 			"",
 		],
-		"description": "rct-boot-icon-Onibus"
+		"description": "rct-btn-icon-Onibus"
 	},
-	"rct-boot-icon-Bug": {
-		"prefix": "rct-boot-icon-Bug",
+	"rct-btn-icon-Bug": {
+		"prefix": "rct-btn-icon-Bug",
 		"body": [
 			"<i className=\"bi bi-bug\"></i>",
 		],
-		"description": "rct-boot-icon-Bug"
+		"description": "rct-btn-icon-Bug"
 	},
-	"rct-boot-icon-Navegadores": {
-		"prefix": "rct-boot-icon-Navegadores",
+	"rct-btn-icon-Navegadores": {
+		"prefix": "rct-btn-icon-Navegadores",
 		"body": [
 			"<i className=\"bi bi-browser-chrome\"></i>",
 			"<i className=\"bi bi-browser-edge\"></i>",
@@ -3041,10 +3041,10 @@
 			"<i className=\"bi bi-browser-safari\"></i>",
 			"",
 		],
-		"description": "rct-boot-icon-Navegadores"
+		"description": "rct-btn-icon-Navegadores"
 	},
-	"rct-boot-icon-Sol-Ing-Iang": {
-		"prefix": "rct-boot-icon-Sol-Luz-Ing-Iang",
+	"rct-btn-icon-Sol-Ing-Iang": {
+		"prefix": "rct-btn-icon-Sol-Luz-Ing-Iang",
 		"body": [
 			"<i className=\"bi bi-brightness-alt-high-fill\"></i>",
 			"<i className=\"bi bi-brightness-high\"></i>",
@@ -3052,85 +3052,85 @@
 			"<i className=\"bi bi-brilliance\"></i>",
 			"",
 		],
-		"description": "rct-boot-icon-Sol-Ing-Iang"
+		"description": "rct-btn-icon-Sol-Ing-Iang"
 	},
-	"rct-boot-icon-Cubo": {
-		"prefix": "rct-boot-icon-Cubo",
+	"rct-btn-icon-Cubo": {
+		"prefix": "rct-btn-icon-Cubo",
 		"body": [
 			"<i className=\"bi bi-box\"></i>",
 		],
-		"description": "rct-boot-icon-Cubo"
+		"description": "rct-btn-icon-Cubo"
 	},
-	"rct-boot-icon-Radio-Som": {
-		"prefix": "rct-boot-icon-Radio-Som",
+	"rct-btn-icon-Radio-Som": {
+		"prefix": "rct-btn-icon-Radio-Som",
 		"body": [
 			"<i className=\"bi bi-boombox\"></i>",
 		],
-		"description": "rct-boot-icon-Radio-Som"
+		"description": "rct-btn-icon-Radio-Som"
 	},
-	"rct-boot-icon-Favorito": {
-		"prefix": "rct-boot-icon-Favorito",
+	"rct-btn-icon-Favorito": {
+		"prefix": "rct-btn-icon-Favorito",
 		"body": [
 			"<i className=\"bi bi-bookmark-heart\"></i>",
 			"<i className=\"bi bi-bookmark-star\"></i>",
 			"",
 		],
-		"description": "rct-boot-icon-Favorito"
+		"description": "rct-btn-icon-Favorito"
 	},
-	"rct-boot-icon-Livro-Meio": {
-		"prefix": "rct-boot-icon-Livro-Meio",
+	"rct-btn-icon-Livro-Meio": {
+		"prefix": "rct-btn-icon-Livro-Meio",
 		"body": [
 			"<i className=\"bi bi-book-half\"></i>",
 		],
-		"description": "rct-boot-icon-Livro-Meio"
+		"description": "rct-btn-icon-Livro-Meio"
 	},
-	"rct-boot-icon-Bluetootc": {
-		"prefix": "rct-boot-icon-Bluetootc",
+	"rct-btn-icon-Bluetootc": {
+		"prefix": "rct-btn-icon-Bluetootc",
 		"body": [
 			"<i className=\"bi bi-bluetooth\"></i>",
 		],
-		"description": "rct-boot-icon-Bluetootc"
+		"description": "rct-btn-icon-Bluetootc"
 	},
-	"rct-boot-icon-Busca-Binoculo": {
-		"prefix": "rct-boot-icon-Busca-Binoculo",
+	"rct-btn-icon-Busca-Binoculo": {
+		"prefix": "rct-btn-icon-Busca-Binoculo",
 		"body": [
 			"<i className=\"bi bi-search\"></i>",
 			"<i className=\"bi bi-binoculars\"></i>",
 		],
-		"description": "rct-boot-icon-Busca-Binoculo"
+		"description": "rct-btn-icon-Busca-Binoculo"
 	},
-	"rct-boot-icon-Microsoft-Bing": {
-		"prefix": "rct-boot-icon-Microsoft-Bing",
+	"rct-btn-icon-Microsoft-Bing": {
+		"prefix": "rct-btn-icon-Microsoft-Bing",
 		"body": [
 			"<i className=\"bi bi-microsoft\"></i>",
 			"<i className=\"bi bi-bing\"></i>",
 		],
-		"description": "rct-boot-icon-Microsoft-Bing"
+		"description": "rct-btn-icon-Microsoft-Bing"
 	},
-	"rct-boot-icon-Sino": {
-		"prefix": "rct-boot-icon-Sino",
+	"rct-btn-icon-Sino": {
+		"prefix": "rct-btn-icon-Sino",
 		"body": [
 			"<i className=\"bi bi-bell\"></i>",
 		],
-		"description": "rct-boot-icon-Sino"
+		"description": "rct-btn-icon-Sino"
 	},
-	"rct-boot-icon-Bateria": {
-		"prefix": "rct-boot-icon-Bateria",
+	"rct-btn-icon-Bateria": {
+		"prefix": "rct-btn-icon-Bateria",
 		"body": [
 			"<i className=\"bi bi-battery-half\"></i>",
 		],
-		"description": "rct-boot-icon-Bateria"
+		"description": "rct-btn-icon-Bateria"
 	},
-	"rct-boot-icon-Graficos": {
-		"prefix": "rct-boot-icon-Graficos",
+	"rct-btn-icon-Graficos": {
+		"prefix": "rct-btn-icon-Graficos",
 		"body": [
 			"<i className=\"bi bi-bar-chart-steps\"></i>",
 			"",
 		],
-		"description": "rct-boot-icon-Graficos"
+		"description": "rct-btn-icon-Graficos"
 	},
-	"rct-boot-icon-Grafico-Sinal-Celular": {
-		"prefix": "rct-boot-icon-Grafico-Sinal-Celular",
+	"rct-btn-icon-Grafico-Sinal-Celular": {
+		"prefix": "rct-btn-icon-Grafico-Sinal-Celular",
 		"body": [
 			"<i className=\"bi bi-reception-4\"></i>",
 			"<i className=\"bi bi-reception-3\"></i>",
@@ -3139,127 +3139,127 @@
 			"<i className=\"bi bi-reception-0\"></i>",
 			"<i className=\"bi bi-bar-chart\"></i>",
 		],
-		"description": "rct-boot-icon-Grafico-Sinal-Celular"
+		"description": "rct-btn-icon-Grafico-Sinal-Celular"
 	},
-	"rct-boot-icon-Banco": {
-		"prefix": "rct-boot-icon-Banco",
+	"rct-btn-icon-Banco": {
+		"prefix": "rct-btn-icon-Banco",
 		"body": [
 			"<i className=\"bi bi-bank\"></i>",
 		],
-		"description": "rct-boot-icon-Banco"
+		"description": "rct-btn-icon-Banco"
 	},
-	"rct-boot-icon-Curativo-Bandaid": {
-		"prefix": "rct-boot-icon-Curativo-Bandaid",
+	"rct-btn-icon-Curativo-Bandaid": {
+		"prefix": "rct-btn-icon-Curativo-Bandaid",
 		"body": [
 			"<i className=\"bi bi-bandaid\"></i>",
 		],
-		"description": "rct-boot-icon-Curativo-Bandaid"
+		"description": "rct-btn-icon-Curativo-Bandaid"
 	},
-	"rct-boot-icon-Proibido": {
-		"prefix": "rct-boot-icon-Proibido",
+	"rct-btn-icon-Proibido": {
+		"prefix": "rct-btn-icon-Proibido",
 		"body": [
 			"<i className=\"bi bi-ban\"></i>",
 		],
-		"description": "rct-boot-icon-Proibido"
+		"description": "rct-btn-icon-Proibido"
 	},
-	"rct-boot-icon-Balao": {
-		"prefix": "rct-boot-icon-Balao",
+	"rct-btn-icon-Balao": {
+		"prefix": "rct-btn-icon-Balao",
 		"body": [
 			"<i className=\"bi bi-balloon\"></i>",
 		],
-		"description": "rct-boot-icon-Balao"
+		"description": "rct-btn-icon-Balao"
 	},
-	"rct-boot-icon-Sacola": {
-		"prefix": "rct-boot-icon-Sacola",
+	"rct-btn-icon-Sacola": {
+		"prefix": "rct-btn-icon-Sacola",
 		"body": [
 			"<i className=\"bi bi-bag-check\"></i>",
 		],
-		"description": "rct-boot-icon-Sacola"
+		"description": "rct-btn-icon-Sacola"
 	},
-	"rct-boot-icon-Certificado": {
-		"prefix": "rct-boot-icon-Certificado",
+	"rct-btn-icon-Certificado": {
+		"prefix": "rct-btn-icon-Certificado",
 		"body": [
 			"<i className=\"bi bi-award-fill\"></i>",
 		],
-		"description": "rct-boot-icon-Certificado"
+		"description": "rct-btn-icon-Certificado"
 	},
-	"rct-boot-icon-Arroba": {
-		"prefix": "rct-boot-icon-Arroba",
+	"rct-btn-icon-Arroba": {
+		"prefix": "rct-btn-icon-Arroba",
 		"body": [
 			"<i className=\"bi bi-at\"></i>",
 		],
-		"description": "rct-boot-icon-Arroba"
+		"description": "rct-btn-icon-Arroba"
 	},
-	"rct-boot-icon-Asterisco": {
-		"prefix": "rct-boot-icon-Asterisco",
+	"rct-btn-icon-Asterisco": {
+		"prefix": "rct-btn-icon-Asterisco",
 		"body": [
 			"<i className=\"bi bi-asterisk\"></i>",
 		],
-		"description": "rct-boot-icon-Asterisco"
+		"description": "rct-btn-icon-Asterisco"
 	},
-	"rct-boot-icon-Coracao-Flecha": {
-		"prefix": "rct-boot-icon-Coracao-Flecha",
+	"rct-btn-icon-Coracao-Flecha": {
+		"prefix": "rct-btn-icon-Coracao-Flecha",
 		"body": [
 			"<i className=\"bi bi-arrow-through-heart\"></i>",
 		],
-		"description": "rct-boot-icon-Coracao-Flecha"
+		"description": "rct-btn-icon-Coracao-Flecha"
 	},
-	"rct-boot-icon-Atualizar-Repetir": {
-		"prefix": "rct-boot-icon-Atualizar-Repetir",
+	"rct-btn-icon-Atualizar-Repetir": {
+		"prefix": "rct-btn-icon-Atualizar-Repetir",
 		"body": [
 			"<i className=\"bi bi-repeat\"></i>",
 			"<i className=\"bi bi-repeat-1\"></i>",
 			"<i className=\"bi bi-arrow-repeat\"></i>",
 		],
-		"description": "rct-boot-icon-Atualizar-Repetir"
+		"description": "rct-btn-icon-Atualizar-Repetir"
 	},
-	"rct-boot-icon-Mac": {
-		"prefix": "rct-boot-icon-Mac",
+	"rct-btn-icon-Mac": {
+		"prefix": "rct-btn-icon-Mac",
 		"body": [
 			"<i className=\"bi bi-apple\"></i>",
 		],
-		"description": "rct-boot-icon-Mac"
+		"description": "rct-btn-icon-Mac"
 	},
-	"rct-boot-icon-Android": {
-		"prefix": "rct-boot-icon-Android",
+	"rct-btn-icon-Android": {
+		"prefix": "rct-btn-icon-Android",
 		"body": [
 			"<i className=\"bi bi-android2\"></i>",
 		],
-		"description": "rct-boot-icon-Android"
+		"description": "rct-btn-icon-Android"
 	},
-	"rct-boot-icon-Amazon": {
-		"prefix": "rct-boot-icon-Amazon",
+	"rct-btn-icon-Amazon": {
+		"prefix": "rct-btn-icon-Amazon",
 		"body": [
 			"<i className=\"bi bi-amazon\"></i>",
 		],
-		"description": "rct-boot-icon-Amazon"
+		"description": "rct-btn-icon-Amazon"
 	},
-	"rct-boot-icon-Alex": {
-		"prefix": "rct-boot-icon-Alex",
+	"rct-btn-icon-Alex": {
+		"prefix": "rct-btn-icon-Alex",
 		"body": [
 			"<i className=\"bi bi-alexa\"></i>",
 		],
-		"description": "rct-boot-icon-Alex"
+		"description": "rct-btn-icon-Alex"
 	},
-	"rct-boot-icon-Aviao": {
-		"prefix": "rct-boot-icon-Aviao",
+	"rct-btn-icon-Aviao": {
+		"prefix": "rct-btn-icon-Aviao",
 		"body": [
 			"<i className=\"bi bi-airplane\"></i>",
 		],
-		"description": "rct-boot-icon-Aviao"
+		"description": "rct-btn-icon-Aviao"
 	},
-	"rct-boot-icon-Calendario3": {
-		"prefix": "rct-boot-icon-Calendario3",
+	"rct-btn-icon-Calendario3": {
+		"prefix": "rct-btn-icon-Calendario3",
 		"body": [
 			"<i className=\"bi bi-calendar3\"></i>",
 		],
-		"description": "rct-boot-icon-Calendario3"
+		"description": "rct-btn-icon-Calendario3"
 	},
-	"rct-boot-icon-Chave": {
-		"prefix": "rct-boot-icon-Chave",
+	"rct-btn-icon-Chave": {
+		"prefix": "rct-btn-icon-Chave",
 		"body": [
 			"<i className=\"bi bi-key\"></i>",
 		],
-		"description": "rct-boot-icon-Chave"
+		"description": "rct-btn-icon-Chave"
 	},
 }
