@@ -19,6 +19,16 @@
     ],
     "description": "react-cdn-Modelo"
   },
+  
+	"react-userEffect": {
+		"prefix": "react-userEffect",
+		"body": [
+			"",
+			"userEffect(() => {}, []);",
+			""
+		],
+		"description": "react-userEffect"
+	},
   "react-cdn-useEffect": {
     "prefix": "react-cdn-useEffect",
     "body": [
