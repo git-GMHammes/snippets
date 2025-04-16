@@ -268,7 +268,7 @@
       "        errorMessage: '', // Mensagem de Erro personalizada",
       "        attributePlaceholder: '', // placeholder ",
       "        attributeMinlength: 4, // minlength ",
-      "        attributeMaxlength: 14, // maxlength - Telefone: 14, CPF: 14, CEP: 9, Processo Judicial: 20, Processo SEI: 22, Processo: 41, Certidão: 20",
+      "        attributeMaxlength: 14, // maxlength - Telefone: 14, CPF: 14, CEP: 9, Processo Judicial: 20, Processo SEI: 22, Processo: 41, Certidão: 38",
       "        attributePattern: 'Caracter', // Inteiro, Caracter, Senha",
       "        attributeAutocomplete: 'on', // on, off ]",
       "        attributeRequired: true,",
