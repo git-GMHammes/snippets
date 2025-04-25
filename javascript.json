@@ -12,6 +12,17 @@
   // 	],
   // 	"description": "Log output to console"
   // }
+  "react-cdn-setTimeout": {
+    "prefix": "react-cdn-Modelo",
+    "body": [
+      "",
+      "setTimeout(() => {",
+      "",
+      "}, 10);",
+      "",
+    ],
+    "description": "react-cdn-Modelo"
+  },
   "react-cdn-Modelo": {
     "prefix": "react-cdn-Modelo",
     "body": [
@@ -19,16 +30,15 @@
     ],
     "description": "react-cdn-Modelo"
   },
-  
-	"react-userEffect": {
-		"prefix": "react-userEffect",
-		"body": [
-			"",
-			"userEffect(() => {}, []);",
-			""
-		],
-		"description": "react-userEffect"
-	},
+  "react-userEffect": {
+    "prefix": "react-userEffect",
+    "body": [
+      "",
+      "userEffect(() => {}, []);",
+      ""
+    ],
+    "description": "react-userEffect"
+  },
   "react-cdn-useEffect": {
     "prefix": "react-cdn-useEffect",
     "body": [
