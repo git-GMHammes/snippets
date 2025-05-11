@@ -12,6 +12,30 @@
   // 	],
   // 	"description": "Log output to console"
   // }
+  "react-cdn-Modelo": {
+    "prefix": "react-cdn-Modelo",
+    "body": [
+      "",
+    ],
+    "description": "react-cdn-Modelo"
+  },
+  "react-cdn-FormData": {
+    "prefix": "react-cdn-FormData",
+    "body": [
+      "",
+      "    const [formData, setFormData] = React.useState({",
+      "        //",
+      "        token_csrf: '123',",
+      "        json: '1',",
+      "        //d",
+      "        campo1: null,",
+      "        campo2: null,",
+      "        campo3: null",
+      "    });",
+      "",
+    ],
+    "description": "react-cdn-FormData"
+  },
   "react-cdn-setTimeout": {
     "prefix": "react-cdn-Modelo",
     "body": [
@@ -19,13 +43,6 @@
       "setTimeout(() => {",
       "",
       "}, 10);",
-      "",
-    ],
-    "description": "react-cdn-Modelo"
-  },
-  "react-cdn-Modelo": {
-    "prefix": "react-cdn-Modelo",
-    "body": [
       "",
     ],
     "description": "react-cdn-Modelo"
@@ -441,7 +458,7 @@
       "            setMessage({",
       "                show: true,",
       "                type: 'light',",
-      "                message: 'Não foram encontradas objeto cadastradas'",
+      "                message: 'Falha ao enviar dados'",
       "            });",
       "            setIsLoading(false);",
       "        }",
