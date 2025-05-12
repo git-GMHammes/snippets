@@ -37,7 +37,7 @@
     "description": "react-cdn-FormData"
   },
   "react-cdn-setTimeout": {
-    "prefix": "react-cdn-Modelo",
+    "prefix": "setTimeout",
     "body": [
       "",
       "setTimeout(() => {",
@@ -45,7 +45,7 @@
       "}, 10);",
       "",
     ],
-    "description": "react-cdn-Modelo"
+    "description": "setTimeout"
   },
   "react-userEffect": {
     "prefix": "react-userEffect",
