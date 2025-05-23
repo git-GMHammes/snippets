@@ -25,6 +25,18 @@
 		],
 		"description": "rct-"
 	},
+	"rct-cdn-setTimeout": {
+		"scope": "javascript,typescript",
+		"prefix": "rct-cdn-setTimeout",
+		"body": [
+			"",
+			"setTimeout(() => {",
+			"",
+			"}, 10);",
+			"",
+		],
+		"description": "rct-cdn-setTimeout"
+	},
 	"rct-import-components": {
 		"scope": "javascript,typescript",
 		"prefix": "rct-import-components",
