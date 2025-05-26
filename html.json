@@ -12,6 +12,28 @@
 	// 	],
 	// 	"description": "Log output to console"
 	// }
+	"react-cdn": {
+		"prefix": "react-cdn",
+		"body": [
+			"",
+			"",
+			""
+		],
+		"description": "react-cdn"
+	},
+	"react-cdn-JSONViewer": {
+		"prefix": "react-cdn-JSONViewer",
+		"body": [
+			"",
+			"<JSONViewer",
+			"  data={pagination}",
+			"  title=\"Resposta da API Pagimnation\"",
+			"  collapsed={true}",
+			"/>",
+			""
+		],
+		"description": "react-cdn-JSONViewer"
+	},
 	"react-cdn-script-type-text-babel": {
 		"prefix": "react-cdn-script-type-text-babel",
 		"body": [

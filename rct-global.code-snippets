@@ -15,6 +15,20 @@
 	// 	],
 	// 	"description": "Log output to console"
 	// }
+	"rct-JSONViewer": {
+		"scope": "javascript,typescript",
+		"prefix": "rct-JSONViewer",
+		"body": [
+			"",
+			"<JSONViewer",
+			"  data={pagination}",
+			"  title=\"Resposta da API Pagimnation\"",
+			"  collapsed={true}",
+			"/>",
+			""
+		],
+		"description": "rct-JSONViewer"
+	},
 	"rct-": {
 		"scope": "javascript,typescript",
 		"prefix": "rct-",

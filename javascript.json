@@ -19,6 +19,19 @@
     ],
     "description": "react-cdn-Modelo"
   },
+  	"react-js-JSONViewer": {
+		"prefix": "react-js-JSONViewer",
+		"body": [
+			"",
+			"<JSONViewer",
+			"  data={pagination}",
+			"  title=\"Resposta da API Pagimnation\"",
+			"  collapsed={true}",
+			"/>",
+			""
+		],
+		"description": "react-js-JSONViewer"
+	},
   "react-cdn-FormData": {
     "prefix": "react-cdn-FormData",
     "body": [
