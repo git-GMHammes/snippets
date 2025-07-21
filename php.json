@@ -436,7 +436,7 @@
     "prefix": "c4-controller-apirest",
     "body": [
       "#",
-      "namespace App\\Controllers;",
+      "namespace App\\Controllers\\SubPastaController;",
       "",
       "use CodeIgniter\\RESTful\\ResourceController;",
       "use CodeIgniter\\API\\ResponseTrait;",
@@ -632,7 +632,7 @@
     "prefix": "c4-controller-endpoint",
     "body": [
       "",
-      "namespace App\\Controllers;",
+      "namespace App\\Controllers\\SubPastaController;",
       "",
       "use CodeIgniter\\RESTful\\ResourceController;",
       "use CodeIgniter\\API\\ResponseTrait;",
@@ -1350,10 +1350,11 @@
     "prefix": "c4-db-controller",
     "body": [
       "",
-      "namespace App\\Controllers;",
+      "namespace App\\Controllers\\SubPastaController;",
       "",
       "use App\\Controllers\\Pattern\\SystemBaseController;",
       "use App\\Controllers\\Pattern\\SystemMessageController;",
+      "use App\\Controllers\\BaseController;",
       "# use App\\Models\\UploadModel;",
       "# use App\\Models\\TabelaPrincipalModels;",
       "# use App\\Models\\VTabelaPrincipalModelsModels;",
