@@ -441,6 +441,8 @@
       "use CodeIgniter\\RESTful\\ResourceController;",
       "use CodeIgniter\\API\\ResponseTrait;",
       "# ",
+      "use App\\Controllers\\SubPastaController\\DbController;",
+      "# ",
       "// use App\\Controllers\\Pattern\\TokenCsrfController;",
       "// use App\\Controllers\\Pattern\\MessageController;",
       "// use App\\Controllers\\Pattern\\ObjetoDbController;",
