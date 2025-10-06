@@ -39,6 +39,7 @@
 		],
 		"description": "rct-"
 	},
+	
 	"rct-cdn-setTimeout": {
 		"scope": "javascript,typescript",
 		"prefix": "rct-cdn-setTimeout",
