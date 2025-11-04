@@ -1,17 +1,75 @@
 {
-  // Place your snippets for php here. Each snippet is defined under a snippet name and has a prefix, body andc4-
-  // description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
-  // $$1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the
-  // same ids are connected.
-  // Example:
-  // "Print to console": {
-  // 	"prefix": "log",
-  // 	"body": [
-  // 		"console.log('$$1');",
-  // 		"$2"
-  // 	],
-  // 	"description": "Log output to console"
-  // }
+  "c46-Controller-list": {
+    "prefix": "c46-Controller-list",
+    "body": [
+      "",
+      "        // Captura parâmetros de paginação do GET",
+      "        $$page = (int) ($$this->request->getGet('page') ?? 1);",
+      "        $$limit = (int) ($$this->request->getGet('limit') ?? 10);",
+      "",
+      "        // Garante valores mínimos",
+      "        $$page = max(1, $$page);",
+      "        $$limit = max(1, $$limit);",
+      "",
+      "        $$result = $$this->variableService->__METHODSERVER__($$page, $$limit);",
+      "",
+      "        $$response = $$this->apiResponse",
+      "            ->setHttpCode($$result['http_code'])",
+      "            ->setMessage('Lista de perfis recuperada com sucesso')",
+      "            ->setData($$result['data'])",
+      "            ->setCurrentPage($$page)",
+      "            ->setLimit($$limit)",
+      "            ->setTotalReturned($$result['data']['pagination']['total'])",
+      "            ->setPageTitle($$result['metadata']['page_title'])",
+      "            ->generate();",
+      "",
+      "        return $$this->respond($$response, $$result['http_code']);",
+      ""
+    ],
+    "description": "c46-Controller-list"
+  },
+  "c46-Server-list": {
+    "prefix": "c46-Server-list",
+    "body": [
+      "",
+      "        // Calcula o offset",
+      "        $$offset = ($$page - 1) * $$limit;",
+      "",
+      "        // Busca os dados com paginação",
+      "        $$data = $$this->variableModel",
+      "            ->findAll($$limit, $$offset);",
+      "",
+      "        // Conta o total de registros",
+      "        $$total = $$this->variableModel->countAllResults(false);",
+      "",
+      "        // Calcula informações de paginação",
+      "        $$totalPages = ceil($$total / $$limit);",
+      "",
+      "        return [",
+      "            'http_code' => 200,",
+      "            'success' => true,",
+      "            'data' => [",
+      "                'items' => $$data,",
+      "                'pagination' => [",
+      "                    'current_page' => $$page,",
+      "                    'per_page' => $$limit,",
+      "                    'total' => $$total,",
+      "                    'total_pages' => $$totalPages,",
+      "                    'has_next' => $$page < $$totalPages,",
+      "                    'has_prev' => $$page > 1",
+      "                ]",
+      "            ],",
+      "            'metadata' => [",
+      "                'page_title' => 'Lista de Usuários',",
+      "                'base_url' => base_url(),",
+      "                'getURL' => current_url(),",
+      "                'total_returned' => $$total,",
+      "            ]",
+      "        ];",
+      ""
+    ],
+    "description": "c46-Server-list"
+  },
   "c4-app-btn-onClick": {
     "prefix": "c4-app-btn-onClick",
     "body": [
