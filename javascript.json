@@ -1,22 +1,24 @@
 {
+  // Place your snippets for javascript here. Each snippet is defined under a snippet name and has a prefix, body and
+  // description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+  // $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the
+  // same ids are connected.
+  // Example:
+  // "Print to console": {
+  // 	"prefix": "log",
+  // 	"body": [
+  // 		"console.log('$1');",
+  // 		"$2"
+  // 	],
+  // 	"description": "Log output to console"
+  // }
   "react-cdn-Modelo": {
     "prefix": "react-cdn-Modelo",
     "body": [
-      ""
+      "",
     ],
     "description": "react-cdn-Modelo"
   },
-  "react-js-alinha-vertical-h-100": {
-		"prefix": "rct-alinha-vertical-h-100",
-		"body": [
-			"",
-			"<div className=\"h-100 d-flex align-items-center justify-content-center\"></div>",
-			"    ... Alinhamento vertical</div>",
-			"</div></div>",
-			""
-		],
-		"description": "rct-alinha-vertical-h-100"
-	},
   	"react-js-JSONViewer": {
 		"prefix": "react-js-JSONViewer",
 		"body": [
@@ -43,7 +45,7 @@
       "        campo2: null,",
       "        campo3: null",
       "    });",
-      ""
+      "",
     ],
     "description": "react-cdn-FormData"
   },
@@ -54,7 +56,7 @@
       "setTimeout(() => {",
       "",
       "}, 10);",
-      ""
+      "",
     ],
     "description": "setTimeout"
   },
@@ -103,7 +105,7 @@
       "            loadData();",
       " ",
       "        }, []);",
-      ""
+      " ",
     ],
     "description": "react-cdn-useEffect"
   },
@@ -121,7 +123,7 @@
       "};",
       "",
       "export default AppComponent;",
-      ""
+      "",
     ],
     "description": "react--full-Modelo"
   },
@@ -133,7 +135,7 @@
       "    parametros={parametros}",
       "    dbResponse={formData}",
       "/>",
-      ""
+      "",
     ],
     "description": "react-cdn-AppJson"
   },
@@ -147,7 +149,7 @@
       "        modalId={`modal_${token_csrf}`}",
       "    />",
       "</div>",
-      ""
+      "",
     ],
     "description": "react-cdn-AppMessage"
   },
@@ -161,7 +163,7 @@
       "    }}>",
       "",
       "</form>",
-      ""
+      "",
     ],
     "description": "react-cdn-form-submitAllForms"
   },
@@ -205,7 +207,7 @@
       "            <p className=\"text-danger\">AppSelectRadio não lacançado.</p>",
       "        </div>",
       "    )}",
-      ""
+      "",
     ],
     "description": "react-cdn-AppSelectRadio"
   },
@@ -238,7 +240,7 @@
       "        api_add: `api/cadastrar`,",
       "    }}",
       "/>",
-      ""
+      "",
     ],
     "description": "react-cdn-AppSelectMultipleCtr"
   },
@@ -271,7 +273,7 @@
       "        api_add: `api/cadastrar`,",
       "    }}",
       " />",
-      ""
+      "",
     ],
     "description": "react-cdn-AppSelect"
   },
@@ -303,7 +305,7 @@
       "        api_filter: `api/filter`,",
       "    }}",
       "/>",
-      ""
+      "",
     ],
     "description": "react-cdn-AppSelectBtnCheck"
   },
@@ -335,7 +337,7 @@
       "        api_filter: `api/filter`,",
       "    }}",
       "/>",
-      ""
+      "",
     ],
     "description": "react-cdn-AppSelectBtnRadio"
   },
@@ -361,7 +363,7 @@
       "        attributeMask: '', // CPF, Telefone, CEP, SEI, Processo, Certidao.",
       "    }}",
       "/>",
-      ""
+      "",
     ],
     "description": "react-cdn-AppText"
   },
@@ -378,7 +380,7 @@
       "    <p className=\"text-danger\">ScriptDesejado não lacançado.</p>",
       "</div>",
       ")}",
-      ""
+      "",
     ],
     "description": "react-cdn-typeof"
   },
@@ -396,7 +398,7 @@
       "            ",
       "        </div>",
       "    )}",
-      ""
+      "",
     ],
     "description": "react-cdn-is-loading"
   },
@@ -569,7 +571,7 @@
       "        });",
       "    }",
       "};",
-      ""
+      "",
     ],
     "description": "react-cdn-get"
   },
@@ -812,7 +814,7 @@
       "    // const root = ReactDOM.createRoot(rootElement);",
       "    // root.render(<AppForm />);",
       "    ReactDOM.render(<AppForm />, document.querySelector('.app_form'));",
-      ""
+      "",
     ],
     "description": "react-cdn-AppForm"
   },
@@ -1075,7 +1077,7 @@
       "<div className=\"d-flex justify-content-center align-items-center min-vh-100\">",
       "",
       "</div>",
-      ""
+      "",
     ],
     "description": "react-cdn-alinhamento-vertical"
   },
@@ -1096,7 +1098,7 @@
       "</div>",
       "",
       "<div className=\"text-center p-0\">Texto centralizado</div>",
-      ""
+      "",
     ],
     "description": "react-cdn-alinhamento-horizontal"
   },
@@ -1140,7 +1142,7 @@
       "<i className=\"bi bi-chevron-compact-up\"></i>",
       "<i className=\"bi bi-chevron-down\"></i>",
       "<i className=\"bi bi-chevron-up\"></i>",
-      ""
+      "",
     ],
     "description": "react-cdn-icon-seta-esquerda-direita"
   },
@@ -1158,7 +1160,7 @@
       "<i className=\"bi bi-qr-code\"></i>",
       "<i className=\"bi bi-qr-code-scan\"></i>",
       "<i className=\"bi bi-search\"></i>",
-      ""
+      "",
     ],
     "description": "react-cdn-icon-lista-editar-excluir"
   },
@@ -1169,7 +1171,7 @@
       "<i className=\"bi bi-gear-wide\"></i>",
       "<i className=\"bi bi-gear-fill\"></i>",
       "<i className=\"bi bi-gear\"></i>",
-      ""
+      "",
     ],
     "description": "react-cdn-icon-painel-engrenagem"
   },
@@ -1180,7 +1182,7 @@
       "<i className=\"bi bi-trash3\"></i>",
       "<i className=\"bi bi-trash-fill\"></i>",
       "<i className=\"bi bi-trash\"></i>",
-      ""
+      "",
     ],
     "description": "react-cdn-icon-Lixeira"
   },
@@ -1201,7 +1203,7 @@
       "<i className=\"bi bi-vimeo\"></i>",
       "<i className=\"bi bi-wechat\"></i>",
       "<i className=\"bi bi-whatsapp\"></i>",
-      "<i className=\"bi bi-Rede-Social\"></i>"
+      "<i className=\"bi bi-Rede-Social\"></i>",
     ],
     "description": "react-cdn-icon-Rede-Social"
   },
@@ -1227,7 +1229,7 @@
       "<i className=\"bi bi-telephone-forward\"></i>",
       "<i className=\"bi bi-telephone-fill\"></i>",
       "<i className=\"bi bi-telephone\"></i>",
-      ""
+      "",
     ],
     "description": "react-cdn-icon-Telefone"
   },
@@ -1255,7 +1257,7 @@
       "<i className=\"bi bi-people\"></i>",
       "<i className=\"bi bi-person-circle\"></i>",
       "<i className=\"bi bi-person\"></i>",
-      ""
+      "",
     ],
     "description": "react-cdn-icon-Pessoa-Usuario"
   },
@@ -1264,7 +1266,7 @@
     "body": [
       "<i className=\"bi bi-key-fill\"></i>",
       "<i className=\"bi bi-key\"></i>",
-      ""
+      "",
     ],
     "description": "react-cdn-icon-Chave-Password"
   },
@@ -1274,7 +1276,7 @@
       "<i className=\"bi bi-images\"></i>",
       "<i className=\"bi bi-image-fill\"></i>",
       "<i className=\"bi bi-image\"></i>",
-      ""
+      "",
     ],
     "description": "react-cdn-icon-Imagem"
   },
@@ -1292,7 +1294,7 @@
       "<i className=\"bi bi-house-door-fill\"></i>",
       "<i className=\"bi bi-house-door\"></i>",
       "<i className=\"bi bi-house\"></i>",
-      ""
+      "",
     ],
     "description": "react-cdn-icon-Casa-Home"
   },
@@ -1305,7 +1307,7 @@
       "<i className=\"bi bi-hand-index-thumb-fill\"></i>",
       "<i className=\"bi bi-hand-index-thumb\"></i>",
       "<i className=\"bi bi-hand-index\"></i>",
-      ""
+      "",
     ],
     "description": "react-cdn-icon-Mao-Positivo-Negativo"
   },
@@ -1316,7 +1318,7 @@
       "<i className=\"bi bi-grid-3x3\"></i>",
       "<i className=\"bi bi-grid-3x2\"></i>",
       "<i className=\"bi bi-grid\"></i>",
-      ""
+      "",
     ],
     "description": "react-cdn-icon-Grid-Tabela"
   },
@@ -1328,7 +1330,7 @@
       "<i className=\"bi bi-geo-alt-fill\"></i>",
       "<i className=\"bi bi-geo-alt\"></i>",
       "<i className=\"bi bi-geo\"></i>",
-      ""
+      "",
     ],
     "description": "react-cdn-icon-Google-Local-Endereco"
   },
@@ -1341,7 +1343,7 @@
       "<i className=\"bi bi-emoji-expressionless\"></i>",
       "<i className=\"bi bi-emoji-heart-eyes\"></i>",
       "<i className=\"bi bi-emoji-smile\"></i>",
-      ""
+      "",
     ],
     "description": "react-cdn-icon-Smile-Emoji-Carinha"
   },
@@ -1367,7 +1369,7 @@
       "<i className=\"bi bi-envelope-arrow-up\"></i>",
       "<i className=\"bi bi-envelope-arrow-down-fill\"></i>",
       "<i className=\"bi bi-envelope\"></i>",
-      ""
+      "",
     ],
     "description": "react-cdn-icon-E-mail"
   },
@@ -1377,7 +1379,7 @@
       "<i className=\"bi bi-door-open-fill\"></i>",
       "<i className=\"bi bi-door-open\"></i>",
       "<i className=\"bi bi-door-closed\"></i>",
-      ""
+      "",
     ],
     "description": "react-cdn-icon-Porta-Saida"
   },
@@ -1402,7 +1404,7 @@
       "<i className=\"bi bi-dice-6-fill\"></i>",
       "<i className=\"bi bi-discord\"></i>",
       "<i className=\"bi bi-controller\"></i>",
-      ""
+      "",
     ],
     "description": "react-cdn-icon-Game-jpgp"
   },
@@ -1416,7 +1418,7 @@
       "<i className=\"bi bi-circle-fill\"></i>",
       "<i className=\"bi bi-circle-half\"></i>",
       "<i className=\"bi bi-slash-circle\"></i>",
-      ""
+      "",
     ],
     "description": "react-cdn-icon-Geometria-Circulo-Meio-Proibido"
   },
@@ -1425,7 +1427,7 @@
     "body": [
       "<i className=\"bi bi-diamond\"></i>",
       "<i className=\"bi bi-diamond-half\"></i>",
-      ""
+      "",
     ],
     "description": "react-cdn-icon-Geometria-Balao"
   },
@@ -1440,7 +1442,7 @@
       "<i className=\"bi bi-device-hdd\"></i>",
       "<i className=\"bi bi-device-hdd-fill\"></i>",
       "<i className=\"bi bi-cpu\"></i>",
-      ""
+      "",
     ],
     "description": "react-cdn-icon-Computador-Impressora"
   },
@@ -1457,7 +1459,7 @@
       "<i className=\"bi bi-database-check\"></i>",
       "<i className=\"bi bi-database-add\"></i>",
       "<i className=\"bi bi-database\"></i>",
-      ""
+      "",
     ],
     "description": "react-cdn-icon-Banco-Dados"
   },
@@ -1465,7 +1467,7 @@
     "prefix": "react-cdn-icon-Dinheiro",
     "body": [
       "<i className=\"bi bi-currency-dollar\"></i>",
-      ""
+      "",
     ],
     "description": "react-cdn-icon-Dinheiro"
   },
@@ -1477,14 +1479,14 @@
       "<i className=\"bi bi-cup-hot\"></i>",
       "<i className=\"bi bi-cup-fill\"></i>",
       "<i className=\"bi bi-cup\"></i>",
-      ""
+      "",
     ],
     "description": "react-cdn-icon-Bebida"
   },
   "react-cdn-icon-Bebida-Chicara-Copo": {
     "prefix": "react-cdn-icon-Bebida-Chicara-Copo",
     "body": [
-      ""
+      "",
     ],
     "description": "react-cdn-icon-Bebida-Chicara-Copo"
   },
@@ -1494,7 +1496,7 @@
       "<i className=\"bi bi-credit-card\"></i>",
       "<i className=\"bi bi-credit-card-2-back\"></i>",
       "<i className=\"bi bi-credit-card-2-back-fill\"></i>",
-      ""
+      "",
     ],
     "description": "react-cdn-icon-Cartao-Credito"
   },
@@ -1502,7 +1504,7 @@
     "prefix": "react-cdn-icon-Cone",
     "body": [
       "<i className=\"bi bi-cone-striped\"></i>",
-      ""
+      "",
     ],
     "description": "react-cdn-icon-Cone"
   },
@@ -1512,7 +1514,7 @@
       "<i className=\"bi bi-code-square\"></i>",
       "<i className=\"bi bi-code-slash\"></i>",
       "<i className=\"bi bi-code\"></i>",
-      ""
+      "",
     ],
     "description": "react-cdn-icon-Codigo"
   },
@@ -1561,7 +1563,7 @@
       "<i className=\"bi bi-cloud-arrow-down-fill\"></i>",
       "<i className=\"bi bi-cloud-arrow-down\"></i>",
       "<i className=\"bi bi-cloud\"></i>",
-      ""
+      "",
     ],
     "description": "react-cdn-icon-Nuvem"
   },
@@ -1570,7 +1572,7 @@
     "body": [
       "<i className=\"bi bi-clock\"></i>",
       "<i className=\"bi bi-clock-history\"></i>",
-      ""
+      "",
     ],
     "description": "react-cdn-icon-Relogio"
   },
@@ -1598,7 +1600,7 @@
       "<i className=\"bi bi-clipboard-data\"></i>",
       "<i className=\"bi bi-clipboard-check\"></i>",
       "<i className=\"bi bi-clipboard\"></i>",
-      ""
+      "",
     ],
     "description": "react-cdn-icon-Prancheta-Colar-Grafico"
   },
@@ -1624,7 +1626,7 @@
       "<i className=\"bi bi-chat-heart\"></i>",
       "<i className=\"bi bi-chat-dots\"></i>",
       "<i className=\"bi bi-chat\"></i>",
-      ""
+      "",
     ],
     "description": "react-cdn-icon-Mensagem"
   },
@@ -1639,7 +1641,7 @@
       "<i className=\"bi bi-cart2\"></i>",
       "<i className=\"bi bi-cart3\"></i>",
       "<i className=\"bi bi-cart4\"></i>",
-      ""
+      "",
     ],
     "description": "react-cdn-icon-Carrinho"
   },
@@ -1647,7 +1649,7 @@
     "prefix": "react-cdn-icon-Text",
     "body": [
       "<i className=\"bi bi-card-text\"></i>",
-      ""
+      "",
     ],
     "description": "react-cdn-icon-Text"
   },
@@ -1656,7 +1658,7 @@
     "body": [
       "<i className=\"bi bi-card-checklist\"></i>",
       "<i className=\"bi bi-card-list\"></i>",
-      ""
+      "",
     ],
     "description": "react-cdn-icon-Card-List-Check"
   },
@@ -1665,7 +1667,7 @@
     "body": [
       "<i className=\"bi bi-car-front\"></i>",
       "<i className=\"bi bi-car-front-fill\"></i>",
-      ""
+      "",
     ],
     "description": "react-cdn-icon-Carro"
   },
@@ -1675,7 +1677,7 @@
       "<i className=\"bi bi-camera-video-off\"></i>",
       "<i className=\"bi bi-camera-video\"></i>",
       "<i className=\"bi bi-camera-reels\"></i>",
-      ""
+      "",
     ],
     "description": "react-cdn-icon-Camera-Video"
   },
@@ -1684,7 +1686,7 @@
     "body": [
       "<i className=\"bi bi-camera\"></i>",
       "<i className=\"bi bi-camera2\"></i>",
-      ""
+      "",
     ],
     "description": "react-cdn-icon-Camera-Foto"
   },
@@ -1701,7 +1703,7 @@
       "<i className=\"bi bi-calendar-x\"></i>",
       "<i className=\"bi bi-calendar2-month\"></i>",
       "<i className=\"bi bi-calendar3\"></i>",
-      ""
+      "",
     ],
     "description": "react-cdn-icon-Calendario"
   },
@@ -1710,7 +1712,7 @@
     "body": [
       "<i className=\"bi bi-calculator\"></i>",
       "<i className=\"bi bi-calculator-fill\"></i>",
-      ""
+      "",
     ],
     "description": "react-cdn-icon-Calculadora"
   },
@@ -1721,7 +1723,7 @@
       "<i className=\"bi bi-cake-fill\"></i>",
       "<i className=\"bi bi-cake2\"></i>",
       "<i className=\"bi bi-cake2-fill\"></i>",
-      ""
+      "",
     ],
     "description": "react-cdn-icon-Bolo"
   },
@@ -1730,14 +1732,14 @@
     "body": [
       "<i className=\"bi bi-bus-front\"></i>",
       "<i className=\"bi bi-bus-front-fill\"></i>",
-      ""
+      "",
     ],
     "description": "react-cdn-icon-Onibus"
   },
   "react-cdn-icon-Bug": {
     "prefix": "react-cdn-icon-Bug",
     "body": [
-      "<i className=\"bi bi-bug\"></i>"
+      "<i className=\"bi bi-bug\"></i>",
     ],
     "description": "react-cdn-icon-Bug"
   },
@@ -1748,7 +1750,7 @@
       "<i className=\"bi bi-browser-edge\"></i>",
       "<i className=\"bi bi-browser-firefox\"></i>",
       "<i className=\"bi bi-browser-safari\"></i>",
-      ""
+      "",
     ],
     "description": "react-cdn-icon-Navegadores"
   },
@@ -1759,21 +1761,21 @@
       "<i className=\"bi bi-brightness-high\"></i>",
       "<i className=\"bi bi-brightness-low-fill\"></i>",
       "<i className=\"bi bi-brilliance\"></i>",
-      ""
+      "",
     ],
     "description": "react-cdn-icon-Sol-Ing-Iang"
   },
   "react-cdn-icon-Cubo": {
     "prefix": "react-cdn-icon-Cubo",
     "body": [
-      "<i className=\"bi bi-box\"></i>"
+      "<i className=\"bi bi-box\"></i>",
     ],
     "description": "react-cdn-icon-Cubo"
   },
   "react-cdn-icon-Radio-Som": {
     "prefix": "react-cdn-icon-Radio-Som",
     "body": [
-      "<i className=\"bi bi-boombox\"></i>"
+      "<i className=\"bi bi-boombox\"></i>",
     ],
     "description": "react-cdn-icon-Radio-Som"
   },
@@ -1782,21 +1784,21 @@
     "body": [
       "<i className=\"bi bi-bookmark-heart\"></i>",
       "<i className=\"bi bi-bookmark-star\"></i>",
-      ""
+      "",
     ],
     "description": "react-cdn-icon-Favorito"
   },
   "react-cdn-icon-Livro-Meio": {
     "prefix": "react-cdn-icon-Livro-Meio",
     "body": [
-      "<i className=\"bi bi-book-half\"></i>"
+      "<i className=\"bi bi-book-half\"></i>",
     ],
     "description": "react-cdn-icon-Livro-Meio"
   },
   "react-cdn-icon-Bluetootc": {
     "prefix": "react-cdn-icon-Bluetootc",
     "body": [
-      "<i className=\"bi bi-bluetooth\"></i>"
+      "<i className=\"bi bi-bluetooth\"></i>",
     ],
     "description": "react-cdn-icon-Bluetootc"
   },
@@ -1804,7 +1806,7 @@
     "prefix": "react-cdn-icon-Busca-Binoculo",
     "body": [
       "<i className=\"bi bi-search\"></i>",
-      "<i className=\"bi bi-binoculars\"></i>"
+      "<i className=\"bi bi-binoculars\"></i>",
     ],
     "description": "react-cdn-icon-Busca-Binoculo"
   },
@@ -1812,21 +1814,21 @@
     "prefix": "react-cdn-icon-Microsoft-Bing",
     "body": [
       "<i className=\"bi bi-microsoft\"></i>",
-      "<i className=\"bi bi-bing\"></i>"
+      "<i className=\"bi bi-bing\"></i>",
     ],
     "description": "react-cdn-icon-Microsoft-Bing"
   },
   "react-cdn-icon-Sino": {
     "prefix": "react-cdn-icon-Sino",
     "body": [
-      "<i className=\"bi bi-bell\"></i>"
+      "<i className=\"bi bi-bell\"></i>",
     ],
     "description": "react-cdn-icon-Sino"
   },
   "react-cdn-icon-Bateria": {
     "prefix": "react-cdn-icon-Bateria",
     "body": [
-      "<i className=\"bi bi-battery-half\"></i>"
+      "<i className=\"bi bi-battery-half\"></i>",
     ],
     "description": "react-cdn-icon-Bateria"
   },
@@ -1834,7 +1836,7 @@
     "prefix": "react-cdn-icon-Graficos",
     "body": [
       "<i className=\"bi bi-bar-chart-steps\"></i>",
-      ""
+      "",
     ],
     "description": "react-cdn-icon-Graficos"
   },
@@ -1846,70 +1848,70 @@
       "<i className=\"bi bi-reception-2\"></i>",
       "<i className=\"bi bi-reception-1\"></i>",
       "<i className=\"bi bi-reception-0\"></i>",
-      "<i className=\"bi bi-bar-chart\"></i>"
+      "<i className=\"bi bi-bar-chart\"></i>",
     ],
     "description": "react-cdn-icon-Grafico-Sinal-Celular"
   },
   "react-cdn-icon-Banco": {
     "prefix": "react-cdn-icon-Banco",
     "body": [
-      "<i className=\"bi bi-bank\"></i>"
+      "<i className=\"bi bi-bank\"></i>",
     ],
     "description": "react-cdn-icon-Banco"
   },
   "react-cdn-icon-Curativo-Bandaid": {
     "prefix": "react-cdn-icon-Curativo-Bandaid",
     "body": [
-      "<i className=\"bi bi-bandaid\"></i>"
+      "<i className=\"bi bi-bandaid\"></i>",
     ],
     "description": "react-cdn-icon-Curativo-Bandaid"
   },
   "react-cdn-icon-Proibido": {
     "prefix": "react-cdn-icon-Proibido",
     "body": [
-      "<i className=\"bi bi-ban\"></i>"
+      "<i className=\"bi bi-ban\"></i>",
     ],
     "description": "react-cdn-icon-Proibido"
   },
   "react-cdn-icon-Balao": {
     "prefix": "react-cdn-icon-Balao",
     "body": [
-      "<i className=\"bi bi-balloon\"></i>"
+      "<i className=\"bi bi-balloon\"></i>",
     ],
     "description": "react-cdn-icon-Balao"
   },
   "react-cdn-icon-Sacola": {
     "prefix": "react-cdn-icon-Sacola",
     "body": [
-      "<i className=\"bi bi-bag-check\"></i>"
+      "<i className=\"bi bi-bag-check\"></i>",
     ],
     "description": "react-cdn-icon-Sacola"
   },
   "react-cdn-icon-Certificado": {
     "prefix": "react-cdn-icon-Certificado",
     "body": [
-      "<i className=\"bi bi-award-fill\"></i>"
+      "<i className=\"bi bi-award-fill\"></i>",
     ],
     "description": "react-cdn-icon-Certificado"
   },
   "react-cdn-icon-Arroba": {
     "prefix": "react-cdn-icon-Arroba",
     "body": [
-      "<i className=\"bi bi-at\"></i>"
+      "<i className=\"bi bi-at\"></i>",
     ],
     "description": "react-cdn-icon-Arroba"
   },
   "react-cdn-icon-Asterisco": {
     "prefix": "react-cdn-icon-Asterisco",
     "body": [
-      "<i className=\"bi bi-asterisk\"></i>"
+      "<i className=\"bi bi-asterisk\"></i>",
     ],
     "description": "react-cdn-icon-Asterisco"
   },
   "react-cdn-icon-Coracao-Flecha": {
     "prefix": "react-cdn-icon-Coracao-Flecha",
     "body": [
-      "<i className=\"bi bi-arrow-through-heart\"></i>"
+      "<i className=\"bi bi-arrow-through-heart\"></i>",
     ],
     "description": "react-cdn-icon-Coracao-Flecha"
   },
@@ -1918,70 +1920,70 @@
     "body": [
       "<i className=\"bi bi-repeat\"></i>",
       "<i className=\"bi bi-repeat-1\"></i>",
-      "<i className=\"bi bi-arrow-repeat\"></i>"
+      "<i className=\"bi bi-arrow-repeat\"></i>",
     ],
     "description": "react-cdn-icon-Atualizar-Repetir"
   },
   "react-cdn-icon-Mac": {
     "prefix": "react-cdn-icon-Mac",
     "body": [
-      "<i className=\"bi bi-apple\"></i>"
+      "<i className=\"bi bi-apple\"></i>",
     ],
     "description": "react-cdn-icon-Mac"
   },
   "react-cdn-icon-Android": {
     "prefix": "react-cdn-icon-Android",
     "body": [
-      "<i className=\"bi bi-android2\"></i>"
+      "<i className=\"bi bi-android2\"></i>",
     ],
     "description": "react-cdn-icon-Android"
   },
   "react-cdn-icon-Amazon": {
     "prefix": "react-cdn-icon-Amazon",
     "body": [
-      "<i className=\"bi bi-amazon\"></i>"
+      "<i className=\"bi bi-amazon\"></i>",
     ],
     "description": "react-cdn-icon-Amazon"
   },
   "react-cdn-icon-Alex": {
     "prefix": "react-cdn-icon-Alex",
     "body": [
-      "<i className=\"bi bi-alexa\"></i>"
+      "<i className=\"bi bi-alexa\"></i>",
     ],
     "description": "react-cdn-icon-Alex"
   },
   "react-cdn-icon-Aviao": {
     "prefix": "react-cdn-icon-Aviao",
     "body": [
-      "<i className=\"bi bi-airplane\"></i>"
+      "<i className=\"bi bi-airplane\"></i>",
     ],
     "description": "react-cdn-icon-Aviao"
   },
   "react-cdn-icon-Calendario3": {
     "prefix": "react-cdn-icon-Calendario3",
     "body": [
-      "<i className=\"bi bi-calendar3\"></i>"
+      "<i className=\"bi bi-calendar3\"></i>",
     ],
     "description": "react-cdn-icon-Calendario3"
   },
   "react-cdn-icon-Chave": {
     "prefix": "react-cdn-icon-Chave",
     "body": [
-      "<i className=\"bi bi-key\"></i>"
+      "<i className=\"bi bi-key\"></i>",
     ],
     "description": "react-cdn-icon-Chave"
   },
   "react-cdn- ": {
     "prefix": "react-cdn- ",
     "body": [
-      "&nbsp;"
+      "&nbsp;",
     ],
     "description": "react-cdn- "
   },
   "react-cdn-icon-tab": {
     "prefix": "react-cdn-icon-tab",
     "body": [
-      "&emsp;"
+      "&emsp;",
     ],
     "description": "react-cdn-icon-tab"
   },
@@ -1994,4 +1996,11 @@
     ],
     "description": "react-cdn-comentario"
   }
+  // "script-modelo": {
+  // 	"prefix": "script-modelo",
+  // 	"body": [
+  // 		""
+  // 	],
+  // 	"description": "Modelo"
+  // },
 }

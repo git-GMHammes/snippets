@@ -39,18 +39,6 @@
 		],
 		"description": "rct-"
 	},
-	"rct-alinha-vertical-h-100": {
-		"scope": "javascript,typescript",
-		"prefix": "rct-alinha-vertical-h-100",
-		"body": [
-			"",
-			"<div className=\"h-100 d-flex align-items-center justify-content-center\"></div>",
-			"    ... Alinhamento vertical",
-			"</div>",
-			""
-		],
-		"description": "rct-alinha-vertical-h-100"
-	},
 	"rct-cdn-setTimeout": {
 		"scope": "javascript,typescript",
 		"prefix": "rct-cdn-setTimeout",
